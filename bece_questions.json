@@ -1,0 +1,2022 @@
+[
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 1,
+  "question": "The energy transformation that takes place in a solar cell is",
+  "options": {
+    "A": "light to chemical.",
+    "B": "light to electrical.",
+    "C": "electrical to heat.",
+    "D": "electrical to light."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 2,
+  "question": "All flowering plants end their life cycle with",
+  "options": {
+    "A": "seed formation.",
+    "B": "seed development.",
+    "C": "seed dispersal.",
+    "D": "seed germination."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 3,
+  "question": "Soil texture is a term used to describe the",
+  "options": {
+    "A": "amount of water soil can hold.",
+    "B": "arrangement of soil particles in a given soil.",
+    "C": "properties of soil, silt and clay in a sample of soil.",
+    "D": "mixture of all soil particles."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 4,
+  "question": "Which of the following processes is an example of a physical change?",
+  "options": {
+    "A": "Fermentation of food",
+    "B": "Respiration",
+    "C": "Magnetization of iron",
+    "D": "Lighting a match"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 5,
+  "question": "An example of a storage pest is",
+  "options": {
+    "A": "yam beetle.",
+    "B": "capsid.",
+    "C": "army worm.",
+    "D": "weevil."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 6,
+  "question": "The solid component found on the filter paper and the liquid component that flows into a container during filtration are respectively called",
+  "options": {
+    "A": "filtrate and residue.",
+    "B": "condensate and residue.",
+    "C": "residue and filtrate.",
+    "D": "residue and condensate"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 7,
+  "question": "A capacitor is connected in a series circuit with LED, a battery and a switch. When the circuit is closed, the LED",
+  "options": {
+    "A": "comes on and stays on.",
+    "B": "flashes and goes off.",
+    "C": "does not come on.",
+    "D": "flashes and stays on."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 8,
+  "question": "The ion that causes hardness in water is",
+  "options": {
+    "A": "CO",
+    "B": ".",
+    "C": "Mg",
+    "D": "."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 9,
+  "question": "Which of the following substances are matter?",
+  "options": {
+    "A": "I and II only",
+    "B": "I and III only",
+    "C": "II and III only",
+    "D": "I, II and III"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 10,
+  "question": "The",
+  "options": {
+    "A": "bigger fruit development.",
+    "B": "air circulation on the farm.",
+    "C": "upright growth of the plant.",
+    "D": "that fruits do not get rotten."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 11,
+  "question": "Which of the following statements about clayey soil is",
+  "options": {
+    "A": "swells when dry and shrinks when wet.",
+    "B": "has high water retention.",
+    "C": "is difficult to plough when dry",
+    "D": "is compact when dry."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 12,
+  "question": "It is",
+  "options": {
+    "A": "are not efficient.",
+    "B": "are dangerous.",
+    "C": "produce sparks.",
+    "D": "waste energy."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 13,
+  "question": "Which of the following planets are closer to the sun than the Earth?",
+  "options": {
+    "A": "Venus and Mars",
+    "B": "Venus and Mercury",
+    "C": "Mercury and Mars",
+    "D": "Venus and Saturn"
+  },
+  "diagram": "https://kuulchat.com/qns/planets closer to the sun.jpg"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 14,
+  "question": "Which of the following statements about pressure in liquids is/are",
+  "options": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and III only",
+    "D": "I, II and III"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 15,
+  "question": "Soil depletion is",
+  "options": {
+    "A": "erosion.",
+    "B": "afforestation.",
+    "C": "leaching.",
+    "D": "illegal mining."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 16,
+  "question": "What force makes a ripe mango fall from a tree?",
+  "options": {
+    "A": "Force of tension",
+    "B": "Magnetic force",
+    "C": "Electrostatic force",
+    "D": "Gravitational force"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 17,
+  "question": "Urea is a good source of",
+  "options": {
+    "A": "phosphorus in the soil.",
+    "B": "calcium in the soil.",
+    "C": "sodium in the soil.",
+    "D": "nitrogen in the soil."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 18,
+  "question": "Which of the following statements are reasons for conserving energy?",
+  "options": {
+    "A": "I and II only",
+    "B": "I and III only",
+    "C": "II and III only",
+    "D": "I, II and III"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 19,
+  "question": "A force meter measures",
+  "options": {
+    "A": "mass.",
+    "B": "temperature.",
+    "C": "weight.",
+    "D": "work."
+  },
+  "diagram": "https://kuulchat.com/qns/force meter.jpg"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 20,
+  "question": "Which of the following bodies are natural sources of light?",
+  "options": {
+    "A": "I and II only",
+    "B": "I and III only",
+    "C": "II and III only",
+    "D": "I, II and III"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 21,
+  "question": "Which of the following characteristics is/are of the image formed in a pinhole camera? The image is",
+  "options": {
+    "A": "I only",
+    "B": "II and III only",
+    "C": "I and III only",
+    "D": "I, II and III"
+  },
+  "diagram": "https://kuulchat.com/qns/image of a pinhole camera.png"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 22,
+  "question": "The floor of a room has length 20 m and breadth 15 m. Determine the area of the floor.",
+  "options": {
+    "A": "35 m",
+    "B": "200 m",
+    "C": "250 m",
+    "D": "300 m"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 23,
+  "question": "Rainfall is a result of",
+  "options": {
+    "A": "low pressure.",
+    "B": "strong wind.",
+    "C": "cold wind.",
+    "D": "low humidity."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 24,
+  "question": "An example of a first class lever is",
+  "options": {
+    "A": "bottle opener.",
+    "B": "crow bar.",
+    "C": "wheel barrow.",
+    "D": "fishing rod."
+  },
+  "diagram": "https://kuulchat.com/qns/first class lever.png"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 25,
+  "question": "Green plants have the ability to make their own food hence they are known as",
+  "options": {
+    "A": "producers.",
+    "B": "parasites.",
+    "C": "consumers.",
+    "D": "decomposers."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 26,
+  "question": "The periodic table is an arrangement of elements according to increasing",
+  "options": {
+    "A": "atomic number.",
+    "B": "mass number.",
+    "C": "nucleon number.",
+    "D": "neutron number."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 27,
+  "question": "The number required to make the following chemical equation balanced is:",
+  "options": {
+    "A": "\u2044",
+    "B": ".",
+    "C": "1.",
+    "D": "\u2044"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 28,
+  "question": "The ovary, style and stigma are collectively known as the",
+  "options": {
+    "A": "stamen.",
+    "B": "pistil.",
+    "C": "fruit.",
+    "D": "stem."
+  },
+  "diagram": "https://kuulchat.com/qns/parts of flower.jpg"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 29,
+  "question": "A mixture of alcohol and water can",
+  "options": {
+    "A": "filtration.",
+    "B": "condensation.",
+    "C": "distillation.",
+    "D": "evaporation."
+  },
+  "diagram": "https://kuulchat.com/qns/distillation.png"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 30,
+  "question": "An atom",
+  "options": {
+    "A": "-1",
+    "B": "-2",
+    "C": "+1",
+    "D": "+2"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 31,
+  "question": "The hard outer surface of a tooth is called",
+  "options": {
+    "A": "root.",
+    "B": "dentine.",
+    "C": "cement.",
+    "D": "enamel."
+  },
+  "diagram": "https://kuulchat.com/qns/parts of the tooth.jpg"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 32,
+  "question": "People who travel in space are called",
+  "options": {
+    "A": "geologists.",
+    "B": "astronauts.",
+    "C": "space shuttlers.",
+    "D": "astronomist."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 33,
+  "question": "The practice of growing cowpea and maize on a piece of land at the same time is known as",
+  "options": {
+    "A": "mixed farming.",
+    "B": "mixed cropping.",
+    "C": "land rotation.",
+    "D": "crop rotation."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 34,
+  "question": "A lunar eclipse may occur when the",
+  "options": {
+    "A": "moon is between the earth and the sun.",
+    "B": "sun is between the earth and the moon.",
+    "C": "earth is between the sun and the moon.",
+    "D": "moon is positioned far away from the earth."
+  },
+  "diagram": "https://kuulchat.com/qns/solar eclipse.jpg"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 35,
+  "question": "Which of the following instruments can be used to measure the diameter of a circle?",
+  "options": {
+    "A": "A metre-rule",
+    "B": "A thermometer",
+    "C": "An ammeter",
+    "D": "A string"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 36,
+  "question": "When gases are heated they",
+  "options": {
+    "A": "melt.",
+    "B": "sublime.",
+    "C": "decrease in volume.",
+    "D": "decrease in intermolecular forces"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 37,
+  "question": "The shoot system of a flowering plant develops from the",
+  "options": {
+    "A": "radicle.",
+    "B": "plumule.",
+    "C": "cotyledon.",
+    "D": "endosperm."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 38,
+  "question": "The diagram below is an illustration of a transistor.",
+  "options": {
+    "A": "electron movement.",
+    "B": "hole movement.",
+    "C": "electron and hole movement.",
+    "D": "negative charge movement."
+  },
+  "diagram": "https://kuulchat.com/qns/bece_science_2022_sec_a_q_38.jpg"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 39,
+  "question": "Digestion of protein begins in the stomach and ends in the",
+  "options": {
+    "A": "large intestine.",
+    "B": "small intestine.",
+    "C": "appendix.",
+    "D": "caecum."
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 40,
+  "question": "Which of the following substances is a compound?",
+  "options": {
+    "A": "Copper",
+    "B": "Diamond",
+    "C": "Sucrose",
+    "D": "Sulphur"
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 0,
+  "question": "",
+  "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  "diagram": "https://kuulchat.com/qns/bece_science_2022_sec_b_q_1_1.jpg"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 0,
+  "question": "",
+  "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 0,
+  "question": "",
+  "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 0,
+  "question": "",
+  "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  "diagram": null
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 0,
+  "question": "",
+  "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  "diagram": "https://kuulchat.com/qns/bece_science_2022_sec_b_q_5.jpg"
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 0,
+  "question": "",
+  "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  "diagram": null
+},
+{
+  "section": "theory",
+  "type": "theory",
+  "number": 0,
+  "question": "1.\r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t     The diagrams below are illustrations of an experimental set-up. \r\n\t\t Study the diagrams carefully and answer the questions that follow . \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the parts labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the method of separation in  each  of the set-up: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A ; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the class of mixtures that the experimental set-up  A  could be used for. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for the answer stated in (iii). \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  possible component of the mixture in set-up  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the function of the part labelled  IV . \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t     The diagram below is an illustration of a part of a system in human. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the system illustrated \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled,  I , II , III , and  IV . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is the role of the part labelled  I . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  three  diseases that affects the system illustrated. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     The diagram below is an illustration of an experimental set-up used to measure an ecological factor. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify the apparatus illustrated. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled  I , II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give  one  use  each  of the parts labelled  I  and  II . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What ecological factor was measured? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  ways in which the ecological factor measured in (iv) is important in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  farm tool that aids the ecological factor measured in (iv) to perform its function in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe how the farm soil tool named in (vi) is used to aid the factor measured in the experiment. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t     The diagrams below are illustrations of electrical circuits. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the components labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the type of arrangement of resistors ( R ) in  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the effect of the arrangement of resistors in  each  of the diagrams  A  and  B  on  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for  each  of the answers stated in (iii). \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t I  = beaker\r\n\t\t\t\t II  = residue/particles/cotton wool/mixture/filter paper\r\n\t\t\t\t III  = filtrate\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Methods of Separation \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A  - filtration \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B  - magnetization \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Class of mixtures \r\n\t\t\t\t 1. Solid - liquid mixture\r\n\t\t\t\t 2. Liquid - solid mixture\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Reason for the class of mixture \r\n\t\t\t\t Because there is  residue on the filter paper  and  filtrate in the beaker \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t possible component of the mixture in set-up  B \r\n\t\t\t\t - iron fillings/any magnetic substance\r\n\t\t\t\t - powdered sulphur\r\n\t\t\t\t - sand\r\n\t\t\t\t - powdered chalk\r\n\t\t\t\t - powdered charcoal\r\n\t\t\t\t - any non-magenetic substance\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Function of part labelled IV (Retort/Clamp Stand) \r\n\t\t\t\t It holds the funnel in place/holds the clamp \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t The system illustrated is  respiratory system \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = Larynx/Voice Box\r\n\t\t\t\t II  = Trachea/windpipe\r\n\t\t\t\t III  = Bronchus\r\n\t\t\t\t IV  = lung \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Role of the part labelled  I  (Larynx) \r\n\t\t\t\t 1. Allows air to pass through it/breathing\r\n\t\t\t\t 2. Prevent food and drink from blocking the airways\r\n\t\t\t\t 3. Produces sound/phonation\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Diseases of the respiratory system \r\n\t\t\t\t 1. Tuberculosis/T.B.\r\n\t\t\t\t 2. Bronchitis\r\n\t\t\t\t 3. Pneumonia\r\n\t\t\t\t 4. Whooping cough\r\n\t\t\t\t 5. Lung cancer\r\n\t\t\t\t 6. Influenza\r\n\t\t\t\t 7. Asthma\r\n\t\t\t\t 8. Bronchiectasis\r\n\t\t\t\t 9. Idiopathic pulmonary fibrosis/pulmonary disease\r\n\t\t\t\t 10. Common cold\r\n\t\t\t\t 11. Covid-19\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Rain gauge \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = funnel\r\n\t\t\t\t II  = measuring cylinder\r\n\t\t\t\t III  = rain water/water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use of the parts labelled  I  (funnel) and  II  (measuring cylinder) \r\n\t\t\t\t I  - directs rain water into the measuring cylinder \r\n\t\t\t\t II  - use to measure the amount/volume of rain water/collect rain water \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ecological factor measured \r\n\t\t\t\t Rainfall/amount of rainfall/rain \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Importance of ecological factor measured \r\n\t\t\t\t 1. Protects plants roots from injury\r\n\t\t\t\t 2. Causes erosion\r\n\t\t\t\t 3. Causes leaching\r\n\t\t\t\t 4. Needed for seed germination\r\n\t\t\t\t 5. Promotes activities of soil organisms\r\n\t\t\t\t 6. Aids in easy tillage of soil\r\n\t\t\t\t 7. An agent of weathering of rocks in the soil\r\n\t\t\t\t 8. Dissolves plant nutrients for easy absorption\r\n\t\t\t\t 9. Makes soil fertile\r\n\t\t\t\t 10. Determine the type of crop to grow\r\n\t\t\t\t 11. Used for photosynthesis\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Handfork \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use to loosen hard soil surface after heavy rainfall \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the components labelled \r\n\t\t\t\t I  = cell\r\n\t\t\t\t II  = switch/key\r\n\t\t\t\t III  = lamp/bulb\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Type of arrangement of resistors ( R ) in  B  is  parallel \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t A  - makes III/bulb dim\r\n\t\t\t\t B  - makes III/bulb bright\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Reasons \r\n\t\t\t\t A  - the resistors in series have an increased resistance \r\n\t\t\t\t B  - the resistors in parallel have decreas resistance hence keep the bulb bright 1. The diagrams below are illustrations of an experimental set-up. \r\n\t\t Study the diagrams carefully and answer the questions that follow . \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the parts labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the method of separation in  each  of the set-up: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A ; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the class of mixtures that the experimental set-up  A  could be used for. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for the answer stated in (iii). \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  possible component of the mixture in set-up  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the function of the part labelled  IV . The diagrams below are illustrations of an experimental set-up. Study the diagrams carefully and answer the questions that follow . Identify  each  of the parts labelled  I ,  II  and  III . Identify  each  of the parts labelled  I ,  II  and  III . Name the method of separation in  each  of the set-up: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A ; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B. Name the method of separation in  each  of the set-up: \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A ; \u0391 \u0391 A ; A ; \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B. \u0392 \u0392 B. B. State the class of mixtures that the experimental set-up  A  could be used for. State the class of mixtures that the experimental set-up  A  could be used for. Give a reason for the answer stated in (iii). Give a reason for the answer stated in (iii). Name  one  possible component of the mixture in set-up  B . Name  one  possible component of the mixture in set-up  B . State the function of the part labelled  IV . State the function of the part labelled  IV . The diagram below is an illustration of a part of a system in human. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the system illustrated \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled,  I , II , III , and  IV . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is the role of the part labelled  I . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  three  diseases that affects the system illustrated. The diagram below is an illustration of a part of a system in human. Study the diagram carefully and answer the questions that follow. Name the system illustrated Name the system illustrated Name  each  of the parts labelled,  I , II , III , and  IV . Name  each  of the parts labelled,  I , II , III , and  IV . What is the role of the part labelled  I . What is the role of the part labelled  I . Name  three  diseases that affects the system illustrated. Name  three  diseases that affects the system illustrated. The diagram below is an illustration of an experimental set-up used to measure an ecological factor. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify the apparatus illustrated. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled  I , II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give  one  use  each  of the parts labelled  I  and  II . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What ecological factor was measured? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  ways in which the ecological factor measured in (iv) is important in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  farm tool that aids the ecological factor measured in (iv) to perform its function in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe how the farm soil tool named in (vi) is used to aid the factor measured in the experiment. The diagram below is an illustration of an experimental set-up used to measure an ecological factor. Study the diagram carefully and answer the questions that follow. Identify the apparatus illustrated. Identify the apparatus illustrated. Name  each  of the parts labelled  I , II  and  III . Name  each  of the parts labelled  I , II  and  III . Give  one  use  each  of the parts labelled  I  and  II . Give  one  use  each  of the parts labelled  I  and  II . What ecological factor was measured? What ecological factor was measured? State  three  ways in which the ecological factor measured in (iv) is important in agricultural soils. State  three  ways in which the ecological factor measured in (iv) is important in agricultural soils. Name  one  farm tool that aids the ecological factor measured in (iv) to perform its function in agricultural soils. Name  one  farm tool that aids the ecological factor measured in (iv) to perform its function in agricultural soils. Describe how the farm soil tool named in (vi) is used to aid the factor measured in the experiment. Describe how the farm soil tool named in (vi) is used to aid the factor measured in the experiment. The diagrams below are illustrations of electrical circuits. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the components labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the type of arrangement of resistors ( R ) in  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the effect of the arrangement of resistors in  each  of the diagrams  A  and  B  on  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for  each  of the answers stated in (iii). The diagrams below are illustrations of electrical circuits. Study the diagram carefully and answer the questions that follow. Identify  each  of the components labelled  I ,  II  and  III . Identify  each  of the components labelled  I ,  II  and  III . State the type of arrangement of resistors ( R ) in  B . State the type of arrangement of resistors ( R ) in  B . State the effect of the arrangement of resistors in  each  of the diagrams  A  and  B  on  III . State the effect of the arrangement of resistors in  each  of the diagrams  A  and  B  on  III . Give a reason for  each  of the answers stated in (iii). Give a reason for  each  of the answers stated in (iii). Show Solution I  = beaker\r\n\t\t\t\t II  = residue/particles/cotton wool/mixture/filter paper\r\n\t\t\t\t III  = filtrate I  = beaker\r\n\t\t\t\t II  = residue/particles/cotton wool/mixture/filter paper\r\n\t\t\t\t III  = filtrate Methods of Separation \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A  - filtration \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B  - magnetization Methods of Separation \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A  - filtration \u0391 \u0391 A  - filtration A  - filtration \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B  - magnetization \u0392 \u0392 B  - magnetization B  - magnetization Class of mixtures \r\n\t\t\t\t 1. Solid - liquid mixture\r\n\t\t\t\t 2. Liquid - solid mixture Class of mixtures 1. Solid - liquid mixture\r\n\t\t\t\t 2. Liquid - solid mixture Reason for the class of mixture \r\n\t\t\t\t Because there is  residue on the filter paper  and  filtrate in the beaker Reason for the class of mixture Because there is  residue on the filter paper  and  filtrate in the beaker possible component of the mixture in set-up  B \r\n\t\t\t\t - iron fillings/any magnetic substance\r\n\t\t\t\t - powdered sulphur\r\n\t\t\t\t - sand\r\n\t\t\t\t - powdered chalk\r\n\t\t\t\t - powdered charcoal\r\n\t\t\t\t - any non-magenetic substance possible component of the mixture in set-up  B - iron fillings/any magnetic substance\r\n\t\t\t\t - powdered sulphur\r\n\t\t\t\t - sand\r\n\t\t\t\t - powdered chalk\r\n\t\t\t\t - powdered charcoal\r\n\t\t\t\t - any non-magenetic substance Function of part labelled IV (Retort/Clamp Stand) \r\n\t\t\t\t It holds the funnel in place/holds the clamp Function of part labelled IV (Retort/Clamp Stand) It holds the funnel in place/holds the clamp The system illustrated is  respiratory system The system illustrated is  respiratory system Name of the parts labelled \r\n\t\t\t\t I  = Larynx/Voice Box\r\n\t\t\t\t II  = Trachea/windpipe\r\n\t\t\t\t III  = Bronchus\r\n\t\t\t\t IV  = lung Name of the parts labelled I  = Larynx/Voice Box\r\n\t\t\t\t II  = Trachea/windpipe\r\n\t\t\t\t III  = Bronchus\r\n\t\t\t\t IV  = lung Role of the part labelled  I  (Larynx) \r\n\t\t\t\t 1. Allows air to pass through it/breathing\r\n\t\t\t\t 2. Prevent food and drink from blocking the airways\r\n\t\t\t\t 3. Produces sound/phonation Role of the part labelled  I  (Larynx) 1. Allows air to pass through it/breathing\r\n\t\t\t\t 2. Prevent food and drink from blocking the airways\r\n\t\t\t\t 3. Produces sound/phonation Diseases of the respiratory system \r\n\t\t\t\t 1. Tuberculosis/T.B.\r\n\t\t\t\t 2. Bronchitis\r\n\t\t\t\t 3. Pneumonia\r\n\t\t\t\t 4. Whooping cough\r\n\t\t\t\t 5. Lung cancer\r\n\t\t\t\t 6. Influenza\r\n\t\t\t\t 7. Asthma\r\n\t\t\t\t 8. Bronchiectasis\r\n\t\t\t\t 9. Idiopathic pulmonary fibrosis/pulmonary disease\r\n\t\t\t\t 10. Common cold\r\n\t\t\t\t 11. Covid-19 Diseases of the respiratory system 1. Tuberculosis/T.B.\r\n\t\t\t\t 2. Bronchitis\r\n\t\t\t\t 3. Pneumonia\r\n\t\t\t\t 4. Whooping cough\r\n\t\t\t\t 5. Lung cancer\r\n\t\t\t\t 6. Influenza\r\n\t\t\t\t 7. Asthma\r\n\t\t\t\t 8. Bronchiectasis\r\n\t\t\t\t 9. Idiopathic pulmonary fibrosis/pulmonary disease\r\n\t\t\t\t 10. Common cold\r\n\t\t\t\t 11. Covid-19 Rain gauge Rain gauge Name of the parts labelled \r\n\t\t\t\t I  = funnel\r\n\t\t\t\t II  = measuring cylinder\r\n\t\t\t\t III  = rain water/water Name of the parts labelled I  = funnel\r\n\t\t\t\t II  = measuring cylinder\r\n\t\t\t\t III  = rain water/water Use of the parts labelled  I  (funnel) and  II  (measuring cylinder) \r\n\t\t\t\t I  - directs rain water into the measuring cylinder \r\n\t\t\t\t II  - use to measure the amount/volume of rain water/collect rain water Use of the parts labelled  I  (funnel) and  II  (measuring cylinder) I  - directs rain water into the measuring cylinder II  - use to measure the amount/volume of rain water/collect rain water Ecological factor measured \r\n\t\t\t\t Rainfall/amount of rainfall/rain Ecological factor measured Rainfall/amount of rainfall/rain Importance of ecological factor measured \r\n\t\t\t\t 1. Protects plants roots from injury\r\n\t\t\t\t 2. Causes erosion\r\n\t\t\t\t 3. Causes leaching\r\n\t\t\t\t 4. Needed for seed germination\r\n\t\t\t\t 5. Promotes activities of soil organisms\r\n\t\t\t\t 6. Aids in easy tillage of soil\r\n\t\t\t\t 7. An agent of weathering of rocks in the soil\r\n\t\t\t\t 8. Dissolves plant nutrients for easy absorption\r\n\t\t\t\t 9. Makes soil fertile\r\n\t\t\t\t 10. Determine the type of crop to grow\r\n\t\t\t\t 11. Used for photosynthesis Importance of ecological factor measured 1. Protects plants roots from injury\r\n\t\t\t\t 2. Causes erosion\r\n\t\t\t\t 3. Causes leaching\r\n\t\t\t\t 4. Needed for seed germination\r\n\t\t\t\t 5. Promotes activities of soil organisms\r\n\t\t\t\t 6. Aids in easy tillage of soil\r\n\t\t\t\t 7. An agent of weathering of rocks in the soil\r\n\t\t\t\t 8. Dissolves plant nutrients for easy absorption\r\n\t\t\t\t 9. Makes soil fertile\r\n\t\t\t\t 10. Determine the type of crop to grow\r\n\t\t\t\t 11. Used for photosynthesis Handfork Handfork Use to loosen hard soil surface after heavy rainfall Use to loosen hard soil surface after heavy rainfall Name of the components labelled \r\n\t\t\t\t I  = cell\r\n\t\t\t\t II  = switch/key\r\n\t\t\t\t III  = lamp/bulb Name of the components labelled I  = cell\r\n\t\t\t\t II  = switch/key\r\n\t\t\t\t III  = lamp/bulb Type of arrangement of resistors ( R ) in  B  is  parallel Type of arrangement of resistors ( R ) in  B  is  parallel A  - makes III/bulb dim\r\n\t\t\t\t B  - makes III/bulb bright A  - makes III/bulb dim\r\n\t\t\t\t B  - makes III/bulb bright Reasons \r\n\t\t\t\t A  - the resistors in series have an increased resistance \r\n\t\t\t\t B  - the resistors in parallel have decreas resistance hence keep the bulb bright Reasons A  - the resistors in series have an increased resistance B  - the resistors in parallel have decreas resistance hence keep the bulb bright 2.\r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t State  three  differences between metals and non-metals in terms of their physical properties. \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Explain the term  active region  as applied to transistors; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State what happens in the active region of a transistor. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  effects of lack of protein in the diet of humans. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe  briefly  the chemical test for glucose. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What are soil resources? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  agricultural activities which make the soil lose its nutrients. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t Differences between metals and non-metals \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t Metals \r\n\t\t\t\t Non-metals \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Good conductor of heat \r\n\t\t\t\t Poor conductor of heat \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Conducts electricity \r\n\t\t\t\t Does not conduct electricity/poor conductor \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Lustrous \r\n\t\t\t\t Dull \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Malleable \r\n\t\t\t\t Non-malleable \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ductile \r\n\t\t\t\t Brittle \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High density \r\n\t\t\t\t Low density \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High melting point \r\n\t\t\t\t Low melting point \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Generally hard \r\n\t\t\t\t Generally soft \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Active Region \r\n\t\t\t\t The active region is defined as the region in which the emitter-base junction is forward biased and the collector-base junction is reverse biased. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t In the active region of a transistor, the transistor behaves as an amplifier \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of lack of protein \r\n\t\t\t\t 1. Leads to kwashiorkor\r\n\t\t\t\t 2. Anaemia\r\n\t\t\t\t 3. Slow healing of wounds\r\n\t\t\t\t 4. Hair and nail problem\r\n\t\t\t\t 5. Greater risk of bone fracture\r\n\t\t\t\t 6. Affects the formation of enzymes/hormones\r\n\t\t\t\t 7. Stunted growth\r\n\t\t\t\t 8. Metabolism slows down\r\n\t\t\t\t 9. Swelling in the legs/feet\r\n\t\t\t\t 10. Loss of muscle mass\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Chemical test for glucose \r\n\t\t\t\t 1. Add Fehling's/Benedit's solution to the test sample and heat\r\n\t\t\t\t 2. A brick red/reddish brown colouration indicates the presence of glucose\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Soil resources \r\n\t\t\t\t Soil resources are materials/components in the soil that support plant growth \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Agricultural activities that make the soil lose its nutrients \r\n\t\t\t\t 1. Continuous cropping/over cropping\r\n\t\t\t\t 2. Excessive drainage/run off\r\n\t\t\t\t 3. Burning of organic matter/bush burning\r\n\t\t\t\t 4. Irrigation leading to leaching\r\n\t\t\t\t 5. Crop removal\r\n\t\t\t\t 6. Over grazing\r\n\t\t\t\t 7. Poor tillage practices\r\n\t\t\t\t 8. Excessive use of chemical fertilizers 2. State  three  differences between metals and non-metals in terms of their physical properties. State  three  differences between metals and non-metals in terms of their physical properties. Explain the term  active region  as applied to transistors; Explain the term  active region  as applied to transistors; State what happens in the active region of a transistor. State what happens in the active region of a transistor. State  two  effects of lack of protein in the diet of humans. State  two  effects of lack of protein in the diet of humans. Describe  briefly  the chemical test for glucose. Describe  briefly  the chemical test for glucose. What are soil resources? What are soil resources? State  two  agricultural activities which make the soil lose its nutrients. State  two  agricultural activities which make the soil lose its nutrients. Show Solution Differences between metals and non-metals \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t Metals \r\n\t\t\t\t Non-metals \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Good conductor of heat \r\n\t\t\t\t Poor conductor of heat \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Conducts electricity \r\n\t\t\t\t Does not conduct electricity/poor conductor \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Lustrous \r\n\t\t\t\t Dull \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Malleable \r\n\t\t\t\t Non-malleable \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ductile \r\n\t\t\t\t Brittle \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High density \r\n\t\t\t\t Low density \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High melting point \r\n\t\t\t\t Low melting point \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Generally hard \r\n\t\t\t\t Generally soft Differences between metals and non-metals Active Region \r\n\t\t\t\t The active region is defined as the region in which the emitter-base junction is forward biased and the collector-base junction is reverse biased. Active Region The active region is defined as the region in which the emitter-base junction is forward biased and the collector-base junction is reverse biased. In the active region of a transistor, the transistor behaves as an amplifier In the active region of a transistor, the transistor behaves as an amplifier Effects of lack of protein \r\n\t\t\t\t 1. Leads to kwashiorkor\r\n\t\t\t\t 2. Anaemia\r\n\t\t\t\t 3. Slow healing of wounds\r\n\t\t\t\t 4. Hair and nail problem\r\n\t\t\t\t 5. Greater risk of bone fracture\r\n\t\t\t\t 6. Affects the formation of enzymes/hormones\r\n\t\t\t\t 7. Stunted growth\r\n\t\t\t\t 8. Metabolism slows down\r\n\t\t\t\t 9. Swelling in the legs/feet\r\n\t\t\t\t 10. Loss of muscle mass Effects of lack of protein 1. Leads to kwashiorkor\r\n\t\t\t\t 2. Anaemia\r\n\t\t\t\t 3. Slow healing of wounds\r\n\t\t\t\t 4. Hair and nail problem\r\n\t\t\t\t 5. Greater risk of bone fracture\r\n\t\t\t\t 6. Affects the formation of enzymes/hormones\r\n\t\t\t\t 7. Stunted growth\r\n\t\t\t\t 8. Metabolism slows down\r\n\t\t\t\t 9. Swelling in the legs/feet\r\n\t\t\t\t 10. Loss of muscle mass Chemical test for glucose \r\n\t\t\t\t 1. Add Fehling's/Benedit's solution to the test sample and heat\r\n\t\t\t\t 2. A brick red/reddish brown colouration indicates the presence of glucose Chemical test for glucose 1. Add Fehling's/Benedit's solution to the test sample and heat\r\n\t\t\t\t 2. A brick red/reddish brown colouration indicates the presence of glucose Soil resources \r\n\t\t\t\t Soil resources are materials/components in the soil that support plant growth Soil resources Soil resources are materials/components in the soil that support plant growth Agricultural activities that make the soil lose its nutrients \r\n\t\t\t\t 1. Continuous cropping/over cropping\r\n\t\t\t\t 2. Excessive drainage/run off\r\n\t\t\t\t 3. Burning of organic matter/bush burning\r\n\t\t\t\t 4. Irrigation leading to leaching\r\n\t\t\t\t 5. Crop removal\r\n\t\t\t\t 6. Over grazing\r\n\t\t\t\t 7. Poor tillage practices\r\n\t\t\t\t 8. Excessive use of chemical fertilizers Agricultural activities that make the soil lose its nutrients 1. Continuous cropping/over cropping\r\n\t\t\t\t 2. Excessive drainage/run off\r\n\t\t\t\t 3. Burning of organic matter/bush burning\r\n\t\t\t\t 4. Irrigation leading to leaching\r\n\t\t\t\t 5. Crop removal\r\n\t\t\t\t 6. Over grazing\r\n\t\t\t\t 7. Poor tillage practices\r\n\t\t\t\t 8. Excessive use of chemical fertilizers 3.\r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t List in the  correct  order, the organs through which food passes from the mouth to the anus. \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t State the components of a balanced ration for feeding poultry. \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     Predict the products formed when: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t magnesium solution reacts with dilute hydrochloric acid; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t potassium reacts with water. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  effects of heat on a substance. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals are dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State what would be observed; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State the phenomenon demonstrated in (\u03b1). \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t Order of food passes from the mouth to the anus \r\n\t\t Mouth \u2192 oesophagus \u2192 stomach \u2192 small intestine \u2192 large intestine \u2192 anus \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Components of a balanced ration \r\n\t\t 1. Carbohydrates\r\n\t\t 2. Protein\r\n\t\t 3. Fats and oil\r\n\t\t 4. Minerals\r\n\t\t 5. Vitamins\r\n\t\t 6. Water\r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     Products formed \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Magnesium chloride and hydrogen/MgCl 2  and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t Mg (s)  + 2HCl (aq)  \u2192 MgCl 2 (aq)  + H 2 (g) \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium hydroxide and hydrogen/KOH and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t 2K (s)  + 2H 2 O \u2192 2KOH (aq)  + H 2 (g) \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of heat on a substance \r\n\t\t\t\t 1. Change of state/melts/vapourises\r\n\t\t\t\t 2. Expansion/contraction/change in shape\r\n\t\t\t\t 3. Increasing temperature/decreasing temperature\r\n\t\t\t\t 4. Increase in pressure\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Warmed coloured water moves from the bottom of the beaker upwards \r\n\t\t\t\t\t\t The solution turns to purple in color because of a process called diffusion. \r\n\t\t\t\t\t\t Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t     Phenomenon demonstrated \r\n\t\t\t\t\t\t Heat transfer by convection/ Diffusion 3. List in the  correct  order, the organs through which food passes from the mouth to the anus. List in the  correct  order, the organs through which food passes from the mouth to the anus. State the components of a balanced ration for feeding poultry. State the components of a balanced ration for feeding poultry. Predict the products formed when: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t magnesium solution reacts with dilute hydrochloric acid; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t potassium reacts with water. Predict the products formed when: magnesium solution reacts with dilute hydrochloric acid; magnesium solution reacts with dilute hydrochloric acid; potassium reacts with water. potassium reacts with water. State  two  effects of heat on a substance. State  two  effects of heat on a substance. Potassium permangante crystals are dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State what would be observed; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State the phenomenon demonstrated in (\u03b1). Potassium permangante crystals are dropped into a beaker of water and warmed: (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State what would be observed; (\u03b1) (\u03b1) State what would be observed; State what would be observed; (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State the phenomenon demonstrated in (\u03b1). (\u03b2) (\u03b2) State the phenomenon demonstrated in (\u03b1). State the phenomenon demonstrated in (\u03b1). Show Solution Order of food passes from the mouth to the anus \r\n\t\t Mouth \u2192 oesophagus \u2192 stomach \u2192 small intestine \u2192 large intestine \u2192 anus Order of food passes from the mouth to the anus Mouth \u2192 oesophagus \u2192 stomach \u2192 small intestine \u2192 large intestine \u2192 anus Components of a balanced ration \r\n\t\t 1. Carbohydrates\r\n\t\t 2. Protein\r\n\t\t 3. Fats and oil\r\n\t\t 4. Minerals\r\n\t\t 5. Vitamins\r\n\t\t 6. Water Components of a balanced ration 1. Carbohydrates\r\n\t\t 2. Protein\r\n\t\t 3. Fats and oil\r\n\t\t 4. Minerals\r\n\t\t 5. Vitamins\r\n\t\t 6. Water Products formed \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Magnesium chloride and hydrogen/MgCl 2  and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t Mg (s)  + 2HCl (aq)  \u2192 MgCl 2 (aq)  + H 2 (g) \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium hydroxide and hydrogen/KOH and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t 2K (s)  + 2H 2 O \u2192 2KOH (aq)  + H 2 (g) Products formed Magnesium chloride and hydrogen/MgCl 2  and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t Mg (s)  + 2HCl (aq)  \u2192 MgCl 2 (aq)  + H 2 (g) Magnesium chloride and hydrogen/MgCl 2  and H 2 Illustration Mg (s)  + 2HCl (aq)  \u2192 MgCl 2 (aq)  + H 2 (g) Potassium hydroxide and hydrogen/KOH and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t 2K (s)  + 2H 2 O \u2192 2KOH (aq)  + H 2 (g) Potassium hydroxide and hydrogen/KOH and H 2 Illustration 2K (s)  + 2H 2 O \u2192 2KOH (aq)  + H 2 (g) Effects of heat on a substance \r\n\t\t\t\t 1. Change of state/melts/vapourises\r\n\t\t\t\t 2. Expansion/contraction/change in shape\r\n\t\t\t\t 3. Increasing temperature/decreasing temperature\r\n\t\t\t\t 4. Increase in pressure Effects of heat on a substance 1. Change of state/melts/vapourises\r\n\t\t\t\t 2. Expansion/contraction/change in shape\r\n\t\t\t\t 3. Increasing temperature/decreasing temperature\r\n\t\t\t\t 4. Increase in pressure Potassium permangante crystals dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Warmed coloured water moves from the bottom of the beaker upwards \r\n\t\t\t\t\t\t The solution turns to purple in color because of a process called diffusion. \r\n\t\t\t\t\t\t Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t     Phenomenon demonstrated \r\n\t\t\t\t\t\t Heat transfer by convection/ Diffusion Potassium permangante crystals dropped into a beaker of water and warmed: (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Warmed coloured water moves from the bottom of the beaker upwards \r\n\t\t\t\t\t\t The solution turns to purple in color because of a process called diffusion. \r\n\t\t\t\t\t\t Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. (\u03b1) (\u03b1) Warmed coloured water moves from the bottom of the beaker upwards \r\n\t\t\t\t\t\t The solution turns to purple in color because of a process called diffusion. \r\n\t\t\t\t\t\t Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. Warmed coloured water moves from the bottom of the beaker upwards The solution turns to purple in color because of a process called diffusion. Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t     Phenomenon demonstrated \r\n\t\t\t\t\t\t Heat transfer by convection/ Diffusion (\u03b2) (\u03b2) Phenomenon demonstrated \r\n\t\t\t\t\t\t Heat transfer by convection/ Diffusion Phenomenon demonstrated Heat transfer by convection/ Diffusion 4.\r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the stages in the life cycle of a mosquito. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the stage at which feeding  does not  take place. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Explain  briefly  why air is regarded as a mixture. \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is a magnetic pole? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  uses of temporary magnets. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t Give  four  reasons for planting crops in rows. \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Stages in the life-cycle of a mosquito \r\n\t\t\t\t 1. Egg\r\n\t\t\t\t 2. Larva\r\n\t\t\t\t 3. Pupa\r\n\t\t\t\t 4. Adult\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Stage at which feeding does not take place \r\n\t\t\t\t Pupa \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Why air is considered as a mixture \r\n\t\t Contains different elements which are physically combined. \r\n\t\t Consist of different substances which can be separated by physical means/methods \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Magnetic pole \r\n\t\t\t\t Point/area on a magnet where the magnetic force is greatest or where all lines of force appear to enter. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Uses of temporary magnets \r\n\t\t\t\t 1. Loudspeaker\r\n\t\t\t\t 2. Electric bell\r\n\t\t\t\t 3. Telephone earpiece\r\n\t\t\t\t 4. Generators/electric motors\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t Reasons for planting crops in rows \r\n\t\t 1. Facilitate easy movement on the farm\r\n\t\t 2. It improves drainage\r\n\t\t 3. It's easy to replace ungerminated seeds\r\n\t\t 4. It keeps plant roots evenly spaced\r\n\t\t 5. Enable larger plant population per unit of plot\r\n\t\t 6. Easy to know plant population on the farm\r\n\t\t 7. Better access to sunlight\r\n\t\t 8. For easy control of pest\r\n\t\t 9. For easy control of diseases\r\n\t\t 10. Allow free movement of air 4. Name the stages in the life cycle of a mosquito. Name the stages in the life cycle of a mosquito. Name the stage at which feeding  does not  take place. Name the stage at which feeding  does not  take place. Explain  briefly  why air is regarded as a mixture. Explain  briefly  why air is regarded as a mixture. What is a magnetic pole? What is a magnetic pole? State  two  uses of temporary magnets. State  two  uses of temporary magnets. Give  four  reasons for planting crops in rows. Give  four  reasons for planting crops in rows. Show Solution Stages in the life-cycle of a mosquito \r\n\t\t\t\t 1. Egg\r\n\t\t\t\t 2. Larva\r\n\t\t\t\t 3. Pupa\r\n\t\t\t\t 4. Adult Stages in the life-cycle of a mosquito 1. Egg\r\n\t\t\t\t 2. Larva\r\n\t\t\t\t 3. Pupa\r\n\t\t\t\t 4. Adult Stage at which feeding does not take place \r\n\t\t\t\t Pupa Stage at which feeding does not take place Pupa Why air is considered as a mixture \r\n\t\t Contains different elements which are physically combined. \r\n\t\t Consist of different substances which can be separated by physical means/methods Why air is considered as a mixture Contains different elements which are physically combined. Consist of different substances which can be separated by physical means/methods Magnetic pole \r\n\t\t\t\t Point/area on a magnet where the magnetic force is greatest or where all lines of force appear to enter. Magnetic pole Point/area on a magnet where the magnetic force is greatest or where all lines of force appear to enter. Uses of temporary magnets \r\n\t\t\t\t 1. Loudspeaker\r\n\t\t\t\t 2. Electric bell\r\n\t\t\t\t 3. Telephone earpiece\r\n\t\t\t\t 4. Generators/electric motors Uses of temporary magnets 1. Loudspeaker\r\n\t\t\t\t 2. Electric bell\r\n\t\t\t\t 3. Telephone earpiece\r\n\t\t\t\t 4. Generators/electric motors Reasons for planting crops in rows \r\n\t\t 1. Facilitate easy movement on the farm\r\n\t\t 2. It improves drainage\r\n\t\t 3. It's easy to replace ungerminated seeds\r\n\t\t 4. It keeps plant roots evenly spaced\r\n\t\t 5. Enable larger plant population per unit of plot\r\n\t\t 6. Easy to know plant population on the farm\r\n\t\t 7. Better access to sunlight\r\n\t\t 8. For easy control of pest\r\n\t\t 9. For easy control of diseases\r\n\t\t 10. Allow free movement of air Reasons for planting crops in rows 1. Facilitate easy movement on the farm\r\n\t\t 2. It improves drainage\r\n\t\t 3. It's easy to replace ungerminated seeds\r\n\t\t 4. It keeps plant roots evenly spaced\r\n\t\t 5. Enable larger plant population per unit of plot\r\n\t\t 6. Easy to know plant population on the farm\r\n\t\t 7. Better access to sunlight\r\n\t\t 8. For easy control of pest\r\n\t\t 9. For easy control of diseases\r\n\t\t 10. Allow free movement of air 5.\r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  two  elements which make the teeth of mammals strong. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  two  common diseases of the human teeth. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t State  three  reasons why sandy soil  cannot  support effective plant growth. \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t An atom has 13 protons and 14 neutrons: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t draw and label the structure of the atom. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State its valency. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  ways in which fluid pressure is applied in everyday activities. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  substance that is an insulator. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Elements that make the teeth strong \r\n\t\t\t\t 1. Calcium\r\n\t\t\t\t 2. Flourine\r\n\t\t\t\t 3. Phosphorus\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Common diseases of the human teeth \r\n\t\t\t\t 1. Dental caries/cavity/tooth decay\r\n\t\t\t\t 2. Gum disease/gingivitis/periodontal disease\r\n\t\t\t\t 3. Cancer\r\n\t\t\t\t 4. Plague\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Reasons why sandy soil cannot support effective plant growth \r\n\t\t 1. Cannot hold enough water/easy for water to filter out\r\n\t\t 2. Easily eroded\r\n\t\t 3. Heats up easily/ dries out easily\r\n\t\t 4. Poor in nutrient content/less fertile\r\n\t\t 5. Succeptible to leaching\r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Valency = 3 (three) \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ways in which fluid pressure is applied in everyday activities \r\n\t\t\t\t 1. Water pumps\r\n\t\t\t\t 2. Car brakes\r\n\t\t\t\t 3. Drinking straw\r\n\t\t\t\t 4. Pumping tyre\r\n\t\t\t\t 5. Syringes\r\n\t\t\t\t 6. Siphon\r\n\t\t\t\t 7. Enema\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Substances that are an insulators \r\n\t\t\t\t 1.Dry wood\r\n\t\t\t\t 2. Air\r\n\t\t\t\t 3. Rubber\r\n\t\t\t\t 4. Plastic\r\n\t\t\t\t 5. Glass\r\n\t\t\t\t 6. Cloth 5. Name  two  elements which make the teeth of mammals strong. Name  two  elements which make the teeth of mammals strong. Name  two  common diseases of the human teeth. Name  two  common diseases of the human teeth. State  three  reasons why sandy soil  cannot  support effective plant growth. State  three  reasons why sandy soil  cannot  support effective plant growth. An atom has 13 protons and 14 neutrons: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t draw and label the structure of the atom. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State its valency. An atom has 13 protons and 14 neutrons: draw and label the structure of the atom. draw and label the structure of the atom. State its valency. State its valency. State  three  ways in which fluid pressure is applied in everyday activities. State  three  ways in which fluid pressure is applied in everyday activities. State  one  substance that is an insulator. State  one  substance that is an insulator. Show Solution Elements that make the teeth strong \r\n\t\t\t\t 1. Calcium\r\n\t\t\t\t 2. Flourine\r\n\t\t\t\t 3. Phosphorus Elements that make the teeth strong 1. Calcium\r\n\t\t\t\t 2. Flourine\r\n\t\t\t\t 3. Phosphorus Common diseases of the human teeth \r\n\t\t\t\t 1. Dental caries/cavity/tooth decay\r\n\t\t\t\t 2. Gum disease/gingivitis/periodontal disease\r\n\t\t\t\t 3. Cancer\r\n\t\t\t\t 4. Plague Common diseases of the human teeth 1. Dental caries/cavity/tooth decay\r\n\t\t\t\t 2. Gum disease/gingivitis/periodontal disease\r\n\t\t\t\t 3. Cancer\r\n\t\t\t\t 4. Plague Reasons why sandy soil cannot support effective plant growth \r\n\t\t 1. Cannot hold enough water/easy for water to filter out\r\n\t\t 2. Easily eroded\r\n\t\t 3. Heats up easily/ dries out easily\r\n\t\t 4. Poor in nutrient content/less fertile\r\n\t\t 5. Succeptible to leaching Reasons why sandy soil cannot support effective plant growth 1. Cannot hold enough water/easy for water to filter out\r\n\t\t 2. Easily eroded\r\n\t\t 3. Heats up easily/ dries out easily\r\n\t\t 4. Poor in nutrient content/less fertile\r\n\t\t 5. Succeptible to leaching Valency = 3 (three) Valency = 3 (three) Ways in which fluid pressure is applied in everyday activities \r\n\t\t\t\t 1. Water pumps\r\n\t\t\t\t 2. Car brakes\r\n\t\t\t\t 3. Drinking straw\r\n\t\t\t\t 4. Pumping tyre\r\n\t\t\t\t 5. Syringes\r\n\t\t\t\t 6. Siphon\r\n\t\t\t\t 7. Enema Ways in which fluid pressure is applied in everyday activities 1. Water pumps\r\n\t\t\t\t 2. Car brakes\r\n\t\t\t\t 3. Drinking straw\r\n\t\t\t\t 4. Pumping tyre\r\n\t\t\t\t 5. Syringes\r\n\t\t\t\t 6. Siphon\r\n\t\t\t\t 7. Enema Substances that are an insulators \r\n\t\t\t\t 1.Dry wood\r\n\t\t\t\t 2. Air\r\n\t\t\t\t 3. Rubber\r\n\t\t\t\t 4. Plastic\r\n\t\t\t\t 5. Glass\r\n\t\t\t\t 6. Cloth Substances that are an insulators 1.Dry wood\r\n\t\t\t\t 2. Air\r\n\t\t\t\t 3. Rubber\r\n\t\t\t\t 4. Plastic\r\n\t\t\t\t 5. Glass\r\n\t\t\t\t 6. Cloth 6.\r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t Explain the term  mixed cropping . \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is an  alloy ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the constituent elements in brass. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  effects of dumping waste materials into water bodies. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  function of  each  of the following factors in photosynthesis: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t chlorophyll; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t water. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is  work ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     A block of wood of mass 10 kg was dragged through a distance of 3.2 m when a force of 20 N was applied. Calculate the work done. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t Mixed cropping \r\n\t\t A system of farming in which  two or more crops  are grown on the  same piece of land  at the  same time/simultaneously \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Alloy \r\n\t\t\t\t An alloy is a uniform mixture of two or more metals or a metal and non-metal. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Brass  contains  Copper  and  Zinc \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of dumping waste materials into water bodies \r\n\t\t\t\t 1. Decompose to give the water bad odour\r\n\t\t\t\t 2. Introduces germs/diseases into the water\r\n\t\t\t\t 3. Reduces oxygen level in the water\r\n\t\t\t\t 4. Causes flooding\r\n\t\t\t\t 5. Makes water dirty/unsafe for drinking/pollutes water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of chlorophyll in photosynthesis \r\n\t\t\t\t\t\t Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of water in photosynthesis \r\n\t\t\t\t\t\t Used to produce glucose/produces oxygen \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Work \r\n\t\t\t\t Work is said to be done when a  force moves a body  through a  distance  in the direction of the force \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Work =  Force  x  Distance \r\n\t\t\t\t Force = 20 N\r\n\t\t\t\t Distance = 3.2 m\r\n\t\t\t\t \r\n\t\t\t\t Work done = 3.2 m x 20 N = 64 J 6. Explain the term  mixed cropping . Explain the term  mixed cropping . What is an  alloy ? What is an  alloy ? Name the constituent elements in brass. Name the constituent elements in brass. State  three  effects of dumping waste materials into water bodies. State  three  effects of dumping waste materials into water bodies. State  one  function of  each  of the following factors in photosynthesis: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t chlorophyll; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t water. State  one  function of  each  of the following factors in photosynthesis: (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t chlorophyll; (\u03b1) (\u03b1) chlorophyll; chlorophyll; (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t water. (\u03b2) (\u03b2) water. water. What is  work ? What is  work ? A block of wood of mass 10 kg was dragged through a distance of 3.2 m when a force of 20 N was applied. Calculate the work done. A block of wood of mass 10 kg was dragged through a distance of 3.2 m when a force of 20 N was applied. Calculate the work done. Show Solution Mixed cropping \r\n\t\t A system of farming in which  two or more crops  are grown on the  same piece of land  at the  same time/simultaneously Mixed cropping A system of farming in which  two or more crops  are grown on the  same piece of land  at the  same time/simultaneously Alloy \r\n\t\t\t\t An alloy is a uniform mixture of two or more metals or a metal and non-metal. Alloy An alloy is a uniform mixture of two or more metals or a metal and non-metal. Brass  contains  Copper  and  Zinc Brass  contains  Copper  and  Zinc Effects of dumping waste materials into water bodies \r\n\t\t\t\t 1. Decompose to give the water bad odour\r\n\t\t\t\t 2. Introduces germs/diseases into the water\r\n\t\t\t\t 3. Reduces oxygen level in the water\r\n\t\t\t\t 4. Causes flooding\r\n\t\t\t\t 5. Makes water dirty/unsafe for drinking/pollutes water Effects of dumping waste materials into water bodies 1. Decompose to give the water bad odour\r\n\t\t\t\t 2. Introduces germs/diseases into the water\r\n\t\t\t\t 3. Reduces oxygen level in the water\r\n\t\t\t\t 4. Causes flooding\r\n\t\t\t\t 5. Makes water dirty/unsafe for drinking/pollutes water (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of chlorophyll in photosynthesis \r\n\t\t\t\t\t\t Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of water in photosynthesis \r\n\t\t\t\t\t\t Used to produce glucose/produces oxygen (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of chlorophyll in photosynthesis \r\n\t\t\t\t\t\t Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose (\u03b1) (\u03b1) Function of chlorophyll in photosynthesis \r\n\t\t\t\t\t\t Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose Function of chlorophyll in photosynthesis Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of water in photosynthesis \r\n\t\t\t\t\t\t Used to produce glucose/produces oxygen (\u03b2) (\u03b2) Function of water in photosynthesis \r\n\t\t\t\t\t\t Used to produce glucose/produces oxygen Function of water in photosynthesis Used to produce glucose/produces oxygen Work \r\n\t\t\t\t Work is said to be done when a  force moves a body  through a  distance  in the direction of the force Work Work is said to be done when a  force moves a body  through a  distance  in the direction of the force Work =  Force  x  Distance \r\n\t\t\t\t Force = 20 N\r\n\t\t\t\t Distance = 3.2 m\r\n\t\t\t\t \r\n\t\t\t\t Work done = 3.2 m x 20 N = 64 J Work =  Force  x  Distance Force = 20 N\r\n\t\t\t\t Distance = 3.2 m Work done = 3.2 m x 20 N = 64 J",
+  "subparts": [
+    {
+      "(a)": "The diagrams below are illustrations of an experimental set-up. \r\n\t\t Study the diagrams carefully and answer the questions that follow . \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the parts labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the method of separation in  each  of the set-up: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A ; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the class of mixtures that the experimental set-up  A  could be used for. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for the answer stated in (iii). \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  possible component of the mixture in set-up  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the function of the part labelled  IV . \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t     The diagram below is an illustration of a part of a system in human. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the system illustrated \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled,  I , II , III , and  IV . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is the role of the part labelled  I . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  three  diseases that affects the system illustrated. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     The diagram below is an illustration of an experimental set-up used to measure an ecological factor. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify the apparatus illustrated. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled  I , II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give  one  use  each  of the parts labelled  I  and  II . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What ecological factor was measured? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  ways in which the ecological factor measured in (iv) is important in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  farm tool that aids the ecological factor measured in (iv) to perform its function in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe how the farm soil tool named in (vi) is used to aid the factor measured in the experiment. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t     The diagrams below are illustrations of electrical circuits. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the components labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the type of arrangement of resistors ( R ) in  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the effect of the arrangement of resistors in  each  of the diagrams  A  and  B  on  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for  each  of the answers stated in (iii). \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t I  = beaker\r\n\t\t\t\t II  = residue/particles/cotton wool/mixture/filter paper\r\n\t\t\t\t III  = filtrate\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Methods of Separation \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A  - filtration \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B  - magnetization \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Class of mixtures \r\n\t\t\t\t 1. Solid - liquid mixture\r\n\t\t\t\t 2. Liquid - solid mixture\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Reason for the class of mixture \r\n\t\t\t\t Because there is  residue on the filter paper  and  filtrate in the beaker \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t possible component of the mixture in set-up  B \r\n\t\t\t\t - iron fillings/any magnetic substance\r\n\t\t\t\t - powdered sulphur\r\n\t\t\t\t - sand\r\n\t\t\t\t - powdered chalk\r\n\t\t\t\t - powdered charcoal\r\n\t\t\t\t - any non-magenetic substance\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Function of part labelled IV (Retort/Clamp Stand) \r\n\t\t\t\t It holds the funnel in place/holds the clamp \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t The system illustrated is  respiratory system \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = Larynx/Voice Box\r\n\t\t\t\t II  = Trachea/windpipe\r\n\t\t\t\t III  = Bronchus\r\n\t\t\t\t IV  = lung \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Role of the part labelled  I  (Larynx) \r\n\t\t\t\t 1. Allows air to pass through it/breathing\r\n\t\t\t\t 2. Prevent food and drink from blocking the airways\r\n\t\t\t\t 3. Produces sound/phonation\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Diseases of the respiratory system \r\n\t\t\t\t 1. Tuberculosis/T.B.\r\n\t\t\t\t 2. Bronchitis\r\n\t\t\t\t 3. Pneumonia\r\n\t\t\t\t 4. Whooping cough\r\n\t\t\t\t 5. Lung cancer\r\n\t\t\t\t 6. Influenza\r\n\t\t\t\t 7. Asthma\r\n\t\t\t\t 8. Bronchiectasis\r\n\t\t\t\t 9. Idiopathic pulmonary fibrosis/pulmonary disease\r\n\t\t\t\t 10. Common cold\r\n\t\t\t\t 11. Covid-19\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Rain gauge \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = funnel\r\n\t\t\t\t II  = measuring cylinder\r\n\t\t\t\t III  = rain water/water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use of the parts labelled  I  (funnel) and  II  (measuring cylinder) \r\n\t\t\t\t I  - directs rain water into the measuring cylinder \r\n\t\t\t\t II  - use to measure the amount/volume of rain water/collect rain water \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ecological factor measured \r\n\t\t\t\t Rainfall/amount of rainfall/rain \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Importance of ecological factor measured \r\n\t\t\t\t 1. Protects plants roots from injury\r\n\t\t\t\t 2. Causes erosion\r\n\t\t\t\t 3. Causes leaching\r\n\t\t\t\t 4. Needed for seed germination\r\n\t\t\t\t 5. Promotes activities of soil organisms\r\n\t\t\t\t 6. Aids in easy tillage of soil\r\n\t\t\t\t 7. An agent of weathering of rocks in the soil\r\n\t\t\t\t 8. Dissolves plant nutrients for easy absorption\r\n\t\t\t\t 9. Makes soil fertile\r\n\t\t\t\t 10. Determine the type of crop to grow\r\n\t\t\t\t 11. Used for photosynthesis\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Handfork \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use to loosen hard soil surface after heavy rainfall \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the components labelled \r\n\t\t\t\t I  = cell\r\n\t\t\t\t II  = switch/key\r\n\t\t\t\t III  = lamp/bulb\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Type of arrangement of resistors ( R ) in  B  is  parallel \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t A  - makes III/bulb dim\r\n\t\t\t\t B  - makes III/bulb bright\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Reasons \r\n\t\t\t\t A  - the resistors in series have an increased resistance \r\n\t\t\t\t B  - the resistors in parallel have decreas resistance hence keep the bulb bright"
+    },
+    {
+      "(a)": "The diagrams below are illustrations of an experimental set-up. \r\n\t\t Study the diagrams carefully and answer the questions that follow . \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the parts labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the method of separation in  each  of the set-up: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A ; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the class of mixtures that the experimental set-up  A  could be used for. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for the answer stated in (iii). \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  possible component of the mixture in set-up  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the function of the part labelled  IV . \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t     The diagram below is an illustration of a part of a system in human. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the system illustrated \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled,  I , II , III , and  IV . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is the role of the part labelled  I . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  three  diseases that affects the system illustrated. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     The diagram below is an illustration of an experimental set-up used to measure an ecological factor. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify the apparatus illustrated. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled  I , II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give  one  use  each  of the parts labelled  I  and  II . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What ecological factor was measured? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  ways in which the ecological factor measured in (iv) is important in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  farm tool that aids the ecological factor measured in (iv) to perform its function in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe how the farm soil tool named in (vi) is used to aid the factor measured in the experiment. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t     The diagrams below are illustrations of electrical circuits. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the components labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the type of arrangement of resistors ( R ) in  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the effect of the arrangement of resistors in  each  of the diagrams  A  and  B  on  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for  each  of the answers stated in (iii)."
+    },
+    {
+      "(a)": "The diagrams below are illustrations of an experimental set-up. \r\n\t\t Study the diagrams carefully and answer the questions that follow . \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the parts labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the method of separation in  each  of the set-up: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A ; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the class of mixtures that the experimental set-up  A  could be used for. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for the answer stated in (iii). \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  possible component of the mixture in set-up  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the function of the part labelled  IV ."
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(i)": "Identify  each  of the parts labelled  I ,  II  and  III ."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Name the method of separation in  each  of the set-up: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A ; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(iii)": "State the class of mixtures that the experimental set-up  A  could be used for."
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iv)": "Give a reason for the answer stated in (iii)."
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(v)": "Name  one  possible component of the mixture in set-up  B ."
+    },
+    {
+      "(v)": ""
+    },
+    {
+      "(v)": ""
+    },
+    {
+      "(vi)": "State the function of the part labelled  IV ."
+    },
+    {
+      "(vi)": ""
+    },
+    {
+      "(vi)": ""
+    },
+    {
+      "(b)": "The diagram below is an illustration of a part of a system in human. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the system illustrated \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled,  I , II , III , and  IV . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is the role of the part labelled  I . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  three  diseases that affects the system illustrated."
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(i)": "Name the system illustrated"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Name  each  of the parts labelled,  I , II , III , and  IV ."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(iii)": "What is the role of the part labelled  I ."
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iv)": "Name  three  diseases that affects the system illustrated."
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(c)": "The diagram below is an illustration of an experimental set-up used to measure an ecological factor. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify the apparatus illustrated. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  each  of the parts labelled  I , II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give  one  use  each  of the parts labelled  I  and  II . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What ecological factor was measured? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  ways in which the ecological factor measured in (iv) is important in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  one  farm tool that aids the ecological factor measured in (iv) to perform its function in agricultural soils. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe how the farm soil tool named in (vi) is used to aid the factor measured in the experiment."
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "Identify the apparatus illustrated."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Name  each  of the parts labelled  I , II  and  III ."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(iii)": "Give  one  use  each  of the parts labelled  I  and  II ."
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iv)": "What ecological factor was measured?"
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(v)": "State  three  ways in which the ecological factor measured in (iv) is important in agricultural soils."
+    },
+    {
+      "(v)": ""
+    },
+    {
+      "(v)": ""
+    },
+    {
+      "(vi)": "Name  one  farm tool that aids the ecological factor measured in (iv) to perform its function in agricultural soils."
+    },
+    {
+      "(vi)": ""
+    },
+    {
+      "(vi)": ""
+    },
+    {
+      "(vii)": "Describe how the farm soil tool named in (vi) is used to aid the factor measured in the experiment."
+    },
+    {
+      "(vii)": ""
+    },
+    {
+      "(vii)": ""
+    },
+    {
+      "(d)": "The diagrams below are illustrations of electrical circuits. \r\n\t\t Study the diagram carefully and answer the questions that follow. \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Identify  each  of the components labelled  I ,  II  and  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the type of arrangement of resistors ( R ) in  B . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State the effect of the arrangement of resistors in  each  of the diagrams  A  and  B  on  III . \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Give a reason for  each  of the answers stated in (iii)."
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "Identify  each  of the components labelled  I ,  II  and  III ."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "State the type of arrangement of resistors ( R ) in  B ."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(iii)": "State the effect of the arrangement of resistors in  each  of the diagrams  A  and  B  on  III ."
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iv)": "Give a reason for  each  of the answers stated in (iii)."
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t I  = beaker\r\n\t\t\t\t II  = residue/particles/cotton wool/mixture/filter paper\r\n\t\t\t\t III  = filtrate\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Methods of Separation \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A  - filtration \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B  - magnetization \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Class of mixtures \r\n\t\t\t\t 1. Solid - liquid mixture\r\n\t\t\t\t 2. Liquid - solid mixture\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Reason for the class of mixture \r\n\t\t\t\t Because there is  residue on the filter paper  and  filtrate in the beaker \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t possible component of the mixture in set-up  B \r\n\t\t\t\t - iron fillings/any magnetic substance\r\n\t\t\t\t - powdered sulphur\r\n\t\t\t\t - sand\r\n\t\t\t\t - powdered chalk\r\n\t\t\t\t - powdered charcoal\r\n\t\t\t\t - any non-magenetic substance\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Function of part labelled IV (Retort/Clamp Stand) \r\n\t\t\t\t It holds the funnel in place/holds the clamp \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t The system illustrated is  respiratory system \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = Larynx/Voice Box\r\n\t\t\t\t II  = Trachea/windpipe\r\n\t\t\t\t III  = Bronchus\r\n\t\t\t\t IV  = lung \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Role of the part labelled  I  (Larynx) \r\n\t\t\t\t 1. Allows air to pass through it/breathing\r\n\t\t\t\t 2. Prevent food and drink from blocking the airways\r\n\t\t\t\t 3. Produces sound/phonation\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Diseases of the respiratory system \r\n\t\t\t\t 1. Tuberculosis/T.B.\r\n\t\t\t\t 2. Bronchitis\r\n\t\t\t\t 3. Pneumonia\r\n\t\t\t\t 4. Whooping cough\r\n\t\t\t\t 5. Lung cancer\r\n\t\t\t\t 6. Influenza\r\n\t\t\t\t 7. Asthma\r\n\t\t\t\t 8. Bronchiectasis\r\n\t\t\t\t 9. Idiopathic pulmonary fibrosis/pulmonary disease\r\n\t\t\t\t 10. Common cold\r\n\t\t\t\t 11. Covid-19\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Rain gauge \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = funnel\r\n\t\t\t\t II  = measuring cylinder\r\n\t\t\t\t III  = rain water/water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use of the parts labelled  I  (funnel) and  II  (measuring cylinder) \r\n\t\t\t\t I  - directs rain water into the measuring cylinder \r\n\t\t\t\t II  - use to measure the amount/volume of rain water/collect rain water \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ecological factor measured \r\n\t\t\t\t Rainfall/amount of rainfall/rain \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Importance of ecological factor measured \r\n\t\t\t\t 1. Protects plants roots from injury\r\n\t\t\t\t 2. Causes erosion\r\n\t\t\t\t 3. Causes leaching\r\n\t\t\t\t 4. Needed for seed germination\r\n\t\t\t\t 5. Promotes activities of soil organisms\r\n\t\t\t\t 6. Aids in easy tillage of soil\r\n\t\t\t\t 7. An agent of weathering of rocks in the soil\r\n\t\t\t\t 8. Dissolves plant nutrients for easy absorption\r\n\t\t\t\t 9. Makes soil fertile\r\n\t\t\t\t 10. Determine the type of crop to grow\r\n\t\t\t\t 11. Used for photosynthesis\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Handfork \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use to loosen hard soil surface after heavy rainfall \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the components labelled \r\n\t\t\t\t I  = cell\r\n\t\t\t\t II  = switch/key\r\n\t\t\t\t III  = lamp/bulb\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Type of arrangement of resistors ( R ) in  B  is  parallel \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t A  - makes III/bulb dim\r\n\t\t\t\t B  - makes III/bulb bright\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Reasons \r\n\t\t\t\t A  - the resistors in series have an increased resistance \r\n\t\t\t\t B  - the resistors in parallel have decreas resistance hence keep the bulb bright"
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t I  = beaker\r\n\t\t\t\t II  = residue/particles/cotton wool/mixture/filter paper\r\n\t\t\t\t III  = filtrate\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Methods of Separation \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A  - filtration \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B  - magnetization \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Class of mixtures \r\n\t\t\t\t 1. Solid - liquid mixture\r\n\t\t\t\t 2. Liquid - solid mixture\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Reason for the class of mixture \r\n\t\t\t\t Because there is  residue on the filter paper  and  filtrate in the beaker \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t possible component of the mixture in set-up  B \r\n\t\t\t\t - iron fillings/any magnetic substance\r\n\t\t\t\t - powdered sulphur\r\n\t\t\t\t - sand\r\n\t\t\t\t - powdered chalk\r\n\t\t\t\t - powdered charcoal\r\n\t\t\t\t - any non-magenetic substance\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Function of part labelled IV (Retort/Clamp Stand) \r\n\t\t\t\t It holds the funnel in place/holds the clamp"
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(i)": "I  = beaker\r\n\t\t\t\t II  = residue/particles/cotton wool/mixture/filter paper\r\n\t\t\t\t III  = filtrate\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Methods of Separation \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A  - filtration \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B  - magnetization \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Class of mixtures \r\n\t\t\t\t 1. Solid - liquid mixture\r\n\t\t\t\t 2. Liquid - solid mixture\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Reason for the class of mixture \r\n\t\t\t\t Because there is  residue on the filter paper  and  filtrate in the beaker \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t possible component of the mixture in set-up  B \r\n\t\t\t\t - iron fillings/any magnetic substance\r\n\t\t\t\t - powdered sulphur\r\n\t\t\t\t - sand\r\n\t\t\t\t - powdered chalk\r\n\t\t\t\t - powdered charcoal\r\n\t\t\t\t - any non-magenetic substance\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Function of part labelled IV (Retort/Clamp Stand) \r\n\t\t\t\t It holds the funnel in place/holds the clamp"
+    },
+    {
+      "(i)": "I  = beaker\r\n\t\t\t\t II  = residue/particles/cotton wool/mixture/filter paper\r\n\t\t\t\t III  = filtrate"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Methods of Separation \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0391 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    A  - filtration \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    \u0392 \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t    B  - magnetization"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(iii)": "Class of mixtures \r\n\t\t\t\t 1. Solid - liquid mixture\r\n\t\t\t\t 2. Liquid - solid mixture"
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iv)": "Reason for the class of mixture \r\n\t\t\t\t Because there is  residue on the filter paper  and  filtrate in the beaker"
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(v)": "possible component of the mixture in set-up  B \r\n\t\t\t\t - iron fillings/any magnetic substance\r\n\t\t\t\t - powdered sulphur\r\n\t\t\t\t - sand\r\n\t\t\t\t - powdered chalk\r\n\t\t\t\t - powdered charcoal\r\n\t\t\t\t - any non-magenetic substance"
+    },
+    {
+      "(v)": ""
+    },
+    {
+      "(v)": ""
+    },
+    {
+      "(vi)": "Function of part labelled IV (Retort/Clamp Stand) \r\n\t\t\t\t It holds the funnel in place/holds the clamp"
+    },
+    {
+      "(vi)": ""
+    },
+    {
+      "(vi)": ""
+    },
+    {
+      "(b)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t The system illustrated is  respiratory system \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = Larynx/Voice Box\r\n\t\t\t\t II  = Trachea/windpipe\r\n\t\t\t\t III  = Bronchus\r\n\t\t\t\t IV  = lung \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Role of the part labelled  I  (Larynx) \r\n\t\t\t\t 1. Allows air to pass through it/breathing\r\n\t\t\t\t 2. Prevent food and drink from blocking the airways\r\n\t\t\t\t 3. Produces sound/phonation\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Diseases of the respiratory system \r\n\t\t\t\t 1. Tuberculosis/T.B.\r\n\t\t\t\t 2. Bronchitis\r\n\t\t\t\t 3. Pneumonia\r\n\t\t\t\t 4. Whooping cough\r\n\t\t\t\t 5. Lung cancer\r\n\t\t\t\t 6. Influenza\r\n\t\t\t\t 7. Asthma\r\n\t\t\t\t 8. Bronchiectasis\r\n\t\t\t\t 9. Idiopathic pulmonary fibrosis/pulmonary disease\r\n\t\t\t\t 10. Common cold\r\n\t\t\t\t 11. Covid-19"
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(i)": "The system illustrated is  respiratory system \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = Larynx/Voice Box\r\n\t\t\t\t II  = Trachea/windpipe\r\n\t\t\t\t III  = Bronchus\r\n\t\t\t\t IV  = lung \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Role of the part labelled  I  (Larynx) \r\n\t\t\t\t 1. Allows air to pass through it/breathing\r\n\t\t\t\t 2. Prevent food and drink from blocking the airways\r\n\t\t\t\t 3. Produces sound/phonation\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Diseases of the respiratory system \r\n\t\t\t\t 1. Tuberculosis/T.B.\r\n\t\t\t\t 2. Bronchitis\r\n\t\t\t\t 3. Pneumonia\r\n\t\t\t\t 4. Whooping cough\r\n\t\t\t\t 5. Lung cancer\r\n\t\t\t\t 6. Influenza\r\n\t\t\t\t 7. Asthma\r\n\t\t\t\t 8. Bronchiectasis\r\n\t\t\t\t 9. Idiopathic pulmonary fibrosis/pulmonary disease\r\n\t\t\t\t 10. Common cold\r\n\t\t\t\t 11. Covid-19"
+    },
+    {
+      "(i)": "The system illustrated is  respiratory system"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Name of the parts labelled \r\n\t\t\t\t I  = Larynx/Voice Box\r\n\t\t\t\t II  = Trachea/windpipe\r\n\t\t\t\t III  = Bronchus\r\n\t\t\t\t IV  = lung"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(iii)": "Role of the part labelled  I  (Larynx) \r\n\t\t\t\t 1. Allows air to pass through it/breathing\r\n\t\t\t\t 2. Prevent food and drink from blocking the airways\r\n\t\t\t\t 3. Produces sound/phonation"
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iv)": "Diseases of the respiratory system \r\n\t\t\t\t 1. Tuberculosis/T.B.\r\n\t\t\t\t 2. Bronchitis\r\n\t\t\t\t 3. Pneumonia\r\n\t\t\t\t 4. Whooping cough\r\n\t\t\t\t 5. Lung cancer\r\n\t\t\t\t 6. Influenza\r\n\t\t\t\t 7. Asthma\r\n\t\t\t\t 8. Bronchiectasis\r\n\t\t\t\t 9. Idiopathic pulmonary fibrosis/pulmonary disease\r\n\t\t\t\t 10. Common cold\r\n\t\t\t\t 11. Covid-19"
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(c)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Rain gauge \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = funnel\r\n\t\t\t\t II  = measuring cylinder\r\n\t\t\t\t III  = rain water/water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use of the parts labelled  I  (funnel) and  II  (measuring cylinder) \r\n\t\t\t\t I  - directs rain water into the measuring cylinder \r\n\t\t\t\t II  - use to measure the amount/volume of rain water/collect rain water \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ecological factor measured \r\n\t\t\t\t Rainfall/amount of rainfall/rain \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Importance of ecological factor measured \r\n\t\t\t\t 1. Protects plants roots from injury\r\n\t\t\t\t 2. Causes erosion\r\n\t\t\t\t 3. Causes leaching\r\n\t\t\t\t 4. Needed for seed germination\r\n\t\t\t\t 5. Promotes activities of soil organisms\r\n\t\t\t\t 6. Aids in easy tillage of soil\r\n\t\t\t\t 7. An agent of weathering of rocks in the soil\r\n\t\t\t\t 8. Dissolves plant nutrients for easy absorption\r\n\t\t\t\t 9. Makes soil fertile\r\n\t\t\t\t 10. Determine the type of crop to grow\r\n\t\t\t\t 11. Used for photosynthesis\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Handfork \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use to loosen hard soil surface after heavy rainfall"
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "Rain gauge \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the parts labelled \r\n\t\t\t\t I  = funnel\r\n\t\t\t\t II  = measuring cylinder\r\n\t\t\t\t III  = rain water/water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use of the parts labelled  I  (funnel) and  II  (measuring cylinder) \r\n\t\t\t\t I  - directs rain water into the measuring cylinder \r\n\t\t\t\t II  - use to measure the amount/volume of rain water/collect rain water \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ecological factor measured \r\n\t\t\t\t Rainfall/amount of rainfall/rain \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (v) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Importance of ecological factor measured \r\n\t\t\t\t 1. Protects plants roots from injury\r\n\t\t\t\t 2. Causes erosion\r\n\t\t\t\t 3. Causes leaching\r\n\t\t\t\t 4. Needed for seed germination\r\n\t\t\t\t 5. Promotes activities of soil organisms\r\n\t\t\t\t 6. Aids in easy tillage of soil\r\n\t\t\t\t 7. An agent of weathering of rocks in the soil\r\n\t\t\t\t 8. Dissolves plant nutrients for easy absorption\r\n\t\t\t\t 9. Makes soil fertile\r\n\t\t\t\t 10. Determine the type of crop to grow\r\n\t\t\t\t 11. Used for photosynthesis\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vi) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Handfork \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (vii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Use to loosen hard soil surface after heavy rainfall"
+    },
+    {
+      "(i)": "Rain gauge"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Name of the parts labelled \r\n\t\t\t\t I  = funnel\r\n\t\t\t\t II  = measuring cylinder\r\n\t\t\t\t III  = rain water/water"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(iii)": "Use of the parts labelled  I  (funnel) and  II  (measuring cylinder) \r\n\t\t\t\t I  - directs rain water into the measuring cylinder \r\n\t\t\t\t II  - use to measure the amount/volume of rain water/collect rain water"
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iv)": "Ecological factor measured \r\n\t\t\t\t Rainfall/amount of rainfall/rain"
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(v)": "Importance of ecological factor measured \r\n\t\t\t\t 1. Protects plants roots from injury\r\n\t\t\t\t 2. Causes erosion\r\n\t\t\t\t 3. Causes leaching\r\n\t\t\t\t 4. Needed for seed germination\r\n\t\t\t\t 5. Promotes activities of soil organisms\r\n\t\t\t\t 6. Aids in easy tillage of soil\r\n\t\t\t\t 7. An agent of weathering of rocks in the soil\r\n\t\t\t\t 8. Dissolves plant nutrients for easy absorption\r\n\t\t\t\t 9. Makes soil fertile\r\n\t\t\t\t 10. Determine the type of crop to grow\r\n\t\t\t\t 11. Used for photosynthesis"
+    },
+    {
+      "(v)": ""
+    },
+    {
+      "(v)": ""
+    },
+    {
+      "(vi)": "Handfork"
+    },
+    {
+      "(vi)": ""
+    },
+    {
+      "(vi)": ""
+    },
+    {
+      "(vii)": "Use to loosen hard soil surface after heavy rainfall"
+    },
+    {
+      "(vii)": ""
+    },
+    {
+      "(vii)": ""
+    },
+    {
+      "(d)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name of the components labelled \r\n\t\t\t\t I  = cell\r\n\t\t\t\t II  = switch/key\r\n\t\t\t\t III  = lamp/bulb\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Type of arrangement of resistors ( R ) in  B  is  parallel \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t A  - makes III/bulb dim\r\n\t\t\t\t B  - makes III/bulb bright\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Reasons \r\n\t\t\t\t A  - the resistors in series have an increased resistance \r\n\t\t\t\t B  - the resistors in parallel have decreas resistance hence keep the bulb bright"
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "Name of the components labelled \r\n\t\t\t\t I  = cell\r\n\t\t\t\t II  = switch/key\r\n\t\t\t\t III  = lamp/bulb\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Type of arrangement of resistors ( R ) in  B  is  parallel \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t A  - makes III/bulb dim\r\n\t\t\t\t B  - makes III/bulb bright\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (iv) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Reasons \r\n\t\t\t\t A  - the resistors in series have an increased resistance \r\n\t\t\t\t B  - the resistors in parallel have decreas resistance hence keep the bulb bright"
+    },
+    {
+      "(i)": "Name of the components labelled \r\n\t\t\t\t I  = cell\r\n\t\t\t\t II  = switch/key\r\n\t\t\t\t III  = lamp/bulb"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Type of arrangement of resistors ( R ) in  B  is  parallel"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(iii)": "A  - makes III/bulb dim\r\n\t\t\t\t B  - makes III/bulb bright"
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iii)": ""
+    },
+    {
+      "(iv)": "Reasons \r\n\t\t\t\t A  - the resistors in series have an increased resistance \r\n\t\t\t\t B  - the resistors in parallel have decreas resistance hence keep the bulb bright"
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(iv)": ""
+    },
+    {
+      "(a)": "State  three  differences between metals and non-metals in terms of their physical properties. \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Explain the term  active region  as applied to transistors; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State what happens in the active region of a transistor. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  effects of lack of protein in the diet of humans. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe  briefly  the chemical test for glucose. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What are soil resources? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  agricultural activities which make the soil lose its nutrients. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t Differences between metals and non-metals \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t Metals \r\n\t\t\t\t Non-metals \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Good conductor of heat \r\n\t\t\t\t Poor conductor of heat \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Conducts electricity \r\n\t\t\t\t Does not conduct electricity/poor conductor \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Lustrous \r\n\t\t\t\t Dull \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Malleable \r\n\t\t\t\t Non-malleable \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ductile \r\n\t\t\t\t Brittle \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High density \r\n\t\t\t\t Low density \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High melting point \r\n\t\t\t\t Low melting point \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Generally hard \r\n\t\t\t\t Generally soft \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Active Region \r\n\t\t\t\t The active region is defined as the region in which the emitter-base junction is forward biased and the collector-base junction is reverse biased. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t In the active region of a transistor, the transistor behaves as an amplifier \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of lack of protein \r\n\t\t\t\t 1. Leads to kwashiorkor\r\n\t\t\t\t 2. Anaemia\r\n\t\t\t\t 3. Slow healing of wounds\r\n\t\t\t\t 4. Hair and nail problem\r\n\t\t\t\t 5. Greater risk of bone fracture\r\n\t\t\t\t 6. Affects the formation of enzymes/hormones\r\n\t\t\t\t 7. Stunted growth\r\n\t\t\t\t 8. Metabolism slows down\r\n\t\t\t\t 9. Swelling in the legs/feet\r\n\t\t\t\t 10. Loss of muscle mass\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Chemical test for glucose \r\n\t\t\t\t 1. Add Fehling's/Benedit's solution to the test sample and heat\r\n\t\t\t\t 2. A brick red/reddish brown colouration indicates the presence of glucose\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Soil resources \r\n\t\t\t\t Soil resources are materials/components in the soil that support plant growth \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Agricultural activities that make the soil lose its nutrients \r\n\t\t\t\t 1. Continuous cropping/over cropping\r\n\t\t\t\t 2. Excessive drainage/run off\r\n\t\t\t\t 3. Burning of organic matter/bush burning\r\n\t\t\t\t 4. Irrigation leading to leaching\r\n\t\t\t\t 5. Crop removal\r\n\t\t\t\t 6. Over grazing\r\n\t\t\t\t 7. Poor tillage practices\r\n\t\t\t\t 8. Excessive use of chemical fertilizers"
+    },
+    {
+      "(a)": "State  three  differences between metals and non-metals in terms of their physical properties. \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Explain the term  active region  as applied to transistors; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State what happens in the active region of a transistor. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  effects of lack of protein in the diet of humans. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe  briefly  the chemical test for glucose. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What are soil resources? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  agricultural activities which make the soil lose its nutrients."
+    },
+    {
+      "(a)": "State  three  differences between metals and non-metals in terms of their physical properties."
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(b)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Explain the term  active region  as applied to transistors; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State what happens in the active region of a transistor."
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(i)": "Explain the term  active region  as applied to transistors; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State what happens in the active region of a transistor."
+    },
+    {
+      "(i)": "Explain the term  active region  as applied to transistors;"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "State what happens in the active region of a transistor."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(c)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  effects of lack of protein in the diet of humans. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe  briefly  the chemical test for glucose."
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "State  two  effects of lack of protein in the diet of humans. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Describe  briefly  the chemical test for glucose."
+    },
+    {
+      "(i)": "State  two  effects of lack of protein in the diet of humans."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Describe  briefly  the chemical test for glucose."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What are soil resources? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  agricultural activities which make the soil lose its nutrients."
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "What are soil resources? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  agricultural activities which make the soil lose its nutrients."
+    },
+    {
+      "(i)": "What are soil resources?"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "State  two  agricultural activities which make the soil lose its nutrients."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(a)": "Differences between metals and non-metals \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t Metals \r\n\t\t\t\t Non-metals \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Good conductor of heat \r\n\t\t\t\t Poor conductor of heat \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Conducts electricity \r\n\t\t\t\t Does not conduct electricity/poor conductor \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Lustrous \r\n\t\t\t\t Dull \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Malleable \r\n\t\t\t\t Non-malleable \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ductile \r\n\t\t\t\t Brittle \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High density \r\n\t\t\t\t Low density \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High melting point \r\n\t\t\t\t Low melting point \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Generally hard \r\n\t\t\t\t Generally soft \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Active Region \r\n\t\t\t\t The active region is defined as the region in which the emitter-base junction is forward biased and the collector-base junction is reverse biased. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t In the active region of a transistor, the transistor behaves as an amplifier \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of lack of protein \r\n\t\t\t\t 1. Leads to kwashiorkor\r\n\t\t\t\t 2. Anaemia\r\n\t\t\t\t 3. Slow healing of wounds\r\n\t\t\t\t 4. Hair and nail problem\r\n\t\t\t\t 5. Greater risk of bone fracture\r\n\t\t\t\t 6. Affects the formation of enzymes/hormones\r\n\t\t\t\t 7. Stunted growth\r\n\t\t\t\t 8. Metabolism slows down\r\n\t\t\t\t 9. Swelling in the legs/feet\r\n\t\t\t\t 10. Loss of muscle mass\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Chemical test for glucose \r\n\t\t\t\t 1. Add Fehling's/Benedit's solution to the test sample and heat\r\n\t\t\t\t 2. A brick red/reddish brown colouration indicates the presence of glucose\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Soil resources \r\n\t\t\t\t Soil resources are materials/components in the soil that support plant growth \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Agricultural activities that make the soil lose its nutrients \r\n\t\t\t\t 1. Continuous cropping/over cropping\r\n\t\t\t\t 2. Excessive drainage/run off\r\n\t\t\t\t 3. Burning of organic matter/bush burning\r\n\t\t\t\t 4. Irrigation leading to leaching\r\n\t\t\t\t 5. Crop removal\r\n\t\t\t\t 6. Over grazing\r\n\t\t\t\t 7. Poor tillage practices\r\n\t\t\t\t 8. Excessive use of chemical fertilizers"
+    },
+    {
+      "(a)": "Differences between metals and non-metals \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t Metals \r\n\t\t\t\t Non-metals \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Good conductor of heat \r\n\t\t\t\t Poor conductor of heat \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Conducts electricity \r\n\t\t\t\t Does not conduct electricity/poor conductor \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Lustrous \r\n\t\t\t\t Dull \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Malleable \r\n\t\t\t\t Non-malleable \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ductile \r\n\t\t\t\t Brittle \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High density \r\n\t\t\t\t Low density \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t High melting point \r\n\t\t\t\t Low melting point \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Generally hard \r\n\t\t\t\t Generally soft"
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(b)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Active Region \r\n\t\t\t\t The active region is defined as the region in which the emitter-base junction is forward biased and the collector-base junction is reverse biased. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t In the active region of a transistor, the transistor behaves as an amplifier"
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(i)": "Active Region \r\n\t\t\t\t The active region is defined as the region in which the emitter-base junction is forward biased and the collector-base junction is reverse biased. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t In the active region of a transistor, the transistor behaves as an amplifier"
+    },
+    {
+      "(i)": "Active Region \r\n\t\t\t\t The active region is defined as the region in which the emitter-base junction is forward biased and the collector-base junction is reverse biased."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "In the active region of a transistor, the transistor behaves as an amplifier"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(c)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of lack of protein \r\n\t\t\t\t 1. Leads to kwashiorkor\r\n\t\t\t\t 2. Anaemia\r\n\t\t\t\t 3. Slow healing of wounds\r\n\t\t\t\t 4. Hair and nail problem\r\n\t\t\t\t 5. Greater risk of bone fracture\r\n\t\t\t\t 6. Affects the formation of enzymes/hormones\r\n\t\t\t\t 7. Stunted growth\r\n\t\t\t\t 8. Metabolism slows down\r\n\t\t\t\t 9. Swelling in the legs/feet\r\n\t\t\t\t 10. Loss of muscle mass\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Chemical test for glucose \r\n\t\t\t\t 1. Add Fehling's/Benedit's solution to the test sample and heat\r\n\t\t\t\t 2. A brick red/reddish brown colouration indicates the presence of glucose"
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "Effects of lack of protein \r\n\t\t\t\t 1. Leads to kwashiorkor\r\n\t\t\t\t 2. Anaemia\r\n\t\t\t\t 3. Slow healing of wounds\r\n\t\t\t\t 4. Hair and nail problem\r\n\t\t\t\t 5. Greater risk of bone fracture\r\n\t\t\t\t 6. Affects the formation of enzymes/hormones\r\n\t\t\t\t 7. Stunted growth\r\n\t\t\t\t 8. Metabolism slows down\r\n\t\t\t\t 9. Swelling in the legs/feet\r\n\t\t\t\t 10. Loss of muscle mass\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Chemical test for glucose \r\n\t\t\t\t 1. Add Fehling's/Benedit's solution to the test sample and heat\r\n\t\t\t\t 2. A brick red/reddish brown colouration indicates the presence of glucose"
+    },
+    {
+      "(i)": "Effects of lack of protein \r\n\t\t\t\t 1. Leads to kwashiorkor\r\n\t\t\t\t 2. Anaemia\r\n\t\t\t\t 3. Slow healing of wounds\r\n\t\t\t\t 4. Hair and nail problem\r\n\t\t\t\t 5. Greater risk of bone fracture\r\n\t\t\t\t 6. Affects the formation of enzymes/hormones\r\n\t\t\t\t 7. Stunted growth\r\n\t\t\t\t 8. Metabolism slows down\r\n\t\t\t\t 9. Swelling in the legs/feet\r\n\t\t\t\t 10. Loss of muscle mass"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Chemical test for glucose \r\n\t\t\t\t 1. Add Fehling's/Benedit's solution to the test sample and heat\r\n\t\t\t\t 2. A brick red/reddish brown colouration indicates the presence of glucose"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Soil resources \r\n\t\t\t\t Soil resources are materials/components in the soil that support plant growth \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Agricultural activities that make the soil lose its nutrients \r\n\t\t\t\t 1. Continuous cropping/over cropping\r\n\t\t\t\t 2. Excessive drainage/run off\r\n\t\t\t\t 3. Burning of organic matter/bush burning\r\n\t\t\t\t 4. Irrigation leading to leaching\r\n\t\t\t\t 5. Crop removal\r\n\t\t\t\t 6. Over grazing\r\n\t\t\t\t 7. Poor tillage practices\r\n\t\t\t\t 8. Excessive use of chemical fertilizers"
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "Soil resources \r\n\t\t\t\t Soil resources are materials/components in the soil that support plant growth \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Agricultural activities that make the soil lose its nutrients \r\n\t\t\t\t 1. Continuous cropping/over cropping\r\n\t\t\t\t 2. Excessive drainage/run off\r\n\t\t\t\t 3. Burning of organic matter/bush burning\r\n\t\t\t\t 4. Irrigation leading to leaching\r\n\t\t\t\t 5. Crop removal\r\n\t\t\t\t 6. Over grazing\r\n\t\t\t\t 7. Poor tillage practices\r\n\t\t\t\t 8. Excessive use of chemical fertilizers"
+    },
+    {
+      "(i)": "Soil resources \r\n\t\t\t\t Soil resources are materials/components in the soil that support plant growth"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Agricultural activities that make the soil lose its nutrients \r\n\t\t\t\t 1. Continuous cropping/over cropping\r\n\t\t\t\t 2. Excessive drainage/run off\r\n\t\t\t\t 3. Burning of organic matter/bush burning\r\n\t\t\t\t 4. Irrigation leading to leaching\r\n\t\t\t\t 5. Crop removal\r\n\t\t\t\t 6. Over grazing\r\n\t\t\t\t 7. Poor tillage practices\r\n\t\t\t\t 8. Excessive use of chemical fertilizers"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(a)": "List in the  correct  order, the organs through which food passes from the mouth to the anus. \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t State the components of a balanced ration for feeding poultry. \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     Predict the products formed when: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t magnesium solution reacts with dilute hydrochloric acid; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t potassium reacts with water. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  effects of heat on a substance. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals are dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State what would be observed; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State the phenomenon demonstrated in (\u03b1). \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t Order of food passes from the mouth to the anus \r\n\t\t Mouth \u2192 oesophagus \u2192 stomach \u2192 small intestine \u2192 large intestine \u2192 anus \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Components of a balanced ration \r\n\t\t 1. Carbohydrates\r\n\t\t 2. Protein\r\n\t\t 3. Fats and oil\r\n\t\t 4. Minerals\r\n\t\t 5. Vitamins\r\n\t\t 6. Water\r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     Products formed \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Magnesium chloride and hydrogen/MgCl 2  and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t Mg (s)  + 2HCl (aq)  \u2192 MgCl 2 (aq)  + H 2 (g) \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium hydroxide and hydrogen/KOH and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t 2K (s)  + 2H 2 O \u2192 2KOH (aq)  + H 2 (g) \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of heat on a substance \r\n\t\t\t\t 1. Change of state/melts/vapourises\r\n\t\t\t\t 2. Expansion/contraction/change in shape\r\n\t\t\t\t 3. Increasing temperature/decreasing temperature\r\n\t\t\t\t 4. Increase in pressure\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Warmed coloured water moves from the bottom of the beaker upwards \r\n\t\t\t\t\t\t The solution turns to purple in color because of a process called diffusion. \r\n\t\t\t\t\t\t Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t     Phenomenon demonstrated \r\n\t\t\t\t\t\t Heat transfer by convection/ Diffusion"
+    },
+    {
+      "(a)": "List in the  correct  order, the organs through which food passes from the mouth to the anus. \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t State the components of a balanced ration for feeding poultry. \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     Predict the products formed when: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t magnesium solution reacts with dilute hydrochloric acid; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t potassium reacts with water. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  effects of heat on a substance. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals are dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State what would be observed; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State the phenomenon demonstrated in (\u03b1)."
+    },
+    {
+      "(a)": "List in the  correct  order, the organs through which food passes from the mouth to the anus."
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(b)": "State the components of a balanced ration for feeding poultry."
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(c)": "Predict the products formed when: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t magnesium solution reacts with dilute hydrochloric acid; \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t potassium reacts with water."
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "magnesium solution reacts with dilute hydrochloric acid;"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "potassium reacts with water."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  effects of heat on a substance. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals are dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State what would be observed; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State the phenomenon demonstrated in (\u03b1)."
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "State  two  effects of heat on a substance. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals are dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State what would be observed; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State the phenomenon demonstrated in (\u03b1)."
+    },
+    {
+      "(i)": "State  two  effects of heat on a substance."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Potassium permangante crystals are dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State what would be observed; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t State the phenomenon demonstrated in (\u03b1)."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(a)": "Order of food passes from the mouth to the anus \r\n\t\t Mouth \u2192 oesophagus \u2192 stomach \u2192 small intestine \u2192 large intestine \u2192 anus \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Components of a balanced ration \r\n\t\t 1. Carbohydrates\r\n\t\t 2. Protein\r\n\t\t 3. Fats and oil\r\n\t\t 4. Minerals\r\n\t\t 5. Vitamins\r\n\t\t 6. Water\r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t     Products formed \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Magnesium chloride and hydrogen/MgCl 2  and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t Mg (s)  + 2HCl (aq)  \u2192 MgCl 2 (aq)  + H 2 (g) \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium hydroxide and hydrogen/KOH and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t 2K (s)  + 2H 2 O \u2192 2KOH (aq)  + H 2 (g) \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of heat on a substance \r\n\t\t\t\t 1. Change of state/melts/vapourises\r\n\t\t\t\t 2. Expansion/contraction/change in shape\r\n\t\t\t\t 3. Increasing temperature/decreasing temperature\r\n\t\t\t\t 4. Increase in pressure\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Warmed coloured water moves from the bottom of the beaker upwards \r\n\t\t\t\t\t\t The solution turns to purple in color because of a process called diffusion. \r\n\t\t\t\t\t\t Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t     Phenomenon demonstrated \r\n\t\t\t\t\t\t Heat transfer by convection/ Diffusion"
+    },
+    {
+      "(a)": "Order of food passes from the mouth to the anus \r\n\t\t Mouth \u2192 oesophagus \u2192 stomach \u2192 small intestine \u2192 large intestine \u2192 anus"
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(b)": "Components of a balanced ration \r\n\t\t 1. Carbohydrates\r\n\t\t 2. Protein\r\n\t\t 3. Fats and oil\r\n\t\t 4. Minerals\r\n\t\t 5. Vitamins\r\n\t\t 6. Water"
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(c)": "Products formed \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Magnesium chloride and hydrogen/MgCl 2  and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t Mg (s)  + 2HCl (aq)  \u2192 MgCl 2 (aq)  + H 2 (g) \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium hydroxide and hydrogen/KOH and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t 2K (s)  + 2H 2 O \u2192 2KOH (aq)  + H 2 (g)"
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "Magnesium chloride and hydrogen/MgCl 2  and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t Mg (s)  + 2HCl (aq)  \u2192 MgCl 2 (aq)  + H 2 (g)"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Potassium hydroxide and hydrogen/KOH and H 2 \r\n\t\t\t\t Illustration \r\n\t\t\t\t 2K (s)  + 2H 2 O \u2192 2KOH (aq)  + H 2 (g)"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of heat on a substance \r\n\t\t\t\t 1. Change of state/melts/vapourises\r\n\t\t\t\t 2. Expansion/contraction/change in shape\r\n\t\t\t\t 3. Increasing temperature/decreasing temperature\r\n\t\t\t\t 4. Increase in pressure\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Warmed coloured water moves from the bottom of the beaker upwards \r\n\t\t\t\t\t\t The solution turns to purple in color because of a process called diffusion. \r\n\t\t\t\t\t\t Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t     Phenomenon demonstrated \r\n\t\t\t\t\t\t Heat transfer by convection/ Diffusion"
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "Effects of heat on a substance \r\n\t\t\t\t 1. Change of state/melts/vapourises\r\n\t\t\t\t 2. Expansion/contraction/change in shape\r\n\t\t\t\t 3. Increasing temperature/decreasing temperature\r\n\t\t\t\t 4. Increase in pressure\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Potassium permangante crystals dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Warmed coloured water moves from the bottom of the beaker upwards \r\n\t\t\t\t\t\t The solution turns to purple in color because of a process called diffusion. \r\n\t\t\t\t\t\t Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t     Phenomenon demonstrated \r\n\t\t\t\t\t\t Heat transfer by convection/ Diffusion"
+    },
+    {
+      "(i)": "Effects of heat on a substance \r\n\t\t\t\t 1. Change of state/melts/vapourises\r\n\t\t\t\t 2. Expansion/contraction/change in shape\r\n\t\t\t\t 3. Increasing temperature/decreasing temperature\r\n\t\t\t\t 4. Increase in pressure"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Potassium permangante crystals dropped into a beaker of water and warmed: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Warmed coloured water moves from the bottom of the beaker upwards \r\n\t\t\t\t\t\t The solution turns to purple in color because of a process called diffusion. \r\n\t\t\t\t\t\t Diffusion is the movement of molecules or atoms from high concentrated region to low concentrated region. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t     Phenomenon demonstrated \r\n\t\t\t\t\t\t Heat transfer by convection/ Diffusion"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the stages in the life cycle of a mosquito. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the stage at which feeding  does not  take place. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Explain  briefly  why air is regarded as a mixture. \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is a magnetic pole? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  uses of temporary magnets. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t Give  four  reasons for planting crops in rows. \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Stages in the life-cycle of a mosquito \r\n\t\t\t\t 1. Egg\r\n\t\t\t\t 2. Larva\r\n\t\t\t\t 3. Pupa\r\n\t\t\t\t 4. Adult\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Stage at which feeding does not take place \r\n\t\t\t\t Pupa \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Why air is considered as a mixture \r\n\t\t Contains different elements which are physically combined. \r\n\t\t Consist of different substances which can be separated by physical means/methods \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Magnetic pole \r\n\t\t\t\t Point/area on a magnet where the magnetic force is greatest or where all lines of force appear to enter. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Uses of temporary magnets \r\n\t\t\t\t 1. Loudspeaker\r\n\t\t\t\t 2. Electric bell\r\n\t\t\t\t 3. Telephone earpiece\r\n\t\t\t\t 4. Generators/electric motors\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t Reasons for planting crops in rows \r\n\t\t 1. Facilitate easy movement on the farm\r\n\t\t 2. It improves drainage\r\n\t\t 3. It's easy to replace ungerminated seeds\r\n\t\t 4. It keeps plant roots evenly spaced\r\n\t\t 5. Enable larger plant population per unit of plot\r\n\t\t 6. Easy to know plant population on the farm\r\n\t\t 7. Better access to sunlight\r\n\t\t 8. For easy control of pest\r\n\t\t 9. For easy control of diseases\r\n\t\t 10. Allow free movement of air"
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the stages in the life cycle of a mosquito. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the stage at which feeding  does not  take place. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Explain  briefly  why air is regarded as a mixture. \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is a magnetic pole? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  uses of temporary magnets. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t Give  four  reasons for planting crops in rows."
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the stages in the life cycle of a mosquito. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the stage at which feeding  does not  take place."
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(i)": "Name the stages in the life cycle of a mosquito. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the stage at which feeding  does not  take place."
+    },
+    {
+      "(i)": "Name the stages in the life cycle of a mosquito."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Name the stage at which feeding  does not  take place."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(b)": "Explain  briefly  why air is regarded as a mixture."
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(c)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is a magnetic pole? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  uses of temporary magnets."
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "What is a magnetic pole? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  two  uses of temporary magnets."
+    },
+    {
+      "(i)": "What is a magnetic pole?"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "State  two  uses of temporary magnets."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "Give  four  reasons for planting crops in rows."
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Stages in the life-cycle of a mosquito \r\n\t\t\t\t 1. Egg\r\n\t\t\t\t 2. Larva\r\n\t\t\t\t 3. Pupa\r\n\t\t\t\t 4. Adult\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Stage at which feeding does not take place \r\n\t\t\t\t Pupa \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Why air is considered as a mixture \r\n\t\t Contains different elements which are physically combined. \r\n\t\t Consist of different substances which can be separated by physical means/methods \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Magnetic pole \r\n\t\t\t\t Point/area on a magnet where the magnetic force is greatest or where all lines of force appear to enter. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Uses of temporary magnets \r\n\t\t\t\t 1. Loudspeaker\r\n\t\t\t\t 2. Electric bell\r\n\t\t\t\t 3. Telephone earpiece\r\n\t\t\t\t 4. Generators/electric motors\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t Reasons for planting crops in rows \r\n\t\t 1. Facilitate easy movement on the farm\r\n\t\t 2. It improves drainage\r\n\t\t 3. It's easy to replace ungerminated seeds\r\n\t\t 4. It keeps plant roots evenly spaced\r\n\t\t 5. Enable larger plant population per unit of plot\r\n\t\t 6. Easy to know plant population on the farm\r\n\t\t 7. Better access to sunlight\r\n\t\t 8. For easy control of pest\r\n\t\t 9. For easy control of diseases\r\n\t\t 10. Allow free movement of air"
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Stages in the life-cycle of a mosquito \r\n\t\t\t\t 1. Egg\r\n\t\t\t\t 2. Larva\r\n\t\t\t\t 3. Pupa\r\n\t\t\t\t 4. Adult\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Stage at which feeding does not take place \r\n\t\t\t\t Pupa"
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(i)": "Stages in the life-cycle of a mosquito \r\n\t\t\t\t 1. Egg\r\n\t\t\t\t 2. Larva\r\n\t\t\t\t 3. Pupa\r\n\t\t\t\t 4. Adult\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Stage at which feeding does not take place \r\n\t\t\t\t Pupa"
+    },
+    {
+      "(i)": "Stages in the life-cycle of a mosquito \r\n\t\t\t\t 1. Egg\r\n\t\t\t\t 2. Larva\r\n\t\t\t\t 3. Pupa\r\n\t\t\t\t 4. Adult"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Stage at which feeding does not take place \r\n\t\t\t\t Pupa"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(b)": "Why air is considered as a mixture \r\n\t\t Contains different elements which are physically combined. \r\n\t\t Consist of different substances which can be separated by physical means/methods"
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(c)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Magnetic pole \r\n\t\t\t\t Point/area on a magnet where the magnetic force is greatest or where all lines of force appear to enter. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Uses of temporary magnets \r\n\t\t\t\t 1. Loudspeaker\r\n\t\t\t\t 2. Electric bell\r\n\t\t\t\t 3. Telephone earpiece\r\n\t\t\t\t 4. Generators/electric motors"
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "Magnetic pole \r\n\t\t\t\t Point/area on a magnet where the magnetic force is greatest or where all lines of force appear to enter. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Uses of temporary magnets \r\n\t\t\t\t 1. Loudspeaker\r\n\t\t\t\t 2. Electric bell\r\n\t\t\t\t 3. Telephone earpiece\r\n\t\t\t\t 4. Generators/electric motors"
+    },
+    {
+      "(i)": "Magnetic pole \r\n\t\t\t\t Point/area on a magnet where the magnetic force is greatest or where all lines of force appear to enter."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Uses of temporary magnets \r\n\t\t\t\t 1. Loudspeaker\r\n\t\t\t\t 2. Electric bell\r\n\t\t\t\t 3. Telephone earpiece\r\n\t\t\t\t 4. Generators/electric motors"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "Reasons for planting crops in rows \r\n\t\t 1. Facilitate easy movement on the farm\r\n\t\t 2. It improves drainage\r\n\t\t 3. It's easy to replace ungerminated seeds\r\n\t\t 4. It keeps plant roots evenly spaced\r\n\t\t 5. Enable larger plant population per unit of plot\r\n\t\t 6. Easy to know plant population on the farm\r\n\t\t 7. Better access to sunlight\r\n\t\t 8. For easy control of pest\r\n\t\t 9. For easy control of diseases\r\n\t\t 10. Allow free movement of air"
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  two  elements which make the teeth of mammals strong. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  two  common diseases of the human teeth. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t State  three  reasons why sandy soil  cannot  support effective plant growth. \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t An atom has 13 protons and 14 neutrons: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t draw and label the structure of the atom. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State its valency. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  ways in which fluid pressure is applied in everyday activities. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  substance that is an insulator. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Elements that make the teeth strong \r\n\t\t\t\t 1. Calcium\r\n\t\t\t\t 2. Flourine\r\n\t\t\t\t 3. Phosphorus\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Common diseases of the human teeth \r\n\t\t\t\t 1. Dental caries/cavity/tooth decay\r\n\t\t\t\t 2. Gum disease/gingivitis/periodontal disease\r\n\t\t\t\t 3. Cancer\r\n\t\t\t\t 4. Plague\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Reasons why sandy soil cannot support effective plant growth \r\n\t\t 1. Cannot hold enough water/easy for water to filter out\r\n\t\t 2. Easily eroded\r\n\t\t 3. Heats up easily/ dries out easily\r\n\t\t 4. Poor in nutrient content/less fertile\r\n\t\t 5. Succeptible to leaching\r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Valency = 3 (three) \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ways in which fluid pressure is applied in everyday activities \r\n\t\t\t\t 1. Water pumps\r\n\t\t\t\t 2. Car brakes\r\n\t\t\t\t 3. Drinking straw\r\n\t\t\t\t 4. Pumping tyre\r\n\t\t\t\t 5. Syringes\r\n\t\t\t\t 6. Siphon\r\n\t\t\t\t 7. Enema\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Substances that are an insulators \r\n\t\t\t\t 1.Dry wood\r\n\t\t\t\t 2. Air\r\n\t\t\t\t 3. Rubber\r\n\t\t\t\t 4. Plastic\r\n\t\t\t\t 5. Glass\r\n\t\t\t\t 6. Cloth"
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  two  elements which make the teeth of mammals strong. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  two  common diseases of the human teeth. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t State  three  reasons why sandy soil  cannot  support effective plant growth. \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t An atom has 13 protons and 14 neutrons: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t draw and label the structure of the atom. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State its valency. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  ways in which fluid pressure is applied in everyday activities. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  substance that is an insulator."
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  two  elements which make the teeth of mammals strong. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  two  common diseases of the human teeth."
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(i)": "Name  two  elements which make the teeth of mammals strong. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name  two  common diseases of the human teeth."
+    },
+    {
+      "(i)": "Name  two  elements which make the teeth of mammals strong."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Name  two  common diseases of the human teeth."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(b)": "State  three  reasons why sandy soil  cannot  support effective plant growth."
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(c)": "An atom has 13 protons and 14 neutrons: \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t draw and label the structure of the atom. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State its valency."
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "draw and label the structure of the atom."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "State its valency."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  ways in which fluid pressure is applied in everyday activities. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  substance that is an insulator."
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "State  three  ways in which fluid pressure is applied in everyday activities. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  substance that is an insulator."
+    },
+    {
+      "(i)": "State  three  ways in which fluid pressure is applied in everyday activities."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "State  one  substance that is an insulator."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Elements that make the teeth strong \r\n\t\t\t\t 1. Calcium\r\n\t\t\t\t 2. Flourine\r\n\t\t\t\t 3. Phosphorus\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Common diseases of the human teeth \r\n\t\t\t\t 1. Dental caries/cavity/tooth decay\r\n\t\t\t\t 2. Gum disease/gingivitis/periodontal disease\r\n\t\t\t\t 3. Cancer\r\n\t\t\t\t 4. Plague\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t Reasons why sandy soil cannot support effective plant growth \r\n\t\t 1. Cannot hold enough water/easy for water to filter out\r\n\t\t 2. Easily eroded\r\n\t\t 3. Heats up easily/ dries out easily\r\n\t\t 4. Poor in nutrient content/less fertile\r\n\t\t 5. Succeptible to leaching\r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Valency = 3 (three) \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ways in which fluid pressure is applied in everyday activities \r\n\t\t\t\t 1. Water pumps\r\n\t\t\t\t 2. Car brakes\r\n\t\t\t\t 3. Drinking straw\r\n\t\t\t\t 4. Pumping tyre\r\n\t\t\t\t 5. Syringes\r\n\t\t\t\t 6. Siphon\r\n\t\t\t\t 7. Enema\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Substances that are an insulators \r\n\t\t\t\t 1.Dry wood\r\n\t\t\t\t 2. Air\r\n\t\t\t\t 3. Rubber\r\n\t\t\t\t 4. Plastic\r\n\t\t\t\t 5. Glass\r\n\t\t\t\t 6. Cloth"
+    },
+    {
+      "(a)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Elements that make the teeth strong \r\n\t\t\t\t 1. Calcium\r\n\t\t\t\t 2. Flourine\r\n\t\t\t\t 3. Phosphorus\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Common diseases of the human teeth \r\n\t\t\t\t 1. Dental caries/cavity/tooth decay\r\n\t\t\t\t 2. Gum disease/gingivitis/periodontal disease\r\n\t\t\t\t 3. Cancer\r\n\t\t\t\t 4. Plague"
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(i)": "Elements that make the teeth strong \r\n\t\t\t\t 1. Calcium\r\n\t\t\t\t 2. Flourine\r\n\t\t\t\t 3. Phosphorus\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Common diseases of the human teeth \r\n\t\t\t\t 1. Dental caries/cavity/tooth decay\r\n\t\t\t\t 2. Gum disease/gingivitis/periodontal disease\r\n\t\t\t\t 3. Cancer\r\n\t\t\t\t 4. Plague"
+    },
+    {
+      "(i)": "Elements that make the teeth strong \r\n\t\t\t\t 1. Calcium\r\n\t\t\t\t 2. Flourine\r\n\t\t\t\t 3. Phosphorus"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Common diseases of the human teeth \r\n\t\t\t\t 1. Dental caries/cavity/tooth decay\r\n\t\t\t\t 2. Gum disease/gingivitis/periodontal disease\r\n\t\t\t\t 3. Cancer\r\n\t\t\t\t 4. Plague"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(b)": "Reasons why sandy soil cannot support effective plant growth \r\n\t\t 1. Cannot hold enough water/easy for water to filter out\r\n\t\t 2. Easily eroded\r\n\t\t 3. Heats up easily/ dries out easily\r\n\t\t 4. Poor in nutrient content/less fertile\r\n\t\t 5. Succeptible to leaching"
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(c)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Valency = 3 (three)"
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "(ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Valency = 3 (three)"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Valency = 3 (three)"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Ways in which fluid pressure is applied in everyday activities \r\n\t\t\t\t 1. Water pumps\r\n\t\t\t\t 2. Car brakes\r\n\t\t\t\t 3. Drinking straw\r\n\t\t\t\t 4. Pumping tyre\r\n\t\t\t\t 5. Syringes\r\n\t\t\t\t 6. Siphon\r\n\t\t\t\t 7. Enema\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Substances that are an insulators \r\n\t\t\t\t 1.Dry wood\r\n\t\t\t\t 2. Air\r\n\t\t\t\t 3. Rubber\r\n\t\t\t\t 4. Plastic\r\n\t\t\t\t 5. Glass\r\n\t\t\t\t 6. Cloth"
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "Ways in which fluid pressure is applied in everyday activities \r\n\t\t\t\t 1. Water pumps\r\n\t\t\t\t 2. Car brakes\r\n\t\t\t\t 3. Drinking straw\r\n\t\t\t\t 4. Pumping tyre\r\n\t\t\t\t 5. Syringes\r\n\t\t\t\t 6. Siphon\r\n\t\t\t\t 7. Enema\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Substances that are an insulators \r\n\t\t\t\t 1.Dry wood\r\n\t\t\t\t 2. Air\r\n\t\t\t\t 3. Rubber\r\n\t\t\t\t 4. Plastic\r\n\t\t\t\t 5. Glass\r\n\t\t\t\t 6. Cloth"
+    },
+    {
+      "(i)": "Ways in which fluid pressure is applied in everyday activities \r\n\t\t\t\t 1. Water pumps\r\n\t\t\t\t 2. Car brakes\r\n\t\t\t\t 3. Drinking straw\r\n\t\t\t\t 4. Pumping tyre\r\n\t\t\t\t 5. Syringes\r\n\t\t\t\t 6. Siphon\r\n\t\t\t\t 7. Enema"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Substances that are an insulators \r\n\t\t\t\t 1.Dry wood\r\n\t\t\t\t 2. Air\r\n\t\t\t\t 3. Rubber\r\n\t\t\t\t 4. Plastic\r\n\t\t\t\t 5. Glass\r\n\t\t\t\t 6. Cloth"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(a)": "Explain the term  mixed cropping . \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is an  alloy ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the constituent elements in brass. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  effects of dumping waste materials into water bodies. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  function of  each  of the following factors in photosynthesis: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t chlorophyll; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t water. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is  work ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     A block of wood of mass 10 kg was dragged through a distance of 3.2 m when a force of 20 N was applied. Calculate the work done. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t  Show Solution\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t \r\n\t \r\n\t\t (a) \r\n\t \r\n\t \r\n\t\t Mixed cropping \r\n\t\t A system of farming in which  two or more crops  are grown on the  same piece of land  at the  same time/simultaneously \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Alloy \r\n\t\t\t\t An alloy is a uniform mixture of two or more metals or a metal and non-metal. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Brass  contains  Copper  and  Zinc \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of dumping waste materials into water bodies \r\n\t\t\t\t 1. Decompose to give the water bad odour\r\n\t\t\t\t 2. Introduces germs/diseases into the water\r\n\t\t\t\t 3. Reduces oxygen level in the water\r\n\t\t\t\t 4. Causes flooding\r\n\t\t\t\t 5. Makes water dirty/unsafe for drinking/pollutes water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of chlorophyll in photosynthesis \r\n\t\t\t\t\t\t Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of water in photosynthesis \r\n\t\t\t\t\t\t Used to produce glucose/produces oxygen \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Work \r\n\t\t\t\t Work is said to be done when a  force moves a body  through a  distance  in the direction of the force \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Work =  Force  x  Distance \r\n\t\t\t\t Force = 20 N\r\n\t\t\t\t Distance = 3.2 m\r\n\t\t\t\t \r\n\t\t\t\t Work done = 3.2 m x 20 N = 64 J"
+    },
+    {
+      "(a)": "Explain the term  mixed cropping . \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is an  alloy ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the constituent elements in brass. \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  effects of dumping waste materials into water bodies. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  function of  each  of the following factors in photosynthesis: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t chlorophyll; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t water. \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is  work ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     A block of wood of mass 10 kg was dragged through a distance of 3.2 m when a force of 20 N was applied. Calculate the work done."
+    },
+    {
+      "(a)": "Explain the term  mixed cropping ."
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(b)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is an  alloy ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the constituent elements in brass."
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(i)": "What is an  alloy ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Name the constituent elements in brass."
+    },
+    {
+      "(i)": "What is an  alloy ?"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Name the constituent elements in brass."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(c)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  three  effects of dumping waste materials into water bodies. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  function of  each  of the following factors in photosynthesis: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t chlorophyll; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t water."
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "State  three  effects of dumping waste materials into water bodies. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t State  one  function of  each  of the following factors in photosynthesis: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t chlorophyll; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t water."
+    },
+    {
+      "(i)": "State  three  effects of dumping waste materials into water bodies."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "State  one  function of  each  of the following factors in photosynthesis: \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t chlorophyll; \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t water."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t What is  work ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     A block of wood of mass 10 kg was dragged through a distance of 3.2 m when a force of 20 N was applied. Calculate the work done."
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "What is  work ? \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     A block of wood of mass 10 kg was dragged through a distance of 3.2 m when a force of 20 N was applied. Calculate the work done."
+    },
+    {
+      "(i)": "What is  work ?"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "A block of wood of mass 10 kg was dragged through a distance of 3.2 m when a force of 20 N was applied. Calculate the work done."
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(a)": "Mixed cropping \r\n\t\t A system of farming in which  two or more crops  are grown on the  same piece of land  at the  same time/simultaneously \r\n\t \r\n \r\n \r\n\t \r\n\t\t (b) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Alloy \r\n\t\t\t\t An alloy is a uniform mixture of two or more metals or a metal and non-metal. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Brass  contains  Copper  and  Zinc \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (c) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of dumping waste materials into water bodies \r\n\t\t\t\t 1. Decompose to give the water bad odour\r\n\t\t\t\t 2. Introduces germs/diseases into the water\r\n\t\t\t\t 3. Reduces oxygen level in the water\r\n\t\t\t\t 4. Causes flooding\r\n\t\t\t\t 5. Makes water dirty/unsafe for drinking/pollutes water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of chlorophyll in photosynthesis \r\n\t\t\t\t\t\t Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of water in photosynthesis \r\n\t\t\t\t\t\t Used to produce glucose/produces oxygen \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t \r\n \r\n \r\n\t \r\n\t\t (d) \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Work \r\n\t\t\t\t Work is said to be done when a  force moves a body  through a  distance  in the direction of the force \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Work =  Force  x  Distance \r\n\t\t\t\t Force = 20 N\r\n\t\t\t\t Distance = 3.2 m\r\n\t\t\t\t \r\n\t\t\t\t Work done = 3.2 m x 20 N = 64 J"
+    },
+    {
+      "(a)": "Mixed cropping \r\n\t\t A system of farming in which  two or more crops  are grown on the  same piece of land  at the  same time/simultaneously"
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(a)": ""
+    },
+    {
+      "(b)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Alloy \r\n\t\t\t\t An alloy is a uniform mixture of two or more metals or a metal and non-metal. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Brass  contains  Copper  and  Zinc"
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(b)": ""
+    },
+    {
+      "(i)": "Alloy \r\n\t\t\t\t An alloy is a uniform mixture of two or more metals or a metal and non-metal. \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Brass  contains  Copper  and  Zinc"
+    },
+    {
+      "(i)": "Alloy \r\n\t\t\t\t An alloy is a uniform mixture of two or more metals or a metal and non-metal."
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Brass  contains  Copper  and  Zinc"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(c)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Effects of dumping waste materials into water bodies \r\n\t\t\t\t 1. Decompose to give the water bad odour\r\n\t\t\t\t 2. Introduces germs/diseases into the water\r\n\t\t\t\t 3. Reduces oxygen level in the water\r\n\t\t\t\t 4. Causes flooding\r\n\t\t\t\t 5. Makes water dirty/unsafe for drinking/pollutes water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of chlorophyll in photosynthesis \r\n\t\t\t\t\t\t Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of water in photosynthesis \r\n\t\t\t\t\t\t Used to produce glucose/produces oxygen"
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(c)": ""
+    },
+    {
+      "(i)": "Effects of dumping waste materials into water bodies \r\n\t\t\t\t 1. Decompose to give the water bad odour\r\n\t\t\t\t 2. Introduces germs/diseases into the water\r\n\t\t\t\t 3. Reduces oxygen level in the water\r\n\t\t\t\t 4. Causes flooding\r\n\t\t\t\t 5. Makes water dirty/unsafe for drinking/pollutes water\r\n\t\t\t\t \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of chlorophyll in photosynthesis \r\n\t\t\t\t\t\t Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of water in photosynthesis \r\n\t\t\t\t\t\t Used to produce glucose/produces oxygen"
+    },
+    {
+      "(i)": "Effects of dumping waste materials into water bodies \r\n\t\t\t\t 1. Decompose to give the water bad odour\r\n\t\t\t\t 2. Introduces germs/diseases into the water\r\n\t\t\t\t 3. Reduces oxygen level in the water\r\n\t\t\t\t 4. Causes flooding\r\n\t\t\t\t 5. Makes water dirty/unsafe for drinking/pollutes water"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "(\u03b1) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of chlorophyll in photosynthesis \r\n\t\t\t\t\t\t Absorbs/traps sunlight/converts CO 2  and H 2 O into glucose \r\n\t\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t (\u03b2) \r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t Function of water in photosynthesis \r\n\t\t\t\t\t\t Used to produce glucose/produces oxygen"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(d)": "(i) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t Work \r\n\t\t\t\t Work is said to be done when a  force moves a body  through a  distance  in the direction of the force \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Work =  Force  x  Distance \r\n\t\t\t\t Force = 20 N\r\n\t\t\t\t Distance = 3.2 m\r\n\t\t\t\t \r\n\t\t\t\t Work done = 3.2 m x 20 N = 64 J"
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(d)": ""
+    },
+    {
+      "(i)": "Work \r\n\t\t\t\t Work is said to be done when a  force moves a body  through a  distance  in the direction of the force \r\n\t\t\t \r\n\t\t \r\n\t\t \r\n\t\t\t \r\n\t\t\t\t (ii) \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t     Work =  Force  x  Distance \r\n\t\t\t\t Force = 20 N\r\n\t\t\t\t Distance = 3.2 m\r\n\t\t\t\t \r\n\t\t\t\t Work done = 3.2 m x 20 N = 64 J"
+    },
+    {
+      "(i)": "Work \r\n\t\t\t\t Work is said to be done when a  force moves a body  through a  distance  in the direction of the force"
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(i)": ""
+    },
+    {
+      "(ii)": "Work =  Force  x  Distance \r\n\t\t\t\t Force = 20 N\r\n\t\t\t\t Distance = 3.2 m\r\n\t\t\t\t \r\n\t\t\t\t Work done = 3.2 m x 20 N = 64 J"
+    },
+    {
+      "(ii)": ""
+    },
+    {
+      "(ii)": ""
+    }
+  ],
+  "diagram": null
+}
+]
