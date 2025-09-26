@@ -17,6 +17,45 @@ class KuulchatSpider(scrapy.Spider):
         text = html.unescape(text)
         # Clean up whitespace
         text = re.sub(r"\s+", " ", text).strip()
+        # Fix chemical formula formatting
+        text = self.fix_chemical_formulas(text)
+        return text
+
+    def fix_chemical_formulas(self, text):
+        """Fix chemical formula formatting by removing spaces in ion notations"""
+        if not text:
+            return text
+
+        # Fix common chemical ion patterns with spaces
+        # Pattern: Element + space + number + space + charge
+        text = re.sub(r"\b([A-Z][a-z]?)\s+(\d+)\s*([+-])\s*", r"\1\2\3", text)
+
+        # Pattern: Element + space + charge (no number)
+        text = re.sub(r"\b([A-Z][a-z]?)\s+([+-])\s*", r"\1\2", text)
+
+        # Pattern: Compound + space + charge
+        text = re.sub(
+            r"\b([A-Z][a-z]?[A-Z]?[a-z]?)\s+(\d*)\s*([+-])\s*", r"\1\2\3", text
+        )
+
+        # Specific common ions
+        chemical_fixes = {
+            "Mg 2+": "Mg2+",
+            "Ca 2+": "Ca2+",
+            "Na +": "Na+",
+            "K +": "K+",
+            "OH -": "OH-",
+            "CO 3 2-": "CO32-",
+            "SO 4 2-": "SO42-",
+            "NO 3 -": "NO3-",
+            "Cl -": "Cl-",
+            "Na +1": "Na+1",
+            "Na + ": "Na+",
+        }
+
+        for incorrect, correct in chemical_fixes.items():
+            text = text.replace(incorrect, correct)
+
         return text
 
     def extract_full_text(self, element):
@@ -176,22 +215,36 @@ class KuulchatSpider(scrapy.Spider):
         return question_stem
 
     def extract_options_from_text(self, text):
-        """Extract options A, B, C, D from text"""
+        """Extract options A, B, C, D from text with improved pattern matching"""
         options = {"A": "", "B": "", "C": "", "D": ""}
 
-        # Find all option patterns
-        option_matches = re.finditer(r"([A-D])\.\s*([^A-D]*?)(?=\s+[A-D]\.|$)", text)
+        # Try multiple patterns to capture options more reliably
+        patterns = [
+            # Standard pattern: A. option text
+            r"([A-D])\.\s*([^A-D]*?)(?=\s+[A-D]\.|$)",
+            # Alternative pattern for cases with line breaks or special formatting
+            r"([A-D])\s*\.\s*([^A-D]*?)(?=\s*[A-D]\s*\.|$)",
+            # Pattern for options that might be on separate lines
+            r"([A-D])\s*\.?\s*([^\n]*?)(?=\s*[A-D]\s*\.|\n[A-D]\s*\.|$)",
+        ]
 
-        for match in option_matches:
-            letter = match.group(1)
-            option_text = match.group(2).strip()
+        for pattern in patterns:
+            option_matches = re.finditer(pattern, text, re.MULTILINE | re.DOTALL)
 
-            # Clean up option text
-            option_text = re.sub(r"\s+", " ", option_text)
-            option_text = re.sub(r"\.$", "", option_text)  # Remove trailing period
+            for match in option_matches:
+                letter = match.group(1)
+                option_text = match.group(2).strip()
 
-            if letter in options and option_text:
-                options[letter] = option_text
+                # Clean up option text
+                option_text = re.sub(r"\s+", " ", option_text)
+                option_text = re.sub(r"\.$", "", option_text)  # Remove trailing period
+                option_text = re.sub(
+                    r"^\s*[-•]\s*", "", option_text
+                )  # Remove bullet points
+
+                # Only update if we found a non-empty option and haven't filled this letter yet
+                if letter in options and option_text and not options[letter]:
+                    options[letter] = option_text
 
         return options
 
@@ -225,10 +278,26 @@ class KuulchatSpider(scrapy.Spider):
         if answer_letter:
             answer_info["answer"] = answer_letter
 
+        # Clean up solution text by removing "Solution" prefix
+        clean_solution = self.clean_solution_text(clean_solution)
+
         # Always include the solution text
         answer_info["solution"] = clean_solution
 
         return answer_info
+
+    def clean_solution_text(self, solution_text):
+        """Clean solution text by removing prefixes and extra whitespace"""
+        if not solution_text:
+            return ""
+
+        # Remove "Solution" prefix (case insensitive)
+        cleaned = re.sub(r"^solution\s*", "", solution_text, flags=re.IGNORECASE)
+
+        # Clean up extra whitespace
+        cleaned = re.sub(r"\s+", " ", cleaned).strip()
+
+        return cleaned
 
     def extract_answer_from_html(self, container):
         """Extract correct answer letter from HTML structure"""
@@ -256,16 +325,40 @@ class KuulchatSpider(scrapy.Spider):
         return None
 
     def extract_all_diagrams(self, container):
-        """Extract all diagrams/images from container"""
+        """Extract all diagrams/images from container, removing duplicates and fixing URLs"""
         diagrams = []
         img_elements = container.css("img")
 
         for img in img_elements:
             img_src = img.css("::attr(src)").get()
             if img_src and not self.is_ad_image(img_src):
+                # Fix URL encoding for spaces and special characters
+                img_src = self.fix_image_url(img_src)
                 diagrams.append(img_src)
 
-        return diagrams
+        # Remove duplicates while preserving order
+        unique_diagrams = []
+        seen = set()
+        for diagram in diagrams:
+            if diagram not in seen:
+                seen.add(diagram)
+                unique_diagrams.append(diagram)
+
+        return unique_diagrams
+
+    def fix_image_url(self, img_src):
+        """Fix image URL encoding issues, especially spaces in filenames"""
+        import urllib.parse
+
+        # Parse the URL to separate the base and filename
+        if "/" in img_src:
+            base_url, filename = img_src.rsplit("/", 1)
+            # URL encode only the filename part to handle spaces and special characters
+            encoded_filename = urllib.parse.quote(filename)
+            return f"{base_url}/{encoded_filename}"
+        else:
+            # If no path separator, encode the entire string
+            return urllib.parse.quote(img_src)
 
     def is_ad_image(self, img_src):
         """Check if an image is likely an advertisement"""
