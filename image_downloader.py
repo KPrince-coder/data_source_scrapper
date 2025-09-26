@@ -76,11 +76,6 @@ class ImageDownloader:
             True if successful, False otherwise
         """
         try:
-            # Validate URL scheme
-            parsed_url = urllib.parse.urlparse(url)
-            if parsed_url.scheme not in ["http", "https"]:
-                raise ValueError(f"Unsupported URL scheme: {parsed_url.scheme}")
-
             # Create directory if it doesn't exist
             filepath.parent.mkdir(parents=True, exist_ok=True)
 
@@ -138,6 +133,7 @@ class ImageDownloader:
 
             # Download the image
             if self.download_image(image_url, filepath):
+                # Store the local path, but don't modify the original question's diagrams list
                 relative_filepath = filepath.relative_to(self.base_output_dir)
                 self.downloaded_images[image_url] = str(relative_filepath)
                 downloaded_paths.append(str(relative_filepath))
@@ -156,7 +152,7 @@ class ImageDownloader:
         Returns:
             A tuple containing:
             - Summary statistics of the download process
-            - The updated questions data with local image paths
+            - The original questions data (not modified with local image paths)
         """
         stats = {
             "total_questions": 0,
@@ -166,12 +162,16 @@ class ImageDownloader:
             "failed_downloads": 0,
             "objective_questions": 0,
             "theory_questions": 0,
-            "updated_questions_json": False,  # To indicate if the questions.json was updated
+            "updated_questions_json": False,  # No longer updating the questions_json directly
         }
 
-        updated_questions_data = questions_data.copy()
+        # Create a deep copy to avoid modifying the original questions_data
+        # This is important because we want to preserve remote URLs in the JSON/CSV output
+        # However, the download process still needs to iterate through the diagrams
+        # to perform the actual download.
 
-        for q_type, questions_list in updated_questions_data.items():
+        # Iterate through a copy for stats, but don't modify the original
+        for q_type, questions_list in questions_data.items():
             for question in questions_list:
                 stats["total_questions"] += 1
                 if q_type == "objectives":
@@ -183,16 +183,20 @@ class ImageDownloader:
                     stats["questions_with_images"] += 1
                     stats["total_images"] += len(question["diagrams"])
 
-                    # Download images for this question and get updated paths
+                    # Download images for this question
+                    # The diagrams list in the question object is NOT updated here
+                    # as per the new requirement to preserve remote URLs in the JSON/CSV output.
                     downloaded_paths = self.process_question_images(question, q_type)
-
-                    # Update the diagrams in the question object with local paths
-                    question["diagrams"] = downloaded_paths
 
                     stats["downloaded_images"] += len(downloaded_paths)
                     stats["failed_downloads"] += len(question["diagrams"]) - len(
                         downloaded_paths
                     )
 
-        stats["updated_questions_json"] = True
-        return stats, updated_questions_data
+        stats["updated_questions_json"] = (
+            False  # Confirming no direct update to questions_json
+        )
+        return (
+            stats,
+            questions_data,
+        )  # Return original questions_data, not a modified one

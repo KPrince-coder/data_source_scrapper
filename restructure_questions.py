@@ -4,12 +4,12 @@ import os
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, Dict
 
 from image_downloader import ImageDownloader
 
 
-def flatten_question(question: dict[Any, Any], q_type: str) -> dict[str, Any]:
+def flatten_question(question: Dict[Any, Any], q_type: str) -> Dict[str, Any]:
     """Flattens a nested question dictionary for CSV output."""
     flat_question = {
         "type": q_type,
@@ -86,19 +86,19 @@ def restructure_json(input_file: str, subject: str, year: str, output_dir: Path)
     downloader = ImageDownloader(subject, year, output_dir)
 
     # Download images and update question paths
-    download_stats, updated_questions_data = downloader.download_and_update_images(
-        restructured_data
+    download_stats, original_questions_data_for_output = (
+        downloader.download_and_update_images(restructured_data)
     )
 
     # Write restructured questions JSON
     output_questions_filename = f"{subject}_{year}.json"
     output_questions_path = output_dir / output_questions_filename
     with open(output_questions_path, "w", encoding="utf-8") as f:
-        json.dump(updated_questions_data, f, indent=2, ensure_ascii=False)
+        json.dump(original_questions_data_for_output, f, indent=2, ensure_ascii=False)
 
     # Prepare data for CSV and write CSV
     flattened_data = []
-    for q_type, questions_list in updated_questions_data.items():
+    for q_type, questions_list in original_questions_data_for_output.items():
         for question in questions_list:
             flattened_data.append(flatten_question(question, q_type))
 
@@ -107,7 +107,7 @@ def restructure_json(input_file: str, subject: str, year: str, output_dir: Path)
         csv_path = output_dir / csv_filename
 
         # Determine all possible fieldnames dynamically
-        all_fieldnames: set[Any] = set()
+        all_fieldnames = set()
         for row in flattened_data:
             all_fieldnames.update(row.keys())
 
