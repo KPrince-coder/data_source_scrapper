@@ -1,0 +1,18 @@
+
+Image Download Report
+====================
+
+Total Questions: 46
+Questions with Images: 11
+- Objective Questions: 9
+- Theory Questions: 2
+
+Total Images: 16
+Successfully Downloaded: 16
+Failed Downloads: 0
+
+Success Rate: 100.0%
+
+Images are organized in:
+- images\objective/ (Objective questions)
+- images\theory/ (Theory questions)

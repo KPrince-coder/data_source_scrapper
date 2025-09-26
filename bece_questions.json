@@ -11,7 +11,7 @@
     "D": "electrical to light"
   },
   "diagrams": [],
-  "solution": "Solution Light energy is converted into electrical energy.",
+  "solution": "Light energy is converted into electrical energy.",
   "answer": "B"
 },
 {
@@ -26,7 +26,7 @@
     "D": "seed germination"
   },
   "diagrams": [],
-  "solution": "Solution A flowering plant is simply a plant that produces flowers, and these flowers turn into fruits. Flowering plants go through several stages: Germination, Pollination, Fertilization, and Dispersal. The final stage in a flowering plant life cycle is seed dispersal ."
+  "solution": "A flowering plant is simply a plant that produces flowers, and these flowers turn into fruits. Flowering plants go through several stages: Germination, Pollination, Fertilization, and Dispersal. The final stage in a flowering plant life cycle is seed dispersal ."
 },
 {
   "section": "objective",
@@ -40,7 +40,7 @@
     "D": "mixture of all soil particles"
   },
   "diagrams": [],
-  "solution": "Solution Soil texture (such as loam, sandy loam or clay) refers to the proportion of sand, silt and clay sized particles that make up the mineral fraction of the soil."
+  "solution": "Soil texture (such as loam, sandy loam or clay) refers to the proportion of sand, silt and clay sized particles that make up the mineral fraction of the soil."
 },
 {
   "section": "objective",
@@ -54,7 +54,7 @@
     "D": "Lighting a match"
   },
   "diagrams": [],
-  "solution": "Solution Physical changes: The substance involved in a physical change is structurally identical before and after the change. Texture, shape, temperature, and a change in the state of matter are examples of physical changes. Magnetization of iron is a physical change as it is a temporary change."
+  "solution": "Physical changes: The substance involved in a physical change is structurally identical before and after the change. Texture, shape, temperature, and a change in the state of matter are examples of physical changes. Magnetization of iron is a physical change as it is a temporary change."
 },
 {
   "section": "objective",
@@ -68,7 +68,7 @@
     "D": "weevil"
   },
   "diagrams": [],
-  "solution": "Solution A storage pest is an insect or other animal that damages or destroys stored food or other stored valuable organic matter. Grain borers, weevils and Angoumois grain moths are able to feed on whole, healthy grains, they are considered storage pests"
+  "solution": "A storage pest is an insect or other animal that damages or destroys stored food or other stored valuable organic matter. Grain borers, weevils and Angoumois grain moths are able to feed on whole, healthy grains, they are considered storage pests"
 },
 {
   "section": "objective",
@@ -82,7 +82,7 @@
     "D": "residue and condensate"
   },
   "diagrams": [],
-  "solution": "Solution The solid that remains on the filter paper is called the residue , and the liquid that passes through the filter paper is called the filtrate"
+  "solution": "The solid that remains on the filter paper is called the residue , and the liquid that passes through the filter paper is called the filtrate"
 },
 {
   "section": "objective",
@@ -96,7 +96,7 @@
     "D": "flashes and stays on"
   },
   "diagrams": [],
-  "solution": "Solution The bulb will light up for an instant when the capacitor starts charging. Initially when key is closed, the capacitor acts as short-circuit, so bulb will light up. But finally the capacitor becomes fully charged, so it will act as open circuit, so bulb will not glow."
+  "solution": "The bulb will light up for an instant when the capacitor starts charging. Initially when key is closed, the capacitor acts as short-circuit, so bulb will light up. But finally the capacitor becomes fully charged, so it will act as open circuit, so bulb will not glow."
 },
 {
   "section": "objective",
@@ -104,13 +104,13 @@
   "number": 8,
   "question": "The ion that causes hardness in water is",
   "options": {
-    "A": "",
-    "B": "Mg 2+ ",
-    "C": "Na + ",
-    "D": "OH - "
+    "A": "CO32- ",
+    "B": "Mg2+",
+    "C": "Na+",
+    "D": "OH-"
   },
   "diagrams": [],
-  "solution": "Solution Calcium (Ca 2+ ) and magnesium (Mg 2+ ) are the causes the hardness of water."
+  "solution": "Calcium (Ca2+) and magnesium (Mg2+) are the causes the hardness of water."
 },
 {
   "section": "objective",
@@ -124,7 +124,7 @@
     "D": "I, II and III"
   },
   "diagrams": [],
-  "solution": "Solution Matter is Anything that can be weighed and takes up space. Therefore, the matter has both mass and volume. The cosmos is made up of a wide variety of substances and forms of stuff. Physical properties like color or mass. Chemical properties like how one form of matter interacts with another type of matter, are used by chemists to define matter. All the above has mass (weight) and can occupy space."
+  "solution": "Matter is Anything that can be weighed and takes up space. Therefore, the matter has both mass and volume. The cosmos is made up of a wide variety of substances and forms of stuff. Physical properties like color or mass. Chemical properties like how one form of matter interacts with another type of matter, are used by chemists to define matter. All the above has mass (weight) and can occupy space."
 },
 {
   "section": "objective",
@@ -138,7 +138,7 @@
     "D": "that fruits do not get rotten"
   },
   "diagrams": [],
-  "solution": "Solution Staking tomatoes provides support to help keep plants off the ground while assisting in their upward growth habit. Because many diseases and insects start at the ground level, using a structured system to keep them away from ground contact is prudent. Staking can also be used to prevent the fruit from beginning to rot as it sits on the ground as the stalk grows overtime."
+  "solution": "Staking tomatoes provides support to help keep plants off the ground while assisting in their upward growth habit. Because many diseases and insects start at the ground level, using a structured system to keep them away from ground contact is prudent. Staking can also be used to prevent the fruit from beginning to rot as it sits on the ground as the stalk grows overtime."
 },
 {
   "section": "objective",
@@ -152,7 +152,7 @@
     "D": "is compact when dry"
   },
   "diagrams": [],
-  "solution": "Solution Clayey soil rather swells when wet and shrinks when dry"
+  "solution": "Clayey soil rather swells when wet and shrinks when dry"
 },
 {
   "section": "objective",
@@ -166,7 +166,7 @@
     "D": "waste energy"
   },
   "diagrams": [],
-  "solution": "Solution Old devices use much more energy than new models"
+  "solution": "Old devices use much more energy than new models"
 },
 {
   "section": "objective",
@@ -180,9 +180,9 @@
     "D": "Venus and Saturn"
   },
   "diagrams": [
-    "https://kuulchat.com/qns/planets closer to the sun.jpg"
+    "https://kuulchat.com/qns/planets%20closer%20to%20the%20sun.jpg"
   ],
-  "solution": "Solution Venus and Mercury are more closer to the sun, Mars & Saturn are far away from the sun but more closer to the Earth"
+  "solution": "Venus and Mercury are more closer to the sun, Mars & Saturn are far away from the sun but more closer to the Earth"
 },
 {
   "section": "objective",
@@ -196,7 +196,7 @@
     "D": "I, II and III"
   },
   "diagrams": [],
-  "solution": "Solution Pascal's law states that pressure in liquids is transmitted equally in all directions. Pressure in liquids does not depend on the surface area. The pressure exerted by a liquid increases with depth."
+  "solution": "Pascal's law states that pressure in liquids is transmitted equally in all directions. Pressure in liquids does not depend on the surface area. The pressure exerted by a liquid increases with depth."
 },
 {
   "section": "objective",
@@ -210,7 +210,7 @@
     "D": "illegal mining"
   },
   "diagrams": [],
-  "solution": "Solution Afforestation is the process of introducing trees and tree seedlings to an area that has previously not been forested. Afforestation can be done through tree planting and seeding, naturally or artificially."
+  "solution": "Afforestation is the process of introducing trees and tree seedlings to an area that has previously not been forested. Afforestation can be done through tree planting and seeding, naturally or artificially."
 },
 {
   "section": "objective",
@@ -224,7 +224,7 @@
     "D": "Gravitational force"
   },
   "diagrams": [],
-  "solution": "Solution Gravitational force The force due to which any matter is attracted towards the centre of the Earth is known as the force of gravity . The mango fell due to the force of gravity of Earth."
+  "solution": "Gravitational force The force due to which any matter is attracted towards the centre of the Earth is known as the force of gravity . The mango fell due to the force of gravity of Earth."
 },
 {
   "section": "objective",
@@ -238,7 +238,7 @@
     "D": "nitrogen in the soil"
   },
   "diagrams": [],
-  "solution": "Solution Urea and fertilizers containing urea are excellent sources of nitrogen for crop production."
+  "solution": "Urea and fertilizers containing urea are excellent sources of nitrogen for crop production."
 },
 {
   "section": "objective",
@@ -252,7 +252,7 @@
     "D": "I, II and III"
   },
   "diagrams": [],
-  "solution": "Solution NOTE: One must still conserve energy even when demand of energy is not high. Conversation will ensure that the resources used for the generation of the energy is reserved for future generations"
+  "solution": "NOTE: One must still conserve energy even when demand of energy is not high. Conversation will ensure that the resources used for the generation of the energy is reserved for future generations"
 },
 {
   "section": "objective",
@@ -266,9 +266,9 @@
     "D": "work"
   },
   "diagrams": [
-    "https://kuulchat.com/qns/force meter.jpg"
+    "https://kuulchat.com/qns/force%20meter.jpg"
   ],
-  "solution": "Solution Force meter measures force/weight of an object"
+  "solution": "Force meter measures force/weight of an object"
 },
 {
   "section": "objective",
@@ -282,7 +282,7 @@
     "D": "I, II and III"
   },
   "diagrams": [],
-  "solution": "Solution A natural source of light is light that occurs naturally without the involvement of humans. Natural sources of light can come from either an object or a living species. Examples include the Sun , stars, lightning, jellyfish, fireflies, glowworms , angler fish, etc. Note The moon is not a natural source of light in the sense that it doesn't produce its own light. The light we see from the moon is actually sunlight reflected off its surface. The moon is a non-luminous object, meaning it doesn't emit light, and only reflects the light it receives from other sources, primarily the sun."
+  "solution": "A natural source of light is light that occurs naturally without the involvement of humans. Natural sources of light can come from either an object or a living species. Examples include the Sun , stars, lightning, jellyfish, fireflies, glowworms , angler fish, etc. Note The moon is not a natural source of light in the sense that it doesn't produce its own light. The light we see from the moon is actually sunlight reflected off its surface. The moon is a non-luminous object, meaning it doesn't emit light, and only reflects the light it receives from other sources, primarily the sun."
 },
 {
   "section": "objective",
@@ -296,9 +296,9 @@
     "D": "I, II and III"
   },
   "diagrams": [
-    "https://kuulchat.com/qns/image of a pinhole camera.png"
+    "https://kuulchat.com/qns/image%20of%20a%20pinhole%20camera.png"
   ],
-  "solution": "Solution Characteristics of image formed in a pinhole camera (i) The image formed is real because it is visible on the screen (ii) It is inverted (iii) It is generally smaller/diminished than the size of the object"
+  "solution": "Characteristics of image formed in a pinhole camera (i) The image formed is real because it is visible on the screen (ii) It is inverted (iii) It is generally smaller/diminished than the size of the object"
 },
 {
   "section": "objective",
@@ -312,7 +312,7 @@
     "D": "300 m 2"
   },
   "diagrams": [],
-  "solution": "Solution Area of a rectangle = Length x Breadth Area of the floor = 20 m x 15 m = 300 m 2"
+  "solution": "Area of a rectangle = Length x Breadth Area of the floor = 20 m x 15 m = 300 m 2"
 },
 {
   "section": "objective",
@@ -326,7 +326,7 @@
     "D": "low humidity"
   },
   "diagrams": [],
-  "solution": "Solution When the pressure is low, the air is free to rise into the atmosphere where it cools and condenses. This condensation forms clouds made of water droplets and ice crystals around dust particles in the sky. Eventually the water vapor in the clouds condenses and falls as rain."
+  "solution": "When the pressure is low, the air is free to rise into the atmosphere where it cools and condenses. This condensation forms clouds made of water droplets and ice crystals around dust particles in the sky. Eventually the water vapor in the clouds condenses and falls as rain."
 },
 {
   "section": "objective",
@@ -340,9 +340,9 @@
     "D": "fishing rod"
   },
   "diagrams": [
-    "https://kuulchat.com/qns/first class lever.png"
+    "https://kuulchat.com/qns/first%20class%20lever.png"
   ],
-  "solution": "Solution First Class Lever A first-class lever has the fulcrum/pivot in the middle and the load and effort on each side of the fulcrum. Examples of a first class lever Pliers, scissors, a crow bar, a claw hammer, a see-saw and a weighing balance. Second Class Lever In second class levers the load is between the effort (force) and the fulcrum. A common example is a wheelbarrow where the effort moves a large distance to lift a heavy load, with the axle and wheel as the fulcrum. Nutcrackers are also an example of a second class lever. Third Class Lever With third class levers the effort is between the load and the fulcrum, for example in barbecue tongs. Other examples of third class levers are a broom, a fishing rod, etc."
+  "solution": "First Class Lever A first-class lever has the fulcrum/pivot in the middle and the load and effort on each side of the fulcrum. Examples of a first class lever Pliers, scissors, a crow bar, a claw hammer, a see-saw and a weighing balance. Second Class Lever In second class levers the load is between the effort (force) and the fulcrum. A common example is a wheelbarrow where the effort moves a large distance to lift a heavy load, with the axle and wheel as the fulcrum. Nutcrackers are also an example of a second class lever. Third Class Lever With third class levers the effort is between the load and the fulcrum, for example in barbecue tongs. Other examples of third class levers are a broom, a fishing rod, etc."
 },
 {
   "section": "objective",
@@ -356,7 +356,7 @@
     "D": "decomposers"
   },
   "diagrams": [],
-  "solution": "Solution Green plants are called producers because they can prepare their own food by a process called photosynthesis."
+  "solution": "Green plants are called producers because they can prepare their own food by a process called photosynthesis."
 },
 {
   "section": "objective",
@@ -370,13 +370,13 @@
     "D": "neutron number"
   },
   "diagrams": [],
-  "solution": "Solution In periodic table, the elements are listed in order of increasing atomic number . The atomic number is the number of protons in the nucleus of an atom."
+  "solution": "In periodic table, the elements are listed in order of increasing atomic number . The atomic number is the number of protons in the nucleus of an atom."
 },
 {
   "section": "objective",
   "type": "mcq",
   "number": 27,
-  "question": "The number required to make the following chemical equation balanced is: H 2 + 0 2 \u2192 H 2 O",
+  "question": "The number required to make the following chemical equation balanced is: H2+0 2 \u2192 H 2 O",
   "options": {
     "A": "1 \u2044 2 ",
     "B": "1",
@@ -384,7 +384,7 @@
     "D": "3"
   },
   "diagrams": [],
-  "solution": "Solution Placing 1 \u2044 2 in front of O 2 balances oxygen (making it 1 as it is at the right side of the equation)."
+  "solution": "Placing 1 \u2044 2 in front of O 2 balances oxygen (making it 1 as it is at the right side of the equation)."
 },
 {
   "section": "objective",
@@ -398,9 +398,9 @@
     "D": "stem"
   },
   "diagrams": [
-    "https://kuulchat.com/qns/parts of flower.jpg"
+    "https://kuulchat.com/qns/parts%20of%20flower.jpg"
   ],
-  "solution": "Solution"
+  "solution": ""
 },
 {
   "section": "objective",
@@ -416,7 +416,7 @@
   "diagrams": [
     "https://kuulchat.com/qns/distillation.png"
   ],
-  "solution": "Solution Distillation is the process of separating the components of a liquid mixture through selective evaporation and condensation. The basis of separation is the difference in the vapor pressures (volatilities) of the respective components."
+  "solution": "Distillation is the process of separating the components of a liquid mixture through selective evaporation and condensation. The basis of separation is the difference in the vapor pressures (volatilities) of the respective components."
 },
 {
   "section": "objective",
@@ -424,13 +424,13 @@
   "number": 30,
   "question": "An atom 23 11 X forms bond by losing one electron, the charge on the ion formed is",
   "options": {
-    "A": "-1",
-    "B": "-2",
+    "A": "1",
+    "B": "2",
     "C": "+1",
     "D": "+2"
   },
   "diagrams": [],
-  "solution": "Solution When an atom loses an electron it has positive charge (Cation) and gain negative charge (Anion) Since the atomic number is 11, the atom in question is Sodium (Na). Sodium has +1 charge (Na +1 = Na + ) when it loses an electron during the bond."
+  "solution": "When an atom loses an electron it has positive charge (Cation) and gain negative charge (Anion) Since the atomic number is 11, the atom in question is Sodium (Na). Sodium has +1 charge (Na+1 = Na+) when it loses an electron during the bond."
 },
 {
   "section": "objective",
@@ -444,9 +444,9 @@
     "D": "enamel"
   },
   "diagrams": [
-    "https://kuulchat.com/qns/parts of the tooth.jpg"
+    "https://kuulchat.com/qns/parts%20of%20the%20tooth.jpg"
   ],
-  "solution": "Solution Root The root is the part of the tooth that extends into the bone and holds the tooth in place. It makes up approximately two-thirds of the tooth. Enamel The enamel is the outermost layer of a tooth. As the hardest tissue in your body, it helps to protect teeth from bacteria. It also provides strength so your teeth can withstand pressure from chewing. Dentin Dentin is a layer of mineralized tissue just below the enamel. It extends from the crown down through the neck and root. It protects teeth from heat and cold."
+  "solution": "Root The root is the part of the tooth that extends into the bone and holds the tooth in place. It makes up approximately two-thirds of the tooth. Enamel The enamel is the outermost layer of a tooth. As the hardest tissue in your body, it helps to protect teeth from bacteria. It also provides strength so your teeth can withstand pressure from chewing. Dentin Dentin is a layer of mineralized tissue just below the enamel. It extends from the crown down through the neck and root. It protects teeth from heat and cold."
 },
 {
   "section": "objective",
@@ -460,7 +460,7 @@
     "D": "astronomist"
   },
   "diagrams": [],
-  "solution": "Solution Geologist : scientist who study the Earth: its history, nature, materials and processes. Astronaut : a person who has been trained for travelling in space"
+  "solution": "Geologist : scientist who study the Earth: its history, nature, materials and processes. Astronaut : a person who has been trained for travelling in space"
 },
 {
   "section": "objective",
@@ -474,7 +474,7 @@
     "D": "crop rotation"
   },
   "diagrams": [],
-  "solution": "Solution Mixed Cropping When two or more crops are grown on the same land simultaneously (at the same time), it is known as mixed cropping Mixed Farming Growing crops as well as livestock , animal husbandry,etc all on same farm or land. Crop Rotation The practice of planting different crops across a sequence of growing seasons on the same plot of land to improve soil health, optimize nutrients in the soil, and combat pest and weed pressure."
+  "solution": "Mixed Cropping When two or more crops are grown on the same land simultaneously (at the same time), it is known as mixed cropping Mixed Farming Growing crops as well as livestock , animal husbandry,etc all on same farm or land. Crop Rotation The practice of planting different crops across a sequence of growing seasons on the same plot of land to improve soil health, optimize nutrients in the soil, and combat pest and weed pressure."
 },
 {
   "section": "objective",
@@ -488,10 +488,24 @@
     "D": "moon is positioned far away from the earth"
   },
   "diagrams": [
-    "https://kuulchat.com/qns/solar eclipse.jpg",
-    "https://kuulchat.com/qns/lunar eclipse.jpg"
+    "https://kuulchat.com/qns/solar%20eclipse.jpg",
+    "https://kuulchat.com/qns/lunar%20eclipse.jpg"
   ],
-  "solution": "Solution Eclipse The earth, along with the other planets, revolves around the sun in its orbit. In turn, the moon revolves around the earth in the moon\u2019s orbit. There comes a time when the three heavenly bodies get aligned in the same straight line. This is when an eclipse occurs. It is defined as an astronomical phenomenon that occurs when one spatial object comes within the shadow of another spatial object. This obstructs the observer from seeing one of them in space. On earth, we witness two types of eclipses: solar and lunar. Solar Eclipse Also known as the eclipse of the sun , it occurs when the moon comes in between the sun and the earth. As a result, the moon blocks the light of the sun from reaching the earth's surface and casts a shadow on it. This occurs in a new moon phase. Lunar Eclipse Also known as the eclipse of the moon, it occurs when the earth comes in between the sun and the moon. As a result, the earth blocks the light of the sun from reaching the moon\u2019s surface and casts its shadow on the moon. It occurs on a full moon day."
+  "solution": "Eclipse The earth, along with the other planets, revolves around the sun in its orbit. In turn, the moon revolves around the earth in the moon\u2019s orbit. There comes a time when the three heavenly bodies get aligned in the same straight line. This is when an eclipse occurs. It is defined as an astronomical phenomenon that occurs when one spatial object comes within the shadow of another spatial object. This obstructs the observer from seeing one of them in space. On earth, we witness two types of eclipses: solar and lunar. Solar Eclipse Also known as the eclipse of the sun , it occurs when the moon comes in between the sun and the earth. As a result, the moon blocks the light of the sun from reaching the earth's surface and casts a shadow on it. This occurs in a new moon phase. Lunar Eclipse Also known as the eclipse of the moon, it occurs when the earth comes in between the sun and the moon. As a result, the earth blocks the light of the sun from reaching the moon\u2019s surface and casts its shadow on the moon. It occurs on a full moon day."
+},
+{
+  "section": "objective",
+  "type": "mcq",
+  "number": 35,
+  "question": "Which of the following instruments can be used to measure the diameter of a circle?",
+  "options": {
+    "A": "A metre-rule",
+    "B": "A thermometer",
+    "C": "An ammeter",
+    "D": "A string"
+  },
+  "diagrams": [],
+  "solution": "Metre-rule is used to measure length. Diameter of a circle is a length. Thermometer is used to measure temperature Ammeter is used for measuring either direct (DC) or alternating (AC) electric current, in amperes."
 },
 {
   "section": "objective",
@@ -505,7 +519,7 @@
     "D": "decrease in intermolecular forces"
   },
   "diagrams": [],
-  "solution": "Solution When a particle is heated The intermolecular forces are the attractions between the molecules when temperature increases it develops more distance between molecules and because of this attraction decreases, resulting intermolecular force decreases. Intermolecular forces decreases on heating as the particles gain energy and start vibrating. The intermolecular space between particles increases and they overcome the intermolecular forces. Hence, the intermolecular forces decrease on heating because kinetic energy increases and space between particles increases."
+  "solution": "When a particle is heated The intermolecular forces are the attractions between the molecules when temperature increases it develops more distance between molecules and because of this attraction decreases, resulting intermolecular force decreases. Intermolecular forces decreases on heating as the particles gain energy and start vibrating. The intermolecular space between particles increases and they overcome the intermolecular forces. Hence, the intermolecular forces decrease on heating because kinetic energy increases and space between particles increases."
 },
 {
   "section": "objective",
@@ -519,7 +533,7 @@
     "D": "endosperm"
   },
   "diagrams": [],
-  "solution": "Solution A shoot or seedling originates from the plumule of the seed\u2019s embryo."
+  "solution": "A shoot or seedling originates from the plumule of the seed\u2019s embryo."
 },
 {
   "section": "objective",
@@ -535,7 +549,7 @@
   "diagrams": [
     "https://kuulchat.com/qns/bece_science_2022_sec_a_q_38.jpg"
   ],
-  "solution": "Solution The arrow in the symbol indicates the direction of flow of conventional current (electron movement)"
+  "solution": "The arrow in the symbol indicates the direction of flow of conventional current (electron movement)"
 },
 {
   "section": "objective",
@@ -549,7 +563,7 @@
     "D": "caecum"
   },
   "diagrams": [],
-  "solution": "Solution Mechanical digestion of protein begins in the mouth and continues in the stomach and small intestine . Chemical digestion of protein begins in the stomach and ends in the small intestine ."
+  "solution": "Mechanical digestion of protein begins in the mouth and continues in the stomach and small intestine . Chemical digestion of protein begins in the stomach and ends in the small intestine ."
 },
 {
   "section": "objective",
@@ -557,13 +571,13 @@
   "number": 40,
   "question": "Which of the following substances is a compound?",
   "options": {
-    "A": "",
-    "B": "",
+    "A": "Copper",
+    "B": "Diamond",
     "C": "Sucrose",
     "D": "Sulphur"
   },
   "diagrams": [],
-  "solution": "Solution Copper and sulphur are elements. Diamond is made up of only carbon elements so can't be classified as a compound because compounds are made up of two or more different elements. Sucrose (C 12 H 22 O 11 ) is simply the chemical name for sugar and is a compound that consists of various elements i.e. carbon, hydrogen, and oxygen that combine chemically in a definite ratio."
+  "solution": "Copper and sulphur are elements. Diamond is made up of only carbon elements so can't be classified as a compound because compounds are made up of two or more different elements. Sucrose (C 12 H 22 O 11 ) is simply the chemical name for sugar and is a compound that consists of various elements i.e. carbon, hydrogen, and oxygen that combine chemically in a definite ratio."
 },
 {
   "section": "theory",
@@ -604,7 +618,7 @@
           "question": "State the function of the part labelled IV ."
         }
       ],
-      "solution": "(i) I = beaker II = residue/particles/cotton wool/mixture/filter paper III = filtrate (ii) Methods of Separation \u0391 A - filtration \u0392 B - magnetization (iii) Class of mixtures 1. Solid - liquid mixture 2. Liquid - solid mixture (iv) Reason for the class of mixture Because there is residue on the filter paper and filtrate in the beaker (v) possible component of the mixture in set-up B - iron fillings/any magnetic substance - powdered sulphur - sand - powdered chalk - powdered charcoal - any non-magenetic substance (vi) Function of part labelled IV (Retort/Clamp Stand) It holds the funnel in place/holds the clamp"
+      "solution": "(i) I = beaker II = residue/particles/cotton wool/mixture/filter paper III = filtrate (ii) Methods of Separation \u0391 A-filtration \u0392 B-magnetization (iii) Class of mixtures 1. Solid - liquid mixture 2. Liquid - solid mixture (iv) Reason for the class of mixture Because there is residue on the filter paper and filtrate in the beaker (v) possible component of the mixture in set-up B-iron fillings/any magnetic substance - powdered sulphur - sand - powdered chalk - powdered charcoal - any non-magenetic substance (vi) Function of part labelled IV (Retort/Clamp Stand) It holds the funnel in place/holds the clamp"
     },
     {
       "part": "(b)",
@@ -674,7 +688,7 @@
           "question": "is used to aid the factor measured in the experiment."
         }
       ],
-      "solution": "(i) Rain gauge (ii) Name of the parts labelled I = funnel II = measuring cylinder III = rain water/water (iii) Use of the parts labelled I (funnel) and II (measuring cylinder) I - directs rain water into the measuring cylinder II - use to measure the amount/volume of rain water/collect rain water (iv) Ecological factor measured Rainfall/amount of rainfall/rain (v) Importance of ecological factor measured 1. Protects plants roots from injury 2. Causes erosion 3. Causes leaching 4. Needed for seed germination 5. Promotes activities of soil organisms 6. Aids in easy tillage of soil 7. An agent of weathering of rocks in the soil 8. Dissolves plant nutrients for easy absorption 9. Makes soil fertile 10. Determine the type of crop to grow 11. Used for photosynthesis (vi) Handfork (vii) Use to loosen hard soil surface after heavy rainfall"
+      "solution": "(i) Rain gauge (ii) Name of the parts labelled I = funnel II = measuring cylinder III = rain water/water (iii) Use of the parts labelled I (funnel) and II (measuring cylinder) I-directs rain water into the measuring cylinder II-use to measure the amount/volume of rain water/collect rain water (iv) Ecological factor measured Rainfall/amount of rainfall/rain (v) Importance of ecological factor measured 1. Protects plants roots from injury 2. Causes erosion 3. Causes leaching 4. Needed for seed germination 5. Promotes activities of soil organisms 6. Aids in easy tillage of soil 7. An agent of weathering of rocks in the soil 8. Dissolves plant nutrients for easy absorption 9. Makes soil fertile 10. Determine the type of crop to grow 11. Used for photosynthesis (vi) Handfork (vii) Use to loosen hard soil surface after heavy rainfall"
     },
     {
       "part": "(d)",
@@ -701,7 +715,7 @@
           "question": "."
         }
       ],
-      "solution": "(i) Name of the components labelled I = cell II = switch/key III = lamp/bulb (ii) Type of arrangement of resistors ( R ) in B is parallel (iii) A - makes III/bulb dim B - makes III/bulb bright (iv) Reasons A - the resistors in series have an increased resistance B - the resistors in parallel have decreas resistance hence keep the bulb bright"
+      "solution": "(i) Name of the components labelled I = cell II = switch/key III = lamp/bulb (ii) Type of arrangement of resistors ( R ) in B is parallel (iii) A-makes III/bulb dim B-makes III/bulb bright (iv) Reasons A-the resistors in series have an increased resistance B-the resistors in parallel have decreas resistance hence keep the bulb bright"
     }
   ],
   "diagrams": [
@@ -709,11 +723,7 @@
     "https://kuulchat.com/qns/bece_science_2022_sec_b_q_1_2.jpg",
     "https://kuulchat.com/qns/bece_science_2022_sec_b_q_1_3.jpg",
     "https://kuulchat.com/qns/bece_science_2022_sec_b_q_1_4.jpg",
-    "https://kuulchat.com/qns/bece_science_2022_sec_b_q_1_1.jpg",
-    "https://kuulchat.com/qns/the respiratory system.jpg",
-    "https://kuulchat.com/qns/bece_science_2022_sec_b_q_1_2.jpg",
-    "https://kuulchat.com/qns/bece_science_2022_sec_b_q_1_3.jpg",
-    "https://kuulchat.com/qns/bece_science_2022_sec_b_q_1_4.jpg"
+    "https://kuulchat.com/qns/the%20respiratory%20system.jpg"
   ]
 },
 {
