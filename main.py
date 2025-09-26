@@ -48,89 +48,20 @@ class KuulchatSpider(scrapy.Spider):
         return any(keyword in text_content for keyword in ad_keywords)
 
     def parse(self, response):
-        # Extract objective questions - improved selectors
-        objective_section = response.css('h4.center:contains("OBJECTIVE TEST")')
-        if not objective_section:
-            return
+        # Extract all questions in proper order: objectives first, then theory
+        all_questions = []
 
-        # Find all question containers after the OBJECTIVE TEST header
-        question_containers = response.css('h4.center:contains("OBJECTIVE TEST") ~ div')
+        # Extract objective questions first
+        objective_questions = list(self.extract_objective_questions(response))
+        all_questions.extend(objective_questions)
 
-        for container in question_containers:
-            # Skip if this is an advertisement
-            if self.is_advertisement(container):
-                continue
+        # Extract theory questions after objectives
+        theory_questions = list(self.extract_theory_questions(response))
+        all_questions.extend(theory_questions)
 
-            # Stop if we've reached the theory section
-            if container.css('h4.center:contains("THEORY QUESTIONS")'):
-                break
-
-            # Look for question number
-            num_element = container.css("span.bold, .num")
-            if not num_element:
-                continue
-
-            num_text = self.extract_full_text(num_element[0])
-            num_match = re.search(r"(\d+)", num_text)
-            if not num_match:
-                continue
-
-            question_num = int(num_match.group(1))
-
-            # Extract question text - look for the main question content
-            question_text = ""
-            question_elements = container.css("p, div")
-            for elem in question_elements:
-                elem_text = self.extract_full_text(elem)
-                # Skip if it's just the number or empty
-                if re.match(r"^\d+\.$", elem_text.strip()) or not elem_text.strip():
-                    continue
-                # Skip if it looks like an option (starts with A., B., etc.)
-                if re.match(r"^[A-E]\.\s", elem_text.strip()):
-                    break
-                # This looks like question text
-                if elem_text and not question_text:
-                    question_text = elem_text
-                    break
-
-            # Extract options
-            options = {"A": "", "B": "", "C": "", "D": ""}
-            option_elements = container.css(
-                'div[style*="width:75%"] p, div:contains("A."), div:contains("B."), div:contains("C."), div:contains("D.")'
-            )
-
-            for elem in option_elements:
-                elem_text = self.extract_full_text(elem)
-                # Match option pattern
-                option_match = re.match(r"^([A-E])\.\s*(.+)", elem_text.strip())
-                if option_match:
-                    option_letter = option_match.group(1)
-                    option_text = option_match.group(2)
-                    if option_letter in options:
-                        options[option_letter] = option_text
-
-            # Extract diagram URL (filter out ads)
-            diagram = None
-            img_elements = container.css("img")
-            for img in img_elements:
-                img_src = img.css("::attr(src)").get()
-                if img_src and not self.is_ad_image(img_src):
-                    diagram = img_src
-                    break
-
-            # Only yield if we have meaningful content
-            if question_text and question_num > 0:
-                yield {
-                    "section": "objective",
-                    "type": "mcq",
-                    "number": question_num,
-                    "question": question_text,
-                    "options": options,
-                    "diagram": diagram,
-                }
-
-        # Extract theory questions
-        yield from self.extract_theory_questions(response)
+        # Yield all questions in proper order
+        for question in all_questions:
+            yield question
 
         # Handle pagination
         next_page = response.css(
@@ -138,6 +69,148 @@ class KuulchatSpider(scrapy.Spider):
         ).get()
         if next_page:
             yield response.follow(next_page, callback=self.parse)
+
+    def extract_objective_questions(self, response):
+        """Extract objective questions using direct HTML parsing"""
+        objective_questions = []
+
+        # Find all objective question divs - they are the direct children after OBJECTIVE TEST
+        objective_section = response.css('h4.center:contains("OBJECTIVE TEST")')
+        if not objective_section:
+            return
+
+        # Get the next div that contains all questions
+        questions_container = objective_section[0].xpath("following-sibling::div[1]")[0]
+
+        # Each question is in its own div
+        question_divs = questions_container.css("div")
+
+        for question_div in question_divs:
+            # Skip if this contains theory questions marker
+            if "THEORY QUESTIONS" in self.extract_full_text(question_div):
+                break
+
+            # Skip advertisements
+            if self.is_advertisement(question_div):
+                continue
+
+            # Parse the question
+            question_data = self.parse_objective_question_improved(question_div)
+            if question_data:
+                objective_questions.append(question_data)
+
+        # Sort by question number
+        objective_questions.sort(key=lambda x: x.get("number", 0))
+
+        for question in objective_questions:
+            yield question
+
+    def parse_objective_question_improved(self, container):
+        """Parse objective question with improved structure and answer extraction"""
+        full_text = self.extract_full_text(container)
+
+        # Look for question number pattern
+        num_match = re.search(r"(\d+)\.", full_text)
+        if not num_match:
+            return None
+
+        question_num = int(num_match.group(1))
+
+        # Split content into question part and solution part
+        parts = re.split(r"\s+(?:Mark|Solution)\s+", full_text, 1)
+        question_part = parts[0]
+        solution_part = parts[1] if len(parts) > 1 else ""
+
+        # Extract question text (remove number and options)
+        question_text = self.extract_question_stem(question_part, question_num)
+
+        # Extract options
+        options = self.extract_options_from_text(question_part)
+
+        # Extract answer and explanation from solution
+        answer_info = self.extract_answer_info(solution_part)
+
+        # Extract all diagrams/images
+        diagrams = self.extract_all_diagrams(container)
+
+        # Only return if we have valid content
+        if question_text and any(options.values()) and question_num > 0:
+            result = {
+                "section": "objective",
+                "type": "mcq",
+                "number": question_num,
+                "question": question_text,
+                "options": options,
+                "diagrams": diagrams if diagrams else [],
+            }
+
+            # Add answer information if available
+            if answer_info:
+                result.update(answer_info)
+
+            return result
+
+        return None
+
+    def extract_question_stem(self, question_part, question_num):
+        """Extract the main question text without number and options"""
+        # Remove question number
+        text = re.sub(rf"^{question_num}\.?\s*", "", question_part)
+
+        # Split at first option to get question stem
+        option_split = re.split(r"\s+[A-D]\.\s+", text, 1)
+        question_stem = option_split[0].strip()
+
+        # Clean up the question stem
+        question_stem = re.sub(r"\s+", " ", question_stem)
+
+        return question_stem
+
+    def extract_options_from_text(self, text):
+        """Extract options A, B, C, D from text"""
+        options = {"A": "", "B": "", "C": "", "D": ""}
+
+        # Find all option patterns
+        option_matches = re.finditer(r"([A-D])\.\s*([^A-D]*?)(?=\s+[A-D]\.|$)", text)
+
+        for match in option_matches:
+            letter = match.group(1)
+            option_text = match.group(2).strip()
+
+            # Clean up option text
+            option_text = re.sub(r"\s+", " ", option_text)
+            option_text = re.sub(r"\.$", "", option_text)  # Remove trailing period
+
+            if letter in options and option_text:
+                options[letter] = option_text
+
+        return options
+
+    def extract_answer_info(self, solution_text):
+        """Extract answer and explanation from solution text"""
+        if not solution_text:
+            return None
+
+        answer_info = {}
+
+        # Try to find the correct answer (often mentioned in explanation)
+        # This is a simplified approach - could be enhanced based on actual patterns
+        if solution_text:
+            answer_info["solution"] = solution_text.strip()
+
+        return answer_info
+
+    def extract_all_diagrams(self, container):
+        """Extract all diagrams/images from container"""
+        diagrams = []
+        img_elements = container.css("img")
+
+        for img in img_elements:
+            img_src = img.css("::attr(src)").get()
+            if img_src and not self.is_ad_image(img_src):
+                diagrams.append(img_src)
+
+        return diagrams
 
     def is_ad_image(self, img_src):
         """Check if an image is likely an advertisement"""
@@ -153,101 +226,285 @@ class KuulchatSpider(scrapy.Spider):
         return any(pattern in img_src.lower() for pattern in ad_patterns)
 
     def extract_theory_questions(self, response):
-        """Extract theory questions with improved parsing"""
-        # Find the theory section
-        theory_header = response.css('h4.center:contains("THEORY QUESTIONS")')
-        if not theory_header:
+        """Extract theory questions using direct HTML parsing"""
+        theory_questions = []
+
+        # Find the theory questions section
+        theory_section = response.css('h4.center:contains("THEORY QUESTIONS")')
+        if not theory_section:
             return
 
-        # Get all content after the theory header until the end
-        theory_containers = response.css('h4.center:contains("THEORY QUESTIONS") ~ div')
+        # Get the next div that contains all theory questions
+        questions_container = theory_section[0].xpath("following-sibling::div[1]")[0]
 
-        current_question = None
-        current_num = 0
-        current_subparts = []
-        current_diagram = None
+        # Each theory question is in its own div
+        question_divs = questions_container.css("div")
 
-        for container in theory_containers:
+        for question_div in question_divs:
             # Skip advertisements
-            if self.is_advertisement(container):
+            if self.is_advertisement(question_div):
                 continue
 
-            # Look for main question numbers (1., 2., 3., etc.)
-            question_num_match = self.extract_question_number(container)
+            # Parse the theory question
+            question_data = self.parse_theory_question_improved(question_div)
+            if question_data:
+                theory_questions.append(question_data)
 
-            if question_num_match and question_num_match != current_num:
-                # Yield previous question if exists
-                if current_question and current_num > 0:
-                    yield {
-                        "section": "theory",
-                        "type": "theory",
-                        "number": current_num,
-                        "question": current_question,
-                        "subparts": current_subparts,
-                        "diagram": current_diagram,
-                    }
+        # Sort by question number and remove duplicates
+        theory_questions.sort(key=lambda x: x.get("number", 0))
 
-                # Start new question
-                current_num = question_num_match
-                current_question = self.extract_question_text(container)
-                current_subparts = []
-                current_diagram = self.extract_diagram(container)
+        # Remove duplicates based on question number
+        seen_numbers = set()
+        unique_questions = []
+        for question in theory_questions:
+            if question["number"] not in seen_numbers:
+                seen_numbers.add(question["number"])
+                unique_questions.append(question)
 
-            elif current_num > 0:  # We're in a question
-                # Look for subparts (a), (b), (i), (ii), etc.
-                subparts = self.extract_subparts(container)
-                current_subparts.extend(subparts)
+        for question in unique_questions:
+            yield question
 
-                # Update diagram if found
-                diagram = self.extract_diagram(container)
-                if diagram:
-                    current_diagram = diagram
+    def parse_theory_question_improved(self, container):
+        """Parse theory question with improved structure and answer integration"""
+        full_text = self.extract_full_text(container)
 
-        # Yield the last question
-        if current_question and current_num > 0:
-            yield {
+        # Look for question number pattern
+        num_match = re.search(r"(\d+)\.", full_text)
+        if not num_match:
+            return None
+
+        question_num = int(num_match.group(1))
+
+        # Split content into question part and solution part
+        parts = re.split(r"\s+Show Solution\s+", full_text, 1)
+        question_part = parts[0]
+        solution_part = parts[1] if len(parts) > 1 else ""
+
+        # Parse main question and subparts from question part
+        main_question, subparts = self.parse_theory_structure_improved(
+            question_part, question_num
+        )
+
+        # Parse solution and integrate with subparts
+        if solution_part:
+            subparts = self.integrate_theory_solutions(subparts, solution_part)
+
+        # Extract all diagrams/images
+        diagrams = self.extract_all_diagrams(container)
+
+        if main_question or subparts:
+            return {
                 "section": "theory",
                 "type": "theory",
-                "number": current_num,
-                "question": current_question,
-                "subparts": current_subparts,
-                "diagram": current_diagram,
+                "number": question_num,
+                "question": main_question,
+                "subparts": subparts,
+                "diagrams": diagrams if diagrams else [],
             }
 
-    def extract_question_number(self, container):
-        """Extract main question number from container"""
-        # Look for patterns like "1.", "2.", etc.
-        text = self.extract_full_text(container)
-        match = re.search(r"^(\d+)\.", text.strip())
-        return int(match.group(1)) if match else None
+        return None
 
-    def extract_question_text(self, container):
-        """Extract the main question text"""
-        text = self.extract_full_text(container)
-        # Remove the question number prefix
-        text = re.sub(r"^\d+\.\s*", "", text)
-        return text.strip()
+    def parse_theory_structure_improved(self, question_part, question_num):
+        """Parse theory question structure with better subpart handling"""
+        # Remove question number
+        content = re.sub(rf"^{question_num}\.?\s*", "", question_part)
 
-    def extract_subparts(self, container):
-        """Extract subparts like (a), (b), (i), (ii) from container"""
+        # Split by main parts (a), (b), (c), (d)
+        main_parts = re.split(r"\s*\(([a-d])\)\s*", content)
+
+        if len(main_parts) < 3:
+            # No clear subparts, return as single question
+            return content.strip(), []
+
+        # First part might be main question text
+        main_question = main_parts[0].strip()
+
+        # Process subparts
         subparts = []
-        text = self.extract_full_text(container)
+        for i in range(1, len(main_parts), 2):
+            if i + 1 < len(main_parts):
+                part_letter = main_parts[i]
+                part_content = main_parts[i + 1].strip()
 
-        # Look for subpart patterns
-        subpart_patterns = [
-            r"\(([a-z])\)\s*(.+?)(?=\([a-z]\)|$)",  # (a), (b), etc.
-            r"\(([ivx]+)\)\s*(.+?)(?=\([ivx]+\)|$)",  # (i), (ii), (iii), etc.
-        ]
+                # Parse sub-subparts within this part
+                sub_subparts = self.parse_sub_subparts_improved(part_content)
 
-        for pattern in subpart_patterns:
-            matches = re.finditer(pattern, text, re.IGNORECASE | re.DOTALL)
-            for match in matches:
-                subpart_key = f"({match.group(1)})"
-                subpart_text = match.group(2).strip()
-                if subpart_text:
-                    subparts.append({subpart_key: subpart_text})
+                subpart_data = {
+                    "part": f"({part_letter})",
+                    "question": part_content if not sub_subparts else "",
+                    "subparts": sub_subparts,
+                }
+                subparts.append(subpart_data)
+
+        return main_question, subparts
+
+    def parse_sub_subparts_improved(self, content):
+        """Parse sub-subparts like (i), (ii) with better handling"""
+        # Split by roman numerals or letters in parentheses
+        sub_parts = re.split(r"\s*\(([ivx]+|[a-z])\)\s*", content)
+
+        if len(sub_parts) < 3:
+            return []
+
+        sub_subparts = []
+        for i in range(1, len(sub_parts), 2):
+            if i + 1 < len(sub_parts):
+                sub_letter = sub_parts[i]
+                sub_content = sub_parts[i + 1].strip()
+
+                if sub_content:
+                    sub_subparts.append(
+                        {"part": f"({sub_letter})", "question": sub_content}
+                    )
+
+        return sub_subparts
+
+    def integrate_theory_solutions(self, subparts, solution_part):
+        """Integrate solutions with corresponding subparts"""
+        # This is a simplified approach - could be enhanced to match solutions to specific subparts
+        for subpart in subparts:
+            # Look for solutions that match this subpart
+            part_letter = subpart["part"].strip("()")
+
+            # Find solution for this part
+            solution_pattern = rf"\({part_letter}\)(.*?)(?=\([a-d]\)|$)"
+            solution_match = re.search(solution_pattern, solution_part, re.DOTALL)
+
+            if solution_match:
+                subpart["solution"] = solution_match.group(1).strip()
 
         return subparts
+
+    def parse_theory_html_structure(self, question_div):
+        """Parse theory question HTML structure into main question and subparts"""
+        # Get all divs within the question
+        all_divs = question_div.css("div")
+
+        main_question = ""
+        subparts = []
+        current_part = None
+
+        for div in all_divs:
+            div_text = self.extract_full_text(div).strip()
+
+            # Skip empty divs, question number, and solution sections
+            if (
+                not div_text
+                or re.match(r"^\d+\.$", div_text)
+                or "Show Solution" in div_text
+            ):
+                continue
+
+            # Check if this is a main part (a), (b), (c), (d)
+            main_part_match = re.match(r"^\(([a-d])\)", div_text)
+            if main_part_match:
+                # Save previous part if exists
+                if current_part:
+                    subparts.append(current_part)
+
+                # Start new part
+                part_letter = main_part_match.group(1)
+                part_content = re.sub(r"^\([a-d]\)\s*", "", div_text)
+
+                # Parse sub-subparts within this part
+                sub_subparts = self.parse_sub_subparts_html(part_content)
+
+                current_part = {
+                    "part": f"({part_letter})",
+                    "question": part_content if not sub_subparts else "",
+                    "subparts": sub_subparts,
+                }
+
+            # Check if this is a sub-subpart (i), (ii), etc.
+            elif re.match(r"^\(([ivx]+)\)", div_text):
+                # This will be handled by parse_sub_subparts_html
+                continue
+
+            # If no parts found yet, this might be the main question
+            elif not subparts and not current_part and not main_question:
+                main_question = div_text
+
+        # Add the last part
+        if current_part:
+            subparts.append(current_part)
+
+        return main_question, subparts
+
+    def parse_sub_subparts_html(self, content):
+        """Parse sub-subparts like (i), (ii) from content"""
+        # Split by roman numerals in parentheses
+        parts = re.split(r"\s*\(([ivx]+)\)\s*", content)
+
+        if len(parts) < 3:
+            return []
+
+        sub_subparts = []
+        for i in range(1, len(parts), 2):
+            if i + 1 < len(parts):
+                sub_letter = parts[i]
+                sub_content = parts[i + 1].strip()
+
+                if sub_content:
+                    sub_subparts.append(
+                        {"part": f"({sub_letter})", "question": sub_content}
+                    )
+
+        return sub_subparts
+
+    def parse_question_structure(self, content):
+        """Parse question content into main question and structured subparts"""
+        # Clean up content
+        content = re.sub(r"\s+", " ", content).strip()
+
+        # Split into parts by main sections (a), (b), (c), (d)
+        main_parts = re.split(r"\s*\(([a-d])\)\s*", content)
+
+        if len(main_parts) < 3:
+            # No clear subparts structure, return as single question
+            return content, []
+
+        # First part is the main question (if any)
+        main_question = main_parts[0].strip()
+
+        # Process subparts
+        subparts = []
+        for i in range(1, len(main_parts), 2):
+            if i + 1 < len(main_parts):
+                part_letter = main_parts[i]
+                part_content = main_parts[i + 1].strip()
+
+                # Further split by sub-subparts (i), (ii), etc.
+                sub_subparts = self.parse_sub_subparts(part_content)
+
+                subpart_data = {
+                    "part": f"({part_letter})",
+                    "question": part_content if not sub_subparts else "",
+                    "subparts": sub_subparts,
+                }
+                subparts.append(subpart_data)
+
+        return main_question, subparts
+
+    def parse_sub_subparts(self, content):
+        """Parse sub-subparts like (i), (ii), (iii) within a main part"""
+        # Split by roman numerals or letters in parentheses
+        sub_parts = re.split(r"\s*\(([ivx]+|[a-z])\)\s*", content)
+
+        if len(sub_parts) < 3:
+            return []
+
+        sub_subparts = []
+        for i in range(1, len(sub_parts), 2):
+            if i + 1 < len(sub_parts):
+                sub_letter = sub_parts[i]
+                sub_content = sub_parts[i + 1].strip()
+
+                if sub_content:
+                    sub_subparts.append(
+                        {"part": f"({sub_letter})", "question": sub_content}
+                    )
+
+        return sub_subparts
 
     def extract_diagram(self, container):
         """Extract educational diagram URL from container"""
