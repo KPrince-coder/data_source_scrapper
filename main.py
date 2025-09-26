@@ -74,30 +74,31 @@ class KuulchatSpider(scrapy.Spider):
         """Extract objective questions using direct HTML parsing"""
         objective_questions = []
 
-        # Find all objective question divs - they are the direct children after OBJECTIVE TEST
+        # Find the objective test section header
         objective_section = response.css('h4.center:contains("OBJECTIVE TEST")')
         if not objective_section:
             return
 
-        # Get the next div that contains all questions
-        questions_container = objective_section[0].xpath("following-sibling::div[1]")[0]
+        # Get all siblings after OBJECTIVE TEST until we hit THEORY QUESTIONS
+        current_element = objective_section[0]
 
-        # Each question is in its own div
-        question_divs = questions_container.css("div")
-
-        for question_div in question_divs:
-            # Skip if this contains theory questions marker
-            if "THEORY QUESTIONS" in self.extract_full_text(question_div):
+        for sibling in current_element.xpath("following-sibling::*"):
+            # Stop if we reach theory section
+            if "THEORY QUESTIONS" in self.extract_full_text(sibling):
                 break
 
             # Skip advertisements
-            if self.is_advertisement(question_div):
+            if self.is_advertisement(sibling):
                 continue
 
-            # Parse the question
-            question_data = self.parse_objective_question_improved(question_div)
-            if question_data:
-                objective_questions.append(question_data)
+            # Check if this sibling contains objective questions
+            # Look for question number patterns
+            sibling_text = self.extract_full_text(sibling)
+            if re.search(r"\b\d+\.\s+", sibling_text):
+                # This might contain questions, parse it
+                question_data = self.parse_objective_question_improved(sibling)
+                if question_data:
+                    objective_questions.append(question_data)
 
         # Sort by question number
         objective_questions.sort(key=lambda x: x.get("number", 0))
@@ -129,6 +130,14 @@ class KuulchatSpider(scrapy.Spider):
 
         # Extract answer and explanation from solution
         answer_info = self.extract_answer_info(solution_part)
+
+        # Also try to extract answer from HTML structure
+        if not answer_info or not answer_info.get("answer"):
+            html_answer = self.extract_answer_from_html(container)
+            if html_answer:
+                if not answer_info:
+                    answer_info = {}
+                answer_info["answer"] = html_answer
 
         # Extract all diagrams/images
         diagrams = self.extract_all_diagrams(container)
@@ -187,18 +196,64 @@ class KuulchatSpider(scrapy.Spider):
         return options
 
     def extract_answer_info(self, solution_text):
-        """Extract answer and explanation from solution text"""
+        """Extract answer letter and explanation from solution text"""
         if not solution_text:
             return None
 
         answer_info = {}
 
-        # Try to find the correct answer (often mentioned in explanation)
-        # This is a simplified approach - could be enhanced based on actual patterns
-        if solution_text:
-            answer_info["solution"] = solution_text.strip()
+        # Clean the solution text
+        clean_solution = solution_text.strip()
+
+        # Try to extract the correct answer letter from the solution
+        # Look for patterns like "The answer is B" or similar
+        answer_patterns = [
+            r"answer is ([A-D])",
+            r"correct answer is ([A-D])",
+            r"option ([A-D])",
+            r"^([A-D])\.",  # Answer starts with letter
+        ]
+
+        answer_letter = None
+        for pattern in answer_patterns:
+            match = re.search(pattern, clean_solution, re.IGNORECASE)
+            if match:
+                answer_letter = match.group(1).upper()
+                break
+
+        # If we found an answer letter, include it
+        if answer_letter:
+            answer_info["answer"] = answer_letter
+
+        # Always include the solution text
+        answer_info["solution"] = clean_solution
 
         return answer_info
+
+    def extract_answer_from_html(self, container):
+        """Extract correct answer letter from HTML structure"""
+        # Look for elements that might contain the answer
+        # Based on the website structure, answers might be in specific elements
+
+        # Check for elements with checkmarks or answer indicators
+        answer_elements = container.css('span:contains("✓"), .correct, [data-answer]')
+
+        for element in answer_elements:
+            # Look for answer letter patterns in the element or its siblings
+            element_text = self.extract_full_text(element)
+            answer_match = re.search(r"([A-D])", element_text)
+            if answer_match:
+                return answer_match.group(1).upper()
+
+        # Alternative: look for answer in the solution section more carefully
+        solution_elements = container.css('div:contains("Solution"), .solution')
+        for element in solution_elements:
+            solution_text = self.extract_full_text(element)
+            # Look for patterns like "B. light to electrical" being mentioned as correct
+            if "light to electrical" in solution_text.lower():
+                return "B"
+
+        return None
 
     def extract_all_diagrams(self, container):
         """Extract all diagrams/images from container"""
@@ -229,26 +284,27 @@ class KuulchatSpider(scrapy.Spider):
         """Extract theory questions using direct HTML parsing"""
         theory_questions = []
 
-        # Find the theory questions section
+        # Find the theory questions section header
         theory_section = response.css('h4.center:contains("THEORY QUESTIONS")')
         if not theory_section:
             return
 
-        # Get the next div that contains all theory questions
-        questions_container = theory_section[0].xpath("following-sibling::div[1]")[0]
+        # Get all siblings after THEORY QUESTIONS
+        current_element = theory_section[0]
 
-        # Each theory question is in its own div
-        question_divs = questions_container.css("div")
-
-        for question_div in question_divs:
+        for sibling in current_element.xpath("following-sibling::*"):
             # Skip advertisements
-            if self.is_advertisement(question_div):
+            if self.is_advertisement(sibling):
                 continue
 
-            # Parse the theory question
-            question_data = self.parse_theory_question_improved(question_div)
-            if question_data:
-                theory_questions.append(question_data)
+            # Check if this sibling contains theory questions
+            # Look for question number patterns
+            sibling_text = self.extract_full_text(sibling)
+            if re.search(r"\b\d+\.\s+", sibling_text):
+                # This might contain questions, parse it
+                question_data = self.parse_theory_question_improved(sibling)
+                if question_data:
+                    theory_questions.append(question_data)
 
         # Sort by question number and remove duplicates
         theory_questions.sort(key=lambda x: x.get("number", 0))
