@@ -2,9 +2,13 @@ import json
 import os
 from collections import defaultdict
 from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+from image_downloader import ImageDownloader
 
 
-def restructure_json(input_file, subject, year, output_dir):
+def restructure_json(input_file: str, subject: str, year: str, output_dir: Path):
     with open(input_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -13,8 +17,8 @@ def restructure_json(input_file, subject, year, output_dir):
     total_questions = 0
     objective_questions = 0
     theory_questions = 0
-    questions_with_diagrams = defaultdict(int)
-    questions_with_solutions = defaultdict(int)
+    questions_with_diagrams: defaultdict[Any, int] = defaultdict(int)
+    questions_with_solutions: defaultdict[Any, int] = defaultdict(int)
 
     for question in data:
         total_questions += 1
@@ -40,10 +44,18 @@ def restructure_json(input_file, subject, year, output_dir):
     # Create output directory
     os.makedirs(output_dir, exist_ok=True)
 
+    # Initialize ImageDownloader
+    downloader = ImageDownloader(subject, year, output_dir)
+
+    # Download images and update question paths
+    download_stats, updated_questions_data = downloader.download_and_update_images(
+        restructured_data
+    )
+
     # Write restructured questions JSON
-    output_questions_path = os.path.join(output_dir, "questions.json")
+    output_questions_path = output_dir / "questions.json"
     with open(output_questions_path, "w", encoding="utf-8") as f:
-        json.dump(restructured_data, f, indent=2, ensure_ascii=False)
+        json.dump(updated_questions_data, f, indent=2, ensure_ascii=False)
 
     # Create metadata file
     metadata = {
@@ -60,6 +72,7 @@ def restructure_json(input_file, subject, year, output_dir):
             "year": year,
             "source_url": f"https://kuulchat.com/bece/questions/{subject}-{year}/",  # Placeholder, adjust if needed
             "spider_reason": "restructured",
+            "image_download_stats": download_stats,  # Add image download stats
         },
         "file_structure": {
             "questions_json": "questions.json",
@@ -70,7 +83,7 @@ def restructure_json(input_file, subject, year, output_dir):
         "format_version": "2.0",
     }
 
-    output_metadata_path = os.path.join(output_dir, "metadata.json")
+    output_metadata_path = output_dir / "metadata.json"
     with open(output_metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2, ensure_ascii=False)
 
@@ -83,6 +96,6 @@ if __name__ == "__main__":
     input_json_file = "bece_questions.json"
     subject_name = "science"
     year_name = "2022"
-    output_directory = os.path.join("data", f"{subject_name}_{year_name}")
+    output_directory = Path("data") / f"{subject_name}_{year_name}"
 
     restructure_json(input_json_file, subject_name, year_name, output_directory)
