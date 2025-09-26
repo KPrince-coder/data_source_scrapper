@@ -176,12 +176,3 @@ def restructure_json(input_file: str, subject: str, year: str, output_dir: Path)
     print(
         f"Successfully restructured '{input_file}' to '{output_questions_path}' and created metadata at '{output_metadata_path}'"
     )
-
-
-if __name__ == "__main__":
-    input_json_file = "bece_questions.json"
-    subject_name = "science"
-    year_name = "2022"
-    output_directory = Path("data") / f"{subject_name}_{year_name}"
-
-    restructure_json(input_json_file, subject_name, year_name, output_directory)
