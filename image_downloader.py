@@ -76,6 +76,11 @@ class ImageDownloader:
             True if successful, False otherwise
         """
         try:
+            # Validate URL scheme
+            parsed_url = urllib.parse.urlparse(url)
+            if parsed_url.scheme not in ["http", "https"]:
+                raise ValueError(f"Unsupported URL scheme: {parsed_url.scheme}")
+
             # Create directory if it doesn't exist
             filepath.parent.mkdir(parents=True, exist_ok=True)
 

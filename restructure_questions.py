@@ -1,3 +1,4 @@
+import csv
 import json
 import os
 from collections import defaultdict
@@ -6,6 +7,43 @@ from pathlib import Path
 from typing import Any
 
 from image_downloader import ImageDownloader
+
+
+def flatten_question(question: dict[Any, Any], q_type: str) -> dict[str, Any]:
+    """Flattens a nested question dictionary for CSV output."""
+    flat_question = {
+        "type": q_type,
+        "number": question.get("number"),
+        "question": question.get("question"),
+        "solution": question.get("solution", ""),
+        "answer": question.get("answer", ""),
+        "diagrams": "|".join(question.get("diagrams", [])),
+    }
+
+    # Handle options for 'objectives' type
+    if q_type == "objectives" and "options" in question:
+        for opt_key, opt_value in question["options"].items():
+            flat_question[f"option_{opt_key}"] = opt_value
+
+    # Handle subparts for 'theory' type
+    if q_type == "theory" and "subparts" in question:
+        for i, subpart in enumerate(question["subparts"]):
+            flat_question[f"subpart_{i + 1}_question"] = subpart.get("question", "")
+            flat_question[f"subpart_{i + 1}_solution"] = subpart.get("solution", "")
+            flat_question[f"subpart_{i + 1}_answer"] = subpart.get("answer", "")
+            if "subparts" in subpart:  # Nested subparts
+                for j, nested_subpart in enumerate(subpart["subparts"]):
+                    flat_question[f"subpart_{i + 1}_{chr(97 + j)}_question"] = (
+                        nested_subpart.get("question", "")
+                    )
+                    flat_question[f"subpart_{i + 1}_{chr(97 + j)}_solution"] = (
+                        nested_subpart.get("solution", "")
+                    )
+                    flat_question[f"subpart_{i + 1}_{chr(97 + j)}_answer"] = (
+                        nested_subpart.get("answer", "")
+                    )
+
+    return flat_question
 
 
 def restructure_json(input_file: str, subject: str, year: str, output_dir: Path):
@@ -17,8 +55,8 @@ def restructure_json(input_file: str, subject: str, year: str, output_dir: Path)
     total_questions = 0
     objective_questions = 0
     theory_questions = 0
-    questions_with_diagrams: defaultdict[Any, int] = defaultdict(int)
-    questions_with_solutions: defaultdict[Any, int] = defaultdict(int)
+    questions_with_diagrams: defaultdict[str, int] = defaultdict(int)
+    questions_with_solutions: defaultdict[str, int] = defaultdict(int)
 
     for question in data:
         total_questions += 1
@@ -53,9 +91,46 @@ def restructure_json(input_file: str, subject: str, year: str, output_dir: Path)
     )
 
     # Write restructured questions JSON
-    output_questions_path = output_dir / "questions.json"
+    output_questions_filename = f"{subject}_{year}.json"
+    output_questions_path = output_dir / output_questions_filename
     with open(output_questions_path, "w", encoding="utf-8") as f:
         json.dump(updated_questions_data, f, indent=2, ensure_ascii=False)
+
+    # Prepare data for CSV and write CSV
+    flattened_data = []
+    for q_type, questions_list in updated_questions_data.items():
+        for question in questions_list:
+            flattened_data.append(flatten_question(question, q_type))
+
+    if flattened_data:
+        csv_filename = f"{subject}_{year}.csv"
+        csv_path = output_dir / csv_filename
+
+        # Determine all possible fieldnames dynamically
+        all_fieldnames: set[Any] = set()
+        for row in flattened_data:
+            all_fieldnames.update(row.keys())
+
+        # Sort fieldnames for consistent order, putting common fields first
+        ordered_fieldnames = sorted(
+            list(all_fieldnames),
+            key=lambda x: (
+                0
+                if x in ["type", "number", "question", "solution", "answer", "diagrams"]
+                else 1
+                if x.startswith("option_")
+                else 2
+                if x.startswith("subpart_")
+                else 3,
+                x,
+            ),
+        )
+
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=ordered_fieldnames)
+            writer.writeheader()
+            writer.writerows(flattened_data)
+        print(f"Successfully created CSV at '{csv_path}'")
 
     # Create metadata file
     metadata = {
@@ -75,17 +150,28 @@ def restructure_json(input_file: str, subject: str, year: str, output_dir: Path)
             "image_download_stats": download_stats,  # Add image download stats
         },
         "file_structure": {
-            "questions_json": "questions.json",
-            "questions_csv": "questions.csv",  # Assuming CSV will be generated later
+            "questions_json": output_questions_filename,
+            "questions_csv": f"{subject}_{year}.csv",
             "images": "images/",  # Assuming images will be moved/downloaded later
             "reports": "reports/",  # Assuming reports will be generated later
         },
         "format_version": "2.0",
     }
 
-    output_metadata_path = output_dir / "metadata.json"
+    output_metadata_filename = f"{subject}_{year}_metadata.json"
+    output_metadata_path = output_dir / output_metadata_filename
     with open(output_metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2, ensure_ascii=False)
+
+    # Move and rename image download report
+    old_report_path = Path("image_download_report.txt")
+    if old_report_path.exists():
+        reports_dir = output_dir / "reports"
+        os.makedirs(reports_dir, exist_ok=True)
+        new_report_filename = f"{subject}_{year}_image_download_report.txt"
+        new_report_path = reports_dir / new_report_filename
+        os.rename(old_report_path, new_report_path)
+        print(f"Moved and renamed image download report to '{new_report_path}'")
 
     print(
         f"Successfully restructured '{input_file}' to '{output_questions_path}' and created metadata at '{output_metadata_path}'"
