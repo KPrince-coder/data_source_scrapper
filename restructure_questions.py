@@ -144,7 +144,6 @@ def restructure_json(input_file: str, subject: str, year: str, output_dir: Path)
             "questions_with_diagrams": dict(questions_with_diagrams),
             "questions_with_solutions": dict(questions_with_solutions),
             "subject": subject,
-            "year": year,
             "source_url": f"https://kuulchat.com/bece/questions/{subject}-{year}/",  # Placeholder, adjust if needed
             "spider_reason": "restructured",
             "image_download_stats": download_stats,  # Add image download stats

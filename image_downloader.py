@@ -157,12 +157,13 @@ class ImageDownloader:
         stats = {
             "total_questions": 0,
             "questions_with_images": 0,
-            "total_images": 0,
-            "downloaded_images": 0,
+            "total_images_expected": 0,  # Renamed for clarity
+            "downloaded_images_count": 0,  # Renamed for clarity
             "failed_downloads": 0,
             "objective_questions": 0,
             "theory_questions": 0,
             "updated_questions_json": False,  # No longer updating the questions_json directly
+            "downloaded_image_map": {},  # New: stores source_url -> local_path
         }
 
         # Create a deep copy to avoid modifying the original questions_data
@@ -180,18 +181,20 @@ class ImageDownloader:
                     stats["theory_questions"] += 1
 
                 if question.get("diagrams"):
+                    # This counts questions that *had diagrams listed*, not necessarily downloaded
                     stats["questions_with_images"] += 1
-                    stats["total_images"] += len(question["diagrams"])
+                    stats["total_images_expected"] += len(question["diagrams"])
 
                     # Download images for this question
-                    # The diagrams list in the question object is NOT updated here
-                    # as per the new requirement to preserve remote URLs in the JSON/CSV output.
                     downloaded_paths = self.process_question_images(question, q_type)
 
-                    stats["downloaded_images"] += len(downloaded_paths)
+                    stats["downloaded_images_count"] += len(downloaded_paths)
                     stats["failed_downloads"] += len(question["diagrams"]) - len(
                         downloaded_paths
                     )
+
+        # Add the full map of downloaded images to stats
+        stats["downloaded_image_map"] = self.downloaded_images
 
         stats["updated_questions_json"] = (
             False  # Confirming no direct update to questions_json
