@@ -3,14 +3,10 @@ import os
 import sys
 from pathlib import Path
 
-from scrapy.crawler import CrawlerProcess
-from scrapy.utils.project import get_project_settings
-
 # Ensure the project root is in the path for module imports
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from generate_reports import generate_report_for_combination
-from main import KuulchatSpider  # Import the spider directly from main.py
 from restructure_questions import restructure_json
 
 # Define configuration
@@ -128,7 +124,6 @@ def run_batch_spider(
 ):
     """Run spider for multiple subject-year combinations in a single Scrapy process"""
     total_combinations = len(subjects) * len(years)
-    successful = 0
     failed = 0
     combinations = []
 
@@ -154,81 +149,112 @@ def run_batch_spider(
         print("No valid combinations to process.")
         return False
 
-    # Configure Scrapy settings
-    settings = get_project_settings()
-    temp_json_input_file = Path("bece_questions.json")
-    temp_csv_input_file = Path("bece_questions.csv")
-
-    settings.set(
-        "FEEDS",
-        {
-            str(temp_json_input_file): {
-                "format": "json",
-                "overwrite": True,
-                "indent": 2,
-            },
-            str(temp_csv_input_file): {"format": "csv", "overwrite": True},
-        },
-        priority="cmdline",
-    )
-
-    settings.set("LOG_LEVEL", "INFO")
-    settings.set(
-        "USER_AGENT",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    )
-    settings.set("DOWNLOAD_DELAY", 2)
-    settings.set("RANDOMIZE_DOWNLOAD_DELAY", True)
-    settings.set("CONCURRENT_REQUESTS", 1)
-    settings.set("ROBOTSTXT_OBEY", True)
-
-    # Create a single CrawlerProcess for all URLs
-    process = CrawlerProcess(settings)
-
-    # Start URLs for the spider
-    start_urls = [combo["url"] for combo in combinations]
-
-    # Run the spider with all URLs
-    process.crawl(KuulchatSpider, start_urls=start_urls)
-    process.start()  # The script will block here until all crawling is finished
-
-    print("\nScrapy extraction completed for all URLs")
-
-    # Post-processing for each combination
     successful_combinations = []
     failed_combinations = []
 
-    if temp_json_input_file.exists():
-        for combo in combinations:
-            subject, year = combo["subject"], combo["year"]
-            print(f"\nPost-processing for {subject.title()} {year}")
+    # Process each combination in a separate Python process
+    for combo in combinations:
+        subject, year = combo["subject"], combo["year"]
+        url = combo["url"]
+        print(f"\nProcessing {subject.title()} {year}")
+        print(f"URL: {url}")
 
-            final_output_dir = Path(base_output_dir) / f"{subject}_{year}"
+        # Configure unique filenames for this combination
+        temp_json_file = Path(f"temp_{subject}_{year}.json")
+        temp_csv_file = Path(f"temp_{subject}_{year}.csv")
+        
+        # Create a temporary script for this combination
+        temp_script = f"""
+import sys
+from pathlib import Path
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
+sys.path.insert(0, "{str(Path(__file__).resolve().parent)}")
+from main import KuulchatSpider
 
-            try:
-                # Restructure and clean up
-                restructure_json(
-                    input_file=str(temp_json_input_file),
-                    subject=subject,
-                    year=year,
-                    output_dir=final_output_dir,
-                )
+# Configure Scrapy settings
+settings = get_project_settings()
+settings.set(
+    "FEEDS",
+    {{
+        "{str(temp_json_file)}": {{
+            "format": "json",
+            "overwrite": True,
+            "indent": 2,
+        }},
+        "{str(temp_csv_file)}": {{"format": "csv", "overwrite": True}},
+    }},
+    priority="cmdline",
+)
 
-                # Generate image download report
-                generate_report_for_combination(subject, year, base_output_dir)
-                successful_combinations.append((subject, year))
-                successful += 1
+settings.set("LOG_LEVEL", "INFO")
+settings.set(
+    "USER_AGENT",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+)
+settings.set("DOWNLOAD_DELAY", 2)
+settings.set("RANDOMIZE_DOWNLOAD_DELAY", True)
+settings.set("CONCURRENT_REQUESTS", 1)
+settings.set("ROBOTSTXT_OBEY", True)
 
-            except Exception as e:
-                print(f"Error during post-processing: {e}")
+process = CrawlerProcess(settings)
+process.crawl(KuulchatSpider, start_urls=["{url}"])
+process.start()
+        """
+        
+        temp_script_file = Path(f"temp_spider_{subject}_{year}.py")
+        try:
+            # Write temporary script
+            with open(temp_script_file, "w") as f:
+                f.write(temp_script)
+            
+            # Run spider in a separate process
+            import subprocess
+            result = subprocess.run(
+                [sys.executable, str(temp_script_file)],
+                capture_output=True,
+                text=True,
+                check=False
+            )
+            
+            if result.returncode == 0:
+                print(f"\nScrapy extraction completed for {subject.title()} {year}")
+                
+                final_output_dir = Path(base_output_dir) / f"{subject}_{year}"
+                try:
+                    # Restructure and clean up
+                    restructure_json(
+                        input_file=str(temp_json_file),
+                        subject=subject,
+                        year=year,
+                        output_dir=final_output_dir,
+                    )
+                    
+                    # Generate image download report
+                    generate_report_for_combination(subject, year, base_output_dir)
+                    successful_combinations.append((subject, year))
+                    
+                except Exception as e:
+                    print(f"Error during post-processing: {e}")
+                    failed_combinations.append((subject, year))
+            else:
+                print(f"Error running spider for {subject.title()} {year}:")
+                print(result.stderr)
                 failed_combinations.append((subject, year))
-                failed += 1
 
-        # Cleanup intermediate files
-        if temp_json_input_file.exists():
-            os.remove(temp_json_input_file)
-        if temp_csv_input_file.exists():
-            os.remove(temp_csv_input_file)
+        except Exception as e:
+            print(f"Error processing {subject.title()} {year}: {e}")
+            failed_combinations.append((subject, year))
+            
+        finally:
+            # Clean up temporary files
+            for file in [temp_json_file, temp_csv_file, temp_script_file]:
+                try:
+                    if file.exists():
+                        os.remove(file)
+                except Exception as e:
+                    print(f"Warning: Could not remove temporary file {file}: {e}")    # Get the number of failed combinations
+    failed = len(failed_combinations)
 
     # Print detailed processing summary
     print("\n" + "=" * 60)
