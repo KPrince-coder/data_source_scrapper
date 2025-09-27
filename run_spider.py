@@ -195,6 +195,9 @@ def run_batch_spider(
     print("\nScrapy extraction completed for all URLs")
 
     # Post-processing for each combination
+    successful_combinations = []
+    failed_combinations = []
+
     if temp_json_input_file.exists():
         for combo in combinations:
             subject, year = combo["subject"], combo["year"]
@@ -213,10 +216,12 @@ def run_batch_spider(
 
                 # Generate image download report
                 generate_report_for_combination(subject, year, base_output_dir)
+                successful_combinations.append((subject, year))
                 successful += 1
 
             except Exception as e:
                 print(f"Error during post-processing: {e}")
+                failed_combinations.append((subject, year))
                 failed += 1
 
         # Cleanup intermediate files
@@ -225,10 +230,43 @@ def run_batch_spider(
         if temp_csv_input_file.exists():
             os.remove(temp_csv_input_file)
 
-    print("\nBatch processing complete!")
-    print(f"Total combinations: {total_combinations}")
-    print(f"Successful: {successful}")
-    print(f"Failed: {failed}")
+    # Print detailed processing summary
+    print("\n" + "=" * 60)
+    print(" " * 20 + "PROCESSING SUMMARY")
+    print("=" * 60)
+
+    if len(combinations) == 1:
+        # Single subject/year processing
+        subject, year = combinations[0]["subject"], combinations[0]["year"]
+        if successful_combinations:
+            print(f"\n✅ Successfully processed {subject.title()} {year}")
+            print(f"   Output directory: {base_output_dir}/{subject}_{year}")
+            print("   Data files:")
+            print(f"   • {subject}_{year}.json")
+            print(f"   • {subject}_{year}_metadata.json")
+            print(f"   • {subject}_{year}.csv")
+        else:
+            print(f"\n❌ Failed to process {subject.title()} {year}")
+    else:
+        # Batch processing summary
+        print(f"\nProcessed {total_combinations} subject-year combinations")
+
+        if successful_combinations:
+            print("\n✅ Successfully processed:")
+            for subject, year in successful_combinations:
+                print(f"\n   • {subject.title()} {year}")
+                print(f"     Output directory: {base_output_dir}/{subject}_{year}")
+                print("     Data files:")
+                print(f"     • {subject}_{year}.json")
+                print(f"     • {subject}_{year}_metadata.json")
+                print(f"     • {subject}_{year}.csv")
+
+        if failed_combinations:
+            print("\n❌ Failed to process:")
+            for subject, year in failed_combinations:
+                print(f"   • {subject.title()} {year}")
+
+    print("\n" + "=" * 60)
 
     return failed == 0
 
@@ -240,9 +278,13 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python run_spider.py                                        # Run with defaults (science 2022)
-  python run_spider.py -s mathematics -y 2021                # Single subject/year
-  python run_spider.py -S science,mathematics -Y 2020-2022   # Multiple subjects/years
+  python run_spider.py                                        # Run with defaults (science, 2022)
+  python run_spider.py -s mathematics -y 2021                # Single subject, single year
+  python run_spider.py -S science,mathematics -Y 2020-2022   # Multiple subjects, multiple years
+  python run_spider.py -s english -Y 2023-2025               # Single subject, multiple years
+  python run_spider.py -S science,mathematics -y 2025         # Multiple subjects, single year
+  python run_spider.py -Y 2021-2023                           # Default subject (science), multiple years
+  python run_spider.py -S science,mathematics -Y 2020-2022 -o my_data  # Custom output directory
   python run_spider.py --list                                # List available subjects
   python run_spider.py -S science,english -Y 2020-2022 --list-urls  # Preview URLs
         """,
@@ -302,26 +344,33 @@ Examples:
         list_available_subjects()
         return
 
-    # Handle batch processing
-    if args.subjects or args.years:
-        if not args.subjects or not args.years:
-            print(
-                "Error: Both -S/--subjects and -Y/--years must be provided for batch processing"
-            )
-            sys.exit(1)
+    # Initialize subjects and years lists
+    subjects = []
+    years = []
 
+    # Handle subjects (either -s or -S)
+    if args.subjects:  # -S/--subjects was used
         subjects = parse_subjects(args.subjects)
+    if args.subject and not subjects:  # -s/--subject was used and -S wasn't
+        subjects = [args.subject]
+    if not subjects:  # Neither -s nor -S was used
+        subjects = [DEFAULT_SUBJECT]
+
+    # Handle years (either -y or -Y)
+    if args.years:  # -Y/--years was used
         years = parse_year_range(args.years)
+    if args.year and not years:  # -y/--year was used and -Y wasn't
+        years = [args.year]
+    if not years:  # Neither -y nor -Y was used
+        years = [DEFAULT_YEAR]
 
-        if not subjects or not years:
-            sys.exit(1)
+    # Validate that we have both subjects and years
+    if not subjects or not years:
+        print("Error: No valid subjects or years provided")
+        sys.exit(1)
 
-        success = run_batch_spider(subjects, years, args.output, args.list_urls)
-    else:
-        # Single subject/year processing
-        success = run_spider_for_subject(
-            args.subject, args.year, args.output, args.list_urls
-        )
+    # Run the spider with the collected subjects and years
+    success = run_batch_spider(subjects, years, args.output, args.list_urls)
 
     if not success:
         sys.exit(1)
