@@ -59,7 +59,9 @@ def generate_report_for_combination(subject, year, base_data_dir):
     report_content.append(
         f"Image Download Report for {subject.replace('_', ' ').title()} {year}"
     )
-    report_content.append(f"Generated on: {datetime.now().isoformat()}")
+    report_content.append(
+        f"Generated on: {datetime.now().strftime('%A, %B %d, %Y %H:%M:%S')}"
+    )
     report_content.append("\nSummary:")
     report_content.append(f"  Total Questions: {total_questions}")
     report_content.append("  Questions with Images:")
