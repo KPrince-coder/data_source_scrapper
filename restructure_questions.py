@@ -107,7 +107,7 @@ def restructure_json(input_file: str, subject: str, year: str, output_dir: Path)
         csv_path = output_dir / csv_filename
 
         # Determine all possible fieldnames dynamically
-        all_fieldnames = set()
+        all_fieldnames: set[Any] = set()
         for row in flattened_data:
             all_fieldnames.update(row.keys())
 
