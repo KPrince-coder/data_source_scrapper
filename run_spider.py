@@ -1,6 +1,7 @@
 import argparse
 import os
 import sys
+from datetime import datetime
 from pathlib import Path
 
 # Ensure the project root is in the path for module imports
@@ -17,9 +18,6 @@ AVAILABLE_SUBJECTS = [
     "mathematics",
     "english",
     "social-studies",
-    "ict",
-    "integrated-science",
-    "religious-and-moral-education",
 ]
 
 
@@ -30,7 +28,9 @@ def generate_url(subject: str, year: str) -> str:
 
 DEFAULT_SUBJECT = "science"
 DEFAULT_YEAR = "2022"
-CURRENT_YEAR = 2025  # Update this yearly or use datetime to get current year
+CURRENT_YEAR = (
+    datetime.now().year
+)  # Update this yearly or use datetime to get current year
 
 
 def validate_year(year: str) -> bool:

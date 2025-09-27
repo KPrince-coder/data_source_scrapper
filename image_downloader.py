@@ -9,7 +9,7 @@ import os
 import urllib.parse
 import urllib.request
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Tuple
 
 
 class ImageDownloader:
@@ -33,7 +33,7 @@ class ImageDownloader:
         self.images_dir.mkdir(parents=True, exist_ok=True)
 
         # Track downloaded images to avoid duplicates
-        self.downloaded_images: Dict[str, str] = {}
+        self.downloaded_images: dict[str, str] = {}
 
     def get_file_extension(self, url: str) -> str:
         """Extract file extension from URL"""
@@ -97,8 +97,8 @@ class ImageDownloader:
             return False
 
     def process_question_images(
-        self, question: Dict[Any, Any], question_type: str
-    ) -> List[str]:
+        self, question: dict[Any, Any], question_type: str
+    ) -> list[str]:
         """
         Process and download images for a single question
 
@@ -141,8 +141,8 @@ class ImageDownloader:
         return downloaded_paths
 
     def download_and_update_images(
-        self, questions_data: Dict[str, List[Dict[Any, Any]]]
-    ) -> Tuple[Dict[str, Any], Dict[str, List[Dict[Any, Any]]]]:
+        self, questions_data: dict[str, list[dict[Any, Any]]]
+    ) -> Tuple[dict[str, Any], dict[str, list[dict[Any, Any]]]]:
         """
         Download all images from the restructured questions data and update paths.
 
