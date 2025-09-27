@@ -162,7 +162,7 @@ def run_batch_spider(
         # Configure unique filenames for this combination
         temp_json_file = Path(f"temp_{subject}_{year}.json")
         temp_csv_file = Path(f"temp_{subject}_{year}.csv")
-        
+
         # Create a temporary script for this combination
         temp_script = f"""
 import sys
@@ -201,25 +201,26 @@ process = CrawlerProcess(settings)
 process.crawl(KuulchatSpider, start_urls=["{url}"])
 process.start()
         """
-        
+
         temp_script_file = Path(f"temp_spider_{subject}_{year}.py")
         try:
             # Write temporary script
             with open(temp_script_file, "w") as f:
                 f.write(temp_script)
-            
+
             # Run spider in a separate process
             import subprocess
+
             result = subprocess.run(
                 [sys.executable, str(temp_script_file)],
                 capture_output=True,
                 text=True,
-                check=False
+                check=False,
             )
-            
+
             if result.returncode == 0:
                 print(f"\nScrapy extraction completed for {subject.title()} {year}")
-                
+
                 final_output_dir = Path(base_output_dir) / f"{subject}_{year}"
                 try:
                     # Restructure and clean up
@@ -229,11 +230,11 @@ process.start()
                         year=year,
                         output_dir=final_output_dir,
                     )
-                    
+
                     # Generate image download report
                     generate_report_for_combination(subject, year, base_output_dir)
                     successful_combinations.append((subject, year))
-                    
+
                 except Exception as e:
                     print(f"Error during post-processing: {e}")
                     failed_combinations.append((subject, year))
@@ -245,7 +246,7 @@ process.start()
         except Exception as e:
             print(f"Error processing {subject.title()} {year}: {e}")
             failed_combinations.append((subject, year))
-            
+
         finally:
             # Clean up temporary files
             for file in [temp_json_file, temp_csv_file, temp_script_file]:
@@ -253,7 +254,9 @@ process.start()
                     if file.exists():
                         os.remove(file)
                 except Exception as e:
-                    print(f"Warning: Could not remove temporary file {file}: {e}")    # Get the number of failed combinations
+                    print(
+                        f"Warning: Could not remove temporary file {file}: {e}"
+                    )  # Get the number of failed combinations
     failed = len(failed_combinations)
 
     # Print detailed processing summary
