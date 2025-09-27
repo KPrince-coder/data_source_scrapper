@@ -1,9 +1,28 @@
 [project]
 name = "data-source-scraper"
 version = "0.1.0"
-description = "Add your description here"
+description = "Educational content scraper for downloading and organizing questions, diagrams, and metadata from educational resources"
 readme = "README.md"
 requires-python = ">=3.13"
+license = "MIT"
+authors = [
+    { name = "Prince Kyeremeh" }
+]
+keywords = ["education", "scraper", "content", "images", "data-collection"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Education",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
 dependencies = [
     "scrapy>=2.13.3",
 ]
+
+[project.urls]
+Documentation = "https://github.com/KPrince-coder/data-source-scraper#readme"
+Source = "https://github.com/KPrince-coder/data-source-scraper"
+
