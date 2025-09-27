@@ -1,13 +1,17 @@
 import html
-import os
 import re
 
 import scrapy
 
 
 class KuulchatSpider(scrapy.Spider):
+    """Spider for scraping BECE questions from Kuulchat.
+
+    Note: start_urls should be provided during initialization.
+    Settings are managed in run_spider.py.
+    """
+
     name = "kuulchat"
-    start_urls = ["https://kuulchat.com/bece/questions/science-2022/"]
 
     def clean_text(self, text):
         """Clean and normalize text content"""
@@ -666,33 +670,33 @@ class KuulchatSpider(scrapy.Spider):
 
 
 # Configure settings in a standalone script
-if __name__ == "__main__":
-    from scrapy.crawler import CrawlerProcess
-    from scrapy.utils.project import get_project_settings
+# if __name__ == "__main__":
+#     from scrapy.crawler import CrawlerProcess
+#     from scrapy.utils.project import get_project_settings
 
-    settings = get_project_settings()
-    settings.update(
-        {
-            "FEEDS": {
-                "bece_questions.json": {
-                    "format": "json",
-                    "overwrite": True,
-                    "indent": 2,
-                },
-                "bece_questions.csv": {"format": "csv", "overwrite": True},
-            },
-            "LOG_LEVEL": "INFO",
-            "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-            "DOWNLOAD_DELAY": 2,
-        }
-    )
+#     settings = get_project_settings()
+#     settings.update(
+#         {
+#             "FEEDS": {
+#                 "bece_questions.json": {
+#                     "format": "json",
+#                     "overwrite": True,
+#                     "indent": 2,
+#                 },
+#                 "bece_questions.csv": {"format": "csv", "overwrite": True},
+#             },
+#             "LOG_LEVEL": "INFO",
+#             "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+#             "DOWNLOAD_DELAY": 2,
+#         }
+#     )
 
-    process = CrawlerProcess(settings)
-    process.crawl(KuulchatSpider)
-    process.start()
+#     process = CrawlerProcess(settings)
+#     process.crawl(KuulchatSpider)
+#     process.start()
 
-    # Verify output files
-    if os.path.exists("bece_questions.json"):
-        print("JSON file created: bece_questions.json")
-    if os.path.exists("bece_questions.csv"):
-        print("CSV file created: bece_questions.csv")
+#     # Verify output files
+#     if os.path.exists("bece_questions.json"):
+#         print("JSON file created: bece_questions.json")
+#     if os.path.exists("bece_questions.csv"):
+#         print("CSV file created: bece_questions.csv")
