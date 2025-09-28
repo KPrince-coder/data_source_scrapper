@@ -1,5 +1,5 @@
 [project]
-name = "data-source-scraper"
+name = "data_source_scraper"
 version = "0.1.0"
 description = "Educational content scraper for downloading and organizing questions, diagrams, and metadata from educational resources"
 readme = "README.md"
@@ -23,6 +23,6 @@ dependencies = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/KPrince-coder/data-source-scraper#readme"
-Source = "https://github.com/KPrince-coder/data-source-scraper"
+Documentation = "https://github.com/KPrince-coder/data_source_scraper#readme"
+Source = "https://github.com/KPrince-coder/data_source_scraper"
 
