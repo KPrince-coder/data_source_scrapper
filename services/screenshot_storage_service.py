@@ -73,7 +73,8 @@ class ScreenshotStorageService:
         
         # Include timestamp to ensure uniqueness and avoid caching issues
         timestamp_str = timestamp.strftime("%Y%m%d_%H%M%S")
-        filename = f"{subject}_{year}_{timestamp_str}.png"
+        filename = f"{subject}_{year}.png"
+        # filename = f"{subject}_{year}_{timestamp_str}.png"
         
         return filename
     
