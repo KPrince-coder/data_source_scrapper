@@ -98,8 +98,6 @@ https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026_14
 
 📖 **[Complete Screenshot Setup Guide →](docs/SCREENSHOT_INTEGRATION.md)**
 
-  ```
-
 ## Installation
 
 1. Clone the repository:
