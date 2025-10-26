@@ -85,14 +85,20 @@
   - [ ]* 4.3 Write unit tests for Data Enrichment Service
     - Test JSON and CSV file modification with sample data
     - Verify backup and rollback functionality
+
+
     - Test handling of failed PDF generation scenarios
     - _Requirements: 2.1, 2.2, 2.5_
 
-- [ ] 5. Create configuration management system
+- [x] 5. Create configuration management system
+
+
   - [ ] 5.1 Implement configuration classes and validation
     - Create ScreenshotConfig class with all necessary settings
     - Add environment variable loading and validation
     - Implement configuration validation with meaningful error messages
+
+
     - _Requirements: 3.1, 3.2, 4.4_
 
   - [ ] 5.2 Add configuration file support and defaults
@@ -105,6 +111,9 @@
   - [ ] 6.1 Modify run_spider.py to include screenshot workflow
     - Add screenshot capture after successful page scraping
 
+
+
+
     - Integrate PDF storage and data enrichment in post-processing
     - Ensure existing functionality remains unaffected when screenshots are disabled
     - _Requirements: 4.1, 4.2, 4.5_
@@ -114,6 +123,7 @@
     - Update CSV generation to include page_screenshot_pdf column
     - Ensure backward compatibility with existing data structures
     - _Requirements: 2.1, 2.2, 2.3, 4.2_
+
 
   - [ ] 6.3 Add error handling and logging integration
     - Implement comprehensive error logging for screenshot workflow
@@ -141,13 +151,17 @@
     - _Requirements: 1.1, 1.2, 1.3, 2.1, 2.2_
 
 - [ ] 8. Add documentation and setup instructions
-  - [ ] 8.1 Create setup and installation documentation
+  - [x] 8.1 Create setup and installation documentation
+
     - Document ImageKit account setup and API key configuration
     - Add Playwright installation instructions and browser setup
     - Create environment variable configuration guide
     - _Requirements: 3.1, 4.4_
 
-  - [ ] 8.2 Update README with new functionality
+  - [x] 8.2 Update README with new functionality
+
+
+
     - Document new CLI options and configuration settings
     - Add examples of enhanced JSON/CSV output with PDF URLs
     - Include troubleshooting guide for common issues

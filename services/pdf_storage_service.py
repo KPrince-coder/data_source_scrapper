@@ -8,8 +8,6 @@ from typing import Optional, Dict, Any
 from dataclasses import dataclass
 
 from PIL import Image
-from reportlab.lib.pagesizes import A4, letter
-from reportlab.pdfgen import canvas
 from imagekitio import ImageKit
 from imagekitio.models.UploadFileRequestOptions import UploadFileRequestOptions
 
@@ -74,7 +72,7 @@ class PDFStorageService:
         Args:
             image_path: Path to input image file
             pdf_path: Path where PDF will be saved
-            page_size: Optional page size tuple (width, height). Defaults to A4.
+            page_size: Optional page size tuple (width, height). Uses image size if None.
             
         Returns:
             True if conversion successful, False otherwise
@@ -97,68 +95,11 @@ class PDFStorageService:
             elif img.mode != 'RGB':
                 img = img.convert('RGB')
             
-            # Get image dimensions
-            img_width, img_height = img.size
-            
-            # Determine page size
-            if page_size is None:
-                if self.pdf_config.format.upper() == 'A4':
-                    page_size = A4
-                elif self.pdf_config.format.upper() == 'LETTER':
-                    page_size = letter
-                else:
-                    page_size = A4  # Default to A4
-            
-            page_width, page_height = page_size
-            
-            # Calculate scaling to fit image on page with margins
-            margin_left = self.pdf_config.margin_left
-            margin_right = self.pdf_config.margin_right
-            margin_top = self.pdf_config.margin_top
-            margin_bottom = self.pdf_config.margin_bottom
-            
-            available_width = page_width - margin_left - margin_right
-            available_height = page_height - margin_top - margin_bottom
-            
-            # Calculate scale factor to fit image
-            scale_x = available_width / img_width
-            scale_y = available_height / img_height
-            scale = min(scale_x, scale_y)
-            
-            scaled_width = img_width * scale
-            scaled_height = img_height * scale
-            
-            # Center image on page
-            x_offset = margin_left + (available_width - scaled_width) / 2
-            y_offset = margin_bottom + (available_height - scaled_height) / 2
-            
             # Ensure output directory exists
             Path(pdf_path).parent.mkdir(parents=True, exist_ok=True)
             
-            # Create PDF
-            c = canvas.Canvas(pdf_path, pagesize=page_size)
-            
-            # Save image temporarily for reportlab
-            temp_img_path = str(Path(pdf_path).parent / "temp_rgb.jpg")
-            img.save(temp_img_path, "JPEG", quality=self.pdf_config.quality)
-            
-            # Draw image on PDF
-            c.drawImage(
-                temp_img_path,
-                x_offset,
-                y_offset,
-                width=scaled_width,
-                height=scaled_height,
-                preserveAspectRatio=True
-            )
-            
-            c.save()
-            
-            # Clean up temporary image
-            try:
-                os.remove(temp_img_path)
-            except Exception as e:
-                logger.warning(f"Could not remove temporary image: {e}")
+            # Use Pillow's built-in PDF conversion (simpler and more reliable)
+            img.save(pdf_path, "PDF", resolution=100.0, quality=self.pdf_config.quality)
             
             logger.info(f"PDF created successfully: {pdf_path}")
             return True
@@ -177,13 +118,10 @@ class PDFStorageService:
             timestamp: Optional timestamp (defaults to current time)
             
         Returns:
-            Generated filename in format: {subject}_{year}_{timestamp}.pdf
+            Generated filename in format: {subject}_{year}.pdf
         """
-        if timestamp is None:
-            timestamp = datetime.now()
-        
-        timestamp_str = timestamp.strftime("%Y%m%d_%H%M%S")
-        filename = f"{subject}_{year}_{timestamp_str}.pdf"
+        # Simple filename with just subject and year as required by ImageKit
+        filename = f"{subject}_{year}.pdf"
         
         return filename
     
@@ -252,16 +190,11 @@ class PDFStorageService:
             with open(pdf_path, 'rb') as file:
                 file_content = file.read()
             
-            # Prepare upload options
+            # Prepare upload options (without custom_metadata to avoid ImageKit errors)
             options = UploadFileRequestOptions(
                 folder=folder_path,
                 tags=['screenshot', 'bece', subject, str(year)],
-                custom_metadata={
-                    'subject': subject,
-                    'year': str(year),
-                    'source_url': url,
-                    'upload_date': datetime.now().isoformat()
-                }
+                use_unique_file_name=False  # Use our filename as-is
             )
             
             # Upload to ImageKit

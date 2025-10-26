@@ -9,8 +9,8 @@ load_dotenv()  # Load environment variables from .env file if present
 
 
 @dataclass
-class ScrapyPlaywrightConfig:
-    """Configuration for scrapy-playwright integration."""
+class PlaywrightConfig:
+    """Configuration for Playwright browser settings."""
     browser_type: str = "chromium"
     headless: bool = True
     viewport_width: int = 1920
@@ -18,9 +18,10 @@ class ScrapyPlaywrightConfig:
     timeout: int = 30000
     screenshot_format: str = "png"
     quality: int = 90
-    # scrapy-playwright specific settings
-    screenshot_enabled: bool = True
-    screenshot_full_page: bool = True
+
+
+# Alias for backward compatibility with scrapy-playwright
+ScrapyPlaywrightConfig = PlaywrightConfig
 
 
 @dataclass
@@ -57,14 +58,14 @@ class PDFConfig:
 class ScreenshotConfig:
     """Main configuration class for screenshot functionality."""
     enabled: bool = True
-    scrapy_playwright: ScrapyPlaywrightConfig = None
+    playwright: PlaywrightConfig = None
     imagekit: ImageKitConfig = None
     pdf: PDFConfig = None
     
     def __post_init__(self):
         """Initialize sub-configurations if not provided."""
-        if self.scrapy_playwright is None:
-            self.scrapy_playwright = ScrapyPlaywrightConfig()
+        if self.playwright is None:
+            self.playwright = PlaywrightConfig()
         if self.imagekit is None:
             self.imagekit = ImageKitConfig()
         if self.pdf is None:
@@ -75,17 +76,15 @@ class ScreenshotConfig:
         """Create configuration from environment variables."""
         enabled = os.getenv('SCREENSHOT_ENABLED', 'true').lower() == 'true'
         
-        # Scrapy-Playwright configuration from environment
-        scrapy_playwright_config = ScrapyPlaywrightConfig(
+        # Playwright configuration from environment
+        playwright_config = PlaywrightConfig(
             browser_type=os.getenv('PLAYWRIGHT_BROWSER', 'chromium'),
             headless=os.getenv('PLAYWRIGHT_HEADLESS', 'true').lower() == 'true',
             viewport_width=int(os.getenv('PLAYWRIGHT_VIEWPORT_WIDTH', '1920')),
             viewport_height=int(os.getenv('PLAYWRIGHT_VIEWPORT_HEIGHT', '1080')),
             timeout=int(os.getenv('PLAYWRIGHT_TIMEOUT', '30000')),
             screenshot_format=os.getenv('PLAYWRIGHT_SCREENSHOT_FORMAT', 'png'),
-            quality=int(os.getenv('PLAYWRIGHT_QUALITY', '90')),
-            screenshot_enabled=os.getenv('PLAYWRIGHT_SCREENSHOT_ENABLED', 'true').lower() == 'true',
-            screenshot_full_page=os.getenv('PLAYWRIGHT_SCREENSHOT_FULL_PAGE', 'true').lower() == 'true'
+            quality=int(os.getenv('PLAYWRIGHT_QUALITY', '90'))
         )
         
         # PDF configuration from environment
@@ -100,7 +99,7 @@ class ScreenshotConfig:
         
         return cls(
             enabled=enabled,
-            scrapy_playwright=scrapy_playwright_config,
+            playwright=playwright_config,
             imagekit=ImageKitConfig(),  # Will load from env in __post_init__
             pdf=pdf_config
         )
@@ -122,14 +121,14 @@ class ScreenshotConfig:
                 
                 errors.append(f"Missing required environment variables: {', '.join(missing_vars)}")
             
-            # Validate Scrapy-Playwright configuration
-            if self.scrapy_playwright.browser_type not in ['chromium', 'firefox', 'webkit']:
-                errors.append(f"Invalid browser type: {self.scrapy_playwright.browser_type}")
+            # Validate Playwright configuration
+            if self.playwright.browser_type not in ['chromium', 'firefox', 'webkit']:
+                errors.append(f"Invalid browser type: {self.playwright.browser_type}")
             
-            if self.scrapy_playwright.viewport_width <= 0 or self.scrapy_playwright.viewport_height <= 0:
+            if self.playwright.viewport_width <= 0 or self.playwright.viewport_height <= 0:
                 errors.append("Viewport dimensions must be positive integers")
             
-            if self.scrapy_playwright.timeout <= 0:
+            if self.playwright.timeout <= 0:
                 errors.append("Timeout must be a positive integer")
             
             # Validate PDF configuration
@@ -142,18 +141,16 @@ class ScreenshotConfig:
         """Convert configuration to dictionary format."""
         return {
             'enabled': self.enabled,
-            'scrapy_playwright': {
-                'browser_type': self.scrapy_playwright.browser_type,
-                'headless': self.scrapy_playwright.headless,
+            'playwright': {
+                'browser_type': self.playwright.browser_type,
+                'headless': self.playwright.headless,
                 'viewport': {
-                    'width': self.scrapy_playwright.viewport_width,
-                    'height': self.scrapy_playwright.viewport_height
+                    'width': self.playwright.viewport_width,
+                    'height': self.playwright.viewport_height
                 },
-                'timeout': self.scrapy_playwright.timeout,
-                'screenshot_format': self.scrapy_playwright.screenshot_format,
-                'quality': self.scrapy_playwright.quality,
-                'screenshot_enabled': self.scrapy_playwright.screenshot_enabled,
-                'screenshot_full_page': self.scrapy_playwright.screenshot_full_page
+                'timeout': self.playwright.timeout,
+                'screenshot_format': self.playwright.screenshot_format,
+                'quality': self.playwright.quality
             },
             'imagekit': {
                 'public_key': self.imagekit.public_key,

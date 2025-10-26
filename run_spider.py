@@ -1,4 +1,5 @@
 import argparse
+import asyncio
 import os
 import sys
 from datetime import datetime
@@ -9,6 +10,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from generate_reports import generate_report_for_combination
 from restructure_questions import restructure_json
+from config.screenshot_config import load_config
+from config.logging_config import setup_logging
+from services.screenshot_workflow import create_workflow_manager
 
 # Define configuration
 BASE_URL = "https://kuulchat.com/bece/questions/"
@@ -120,7 +124,7 @@ def parse_subjects(subjects: str) -> list[str]:
 
 
 def run_batch_spider(
-    subjects: list[str], years: list[str], base_output_dir: str, dry_run: bool = False
+    subjects: list[str], years: list[str], base_output_dir: str, dry_run: bool = False, no_screenshots: bool = False
 ):
     """Run spider for multiple subject-year combinations in a single Scrapy process"""
     total_combinations = len(subjects) * len(years)
@@ -233,6 +237,39 @@ process.start()
 
                     # Generate image download report
                     generate_report_for_combination(subject, year, base_output_dir)
+                    
+                    # Process screenshot and PDF generation (if enabled)
+                    try:
+                        screenshot_config = load_config()
+                        # Check both config and CLI flag
+                        screenshots_enabled = screenshot_config.enabled and not no_screenshots
+                        if screenshots_enabled:
+                            print(f"\n📸 Capturing screenshot and generating PDF for {subject.title()} {year}...")
+                            
+                            # Prepare file paths
+                            json_file = final_output_dir / f"{subject}_{year}.json"
+                            csv_file = final_output_dir / f"{subject}_{year}.csv"
+                            
+                            # Run screenshot workflow
+                            workflow_manager = create_workflow_manager(screenshot_config)
+                            pdf_url = asyncio.run(workflow_manager.process_single(
+                                url=url,
+                                subject=subject,
+                                year=year,
+                                json_path=str(json_file) if json_file.exists() else None,
+                                csv_path=str(csv_file) if csv_file.exists() else None
+                            ))
+                            
+                            if pdf_url:
+                                print(f"✅ Screenshot PDF available at: {pdf_url}")
+                            else:
+                                print("⚠️  Screenshot capture failed, but data files are intact")
+                        else:
+                            print("ℹ️  Screenshot functionality is disabled")
+                    except Exception as screenshot_error:
+                        print(f"⚠️  Screenshot processing error: {screenshot_error}")
+                        print("   Data files are intact, continuing...")
+                    
                     successful_combinations.append((subject, year))
 
                 except Exception as e:
@@ -365,8 +402,25 @@ Examples:
         action="store_true",
         help="List URLs that would be scraped without actually scraping",
     )
+    
+    parser.add_argument(
+        "--no-screenshots",
+        action="store_true",
+        help="Disable screenshot and PDF generation",
+    )
+    
+    parser.add_argument(
+        "--verbose",
+        "-v",
+        action="store_true",
+        help="Enable verbose logging (DEBUG level)",
+    )
 
     args = parser.parse_args()
+    
+    # Setup logging based on verbosity
+    log_level = "DEBUG" if args.verbose else "INFO"
+    setup_logging(log_level=log_level, log_to_file=True)
 
     # Handle list command
     if args.list:
@@ -399,7 +453,7 @@ Examples:
         sys.exit(1)
 
     # Run the spider with the collected subjects and years
-    success = run_batch_spider(subjects, years, args.output, args.list_urls)
+    success = run_batch_spider(subjects, years, args.output, args.list_urls, args.no_screenshots)
 
     if not success:
         sys.exit(1)

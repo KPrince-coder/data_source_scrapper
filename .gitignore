@@ -16,3 +16,5 @@ image*
 .qodo
 
 .env
+
+logs/

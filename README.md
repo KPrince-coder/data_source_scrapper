@@ -24,18 +24,76 @@ A powerful web scraping tool designed to extract BECE (Basic Education Certifica
   - Metadata generation
   - Detailed processing reports
 
+- 📸 **Screenshot & PDF Integration** (New!):
+  - Automatic page screenshot capture using Playwright
+  - PDF conversion and cloud storage via ImageKit
+  - PDF URLs embedded in JSON and CSV output
+  - Visual archive of question pages
+
 - 📊 **Organized Output Structure**:
 
   ```text
   data/
   ├── subject_year/
-  │   ├── subject_year.json         # Main data file
+  │   ├── subject_year.json         # Main data file (with PDF URL)
   │   ├── subject_year_metadata.json # Metadata
-  │   ├── subject_year.csv          # CSV format
+  │   ├── subject_year.csv          # CSV format (with PDF URL)
   │   ├── images/                   # Downloaded images
   │   │   ├── objectives/
   │   │   └── theory/
   │   └── reports/                  # Processing reports
+  ```
+
+## Screenshot & PDF Features
+
+The scraper now includes optional screenshot and PDF generation capabilities:
+
+- **Automatic Screenshots**: Captures full-page screenshots of question pages
+- **PDF Storage**: Converts screenshots to PDFs and uploads to ImageKit cloud storage
+- **URL Embedding**: Adds PDF URLs to your JSON and CSV files for easy reference
+- **Visual Archive**: Maintains a complete visual record alongside structured data
+
+### Setup Screenshot Functionality
+
+1. **Install Playwright browsers**:
+   ```bash
+   playwright install chromium
+   ```
+
+2. **Configure ImageKit** (see [SCREENSHOT_SETUP.md](SCREENSHOT_SETUP.md) for detailed instructions):
+   - Create a free ImageKit account at [imagekit.io](https://imagekit.io/)
+   - Get your API credentials from the dashboard
+   - Add credentials to `.env` file:
+     ```env
+     IMAGEKIT_PUBLIC_KEY=your_public_key
+     IMAGEKIT_PRIVATE_KEY=your_private_key
+     IMAGEKIT_URL_ENDPOINT=https://ik.imagekit.io/your_id
+     ```
+
+3. **Run with screenshots enabled**:
+   ```bash
+   uv run python run_spider.py -s science -y 2022
+   ```
+
+### Screenshot Output Examples
+
+**JSON with PDF URL**:
+```json
+{
+  "page_screenshot_pdf": "https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026.pdf",
+  "objectives": [...],
+  "theory": [...]
+}
+```
+
+**CSV with PDF URL**:
+```csv
+page_screenshot_pdf,type,number,question,...
+https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026.pdf,objectives,1,"What is...",...
+```
+
+For complete setup instructions, see [SCREENSHOT_SETUP.md](SCREENSHOT_SETUP.md).
+
   ```
 
 ## Installation
@@ -96,7 +154,7 @@ A powerful web scraping tool designed to extract BECE (Basic Education Certifica
 
 ```text
 usage: run_spider.py [-h] [-s SUBJECT] [-y YEAR] [-S SUBJECTS] [-Y YEARS]
-                     [-o OUTPUT] [--list] [--list-urls]
+                     [-o OUTPUT] [--list] [--list-urls] [--no-screenshots] [-v]
 
 Run Kuulchat Educational Content Spider
 
@@ -109,6 +167,8 @@ optional arguments:
   -o, --output        Base output directory (default: data)
   --list              List available subjects and years
   --list-urls         Preview URLs without scraping
+  --no-screenshots    Disable screenshot and PDF generation
+  -v, --verbose       Enable verbose logging (DEBUG level)
 ```
 
 ### Advanced Features
@@ -129,6 +189,18 @@ optional arguments:
 
    ```bash
    uv run python run_spider.py -s science -y 2022 -o custom_data
+   ```
+
+4. Disable screenshots (faster processing):
+
+   ```bash
+   uv run python run_spider.py -s science -y 2022 --no-screenshots
+   ```
+
+5. Enable verbose logging:
+
+   ```bash
+   uv run python run_spider.py -s science -y 2022 --verbose
    ```
 
 ### Output Structure
