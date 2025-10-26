@@ -8,7 +8,7 @@ The screenshot integration adds visual archiving capabilities to the BECE Questi
 
 - 📸 **Capturing full-page screenshots** of question pages using Playwright
 - ☁️ **Storing screenshots** as PNG images in ImageKit cloud storage  
-- 🔗 **Embedding URLs** in JSON and CSV output files for easy access
+- 🔗 **Embedding URLs** in JSON, CSV, and metadata files for easy access
 - 🚀 **Automatic processing** integrated into the existing scraper workflow
 
 ## Quick Start
@@ -105,6 +105,21 @@ page_screenshot,type,number,question,...
 https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026_143052.png?updatedAt=1761494123212,objectives,1,"What is...",...
 ```
 
+### Enhanced Metadata Output
+
+```json
+{
+  "subject": "science",
+  "year": "2022",
+  "spider_stats": {
+    "total_questions": 45,
+    "page_screenshot": "https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026_143052.png?updatedAt=1761494123212",
+    ...
+  },
+  ...
+}
+```
+
 ## Command Line Usage
 
 ### Basic Usage
@@ -145,7 +160,7 @@ uv run python run_spider.py -s science -y 2022 --verbose
    - Handles upload retries and error recovery
 
 3. **DataEnrichmentService** (`services/data_enrichment_service.py`)
-   - Adds screenshot URLs to JSON/CSV files
+   - Adds screenshot URLs to JSON, CSV, and metadata files
    - Creates backups before modification
    - Validates file integrity
 
@@ -158,7 +173,7 @@ uv run python run_spider.py -s science -y 2022 --verbose
 
 1. **Capture**: Take full-page screenshot using Playwright
 2. **Upload**: Store screenshot in ImageKit with organized folder structure
-3. **Enrich**: Add screenshot URL to JSON and CSV output files
+3. **Enrich**: Add screenshot URL to JSON, CSV, and metadata output files
 
 ## File Organization
 
@@ -235,6 +250,12 @@ uv run python tests/test_screenshot.py
 
 ```bash
 uv run python tests/test_upload.py
+```
+
+#### Test Metadata Enrichment
+
+```bash
+uv run python tests/test_metadata_enrichment.py
 ```
 
 ### Logs

@@ -2,6 +2,24 @@
 
 All notable changes to the BECE Questions Data Scraper project.
 
+## [2.0.1] - 2025-10-26
+
+### ✨ Enhancements
+
+#### Metadata Screenshot Integration
+
+- **Enhanced Metadata Files**: Screenshot URLs now automatically added to metadata files
+- **Complete Coverage**: All three output formats (JSON, CSV, metadata) now include screenshot URLs
+- **Backward Compatibility**: Existing metadata files can be enriched with screenshot URLs
+- **Comprehensive Testing**: Added test suite for metadata enrichment functionality
+
+### 🔧 Technical Improvements
+
+- Updated `DataEnrichmentService` to handle metadata file enrichment
+- Enhanced `ScreenshotWorkflow` to automatically include metadata in enrichment process
+- Modified spider runner to pass metadata file paths to screenshot workflow
+- Added comprehensive test coverage for metadata enrichment scenarios
+
 ## [2.0.0] - 2024-10-26
 
 ### 🎉 Major Features Added
@@ -10,7 +28,7 @@ All notable changes to the BECE Questions Data Scraper project.
 
 - **Automatic Screenshot Capture**: Full-page screenshots using Playwright
 - **Cloud Storage**: Direct PNG upload to ImageKit (no PDF conversion)
-- **URL Embedding**: Screenshot URLs added to JSON and CSV output files
+- **URL Embedding**: Screenshot URLs added to JSON, CSV, and metadata files
 - **Visual Archive**: Complete visual record alongside structured data
 
 #### New Services Architecture
