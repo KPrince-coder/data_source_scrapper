@@ -20,9 +20,7 @@ classifiers = [
 
 dependencies = [
     "imagekitio>=4.2.0",
-    "pillow>=12.0.0",
     "python-dotenv>=1.2.0",
-    "reportlab>=4.4.4",
     "scrapy>=2.13.3",
     "scrapy-playwright>=0.0.44",
 ]
