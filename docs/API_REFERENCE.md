@@ -351,6 +351,21 @@ Clean up all resources.
 
 ---
 
+## Configuration Constants
+
+### Folder Name Constants
+
+You can customize folder names by modifying constants in `config/screenshot_config.py`:
+
+```python
+# Constants for folder organization
+SCREENSHOT_BASE_FOLDER = "screenshots"      # Main folder in ImageKit  
+TEMP_SCREENSHOTS_FOLDER = "temp_screenshots"  # Local temporary folder
+DEFAULT_FOLDER_STRUCTURE = f"/{SCREENSHOT_BASE_FOLDER}/{{subject}}/{{year}}/"
+```
+
+These constants are used throughout the application to ensure consistent folder naming.
+
 ## Data Models
 
 ### UploadResult

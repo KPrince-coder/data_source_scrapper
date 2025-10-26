@@ -40,6 +40,24 @@ uv run python run_spider.py -s science -y 2022
 
 ## Configuration Options
 
+### Folder Name Customization
+
+You can customize the folder names used for screenshot storage by modifying constants in `config/screenshot_config.py`:
+
+```python
+# Change these constants to customize folder names
+SCREENSHOT_BASE_FOLDER = "screenshots"      # Main folder in ImageKit
+TEMP_SCREENSHOTS_FOLDER = "temp_screenshots"  # Local temporary folder
+```
+
+For example, to use "bece_screenshots" instead of "screenshots":
+
+```python
+SCREENSHOT_BASE_FOLDER = "bece_screenshots"
+```
+
+This will organize files as: `/bece_screenshots/{subject}/{year}/`
+
 ### Environment Variables
 
 | Variable | Description | Default |

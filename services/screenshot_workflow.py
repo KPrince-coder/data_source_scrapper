@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Optional, Dict, Any
 from datetime import datetime
 
-from config.screenshot_config import ScreenshotConfig, load_config
+from config.screenshot_config import ScreenshotConfig, load_config, TEMP_SCREENSHOTS_FOLDER
 from services.screenshot_service import ScreenshotService, create_screenshot_service
 from services.screenshot_storage_service import ScreenshotStorageService, create_screenshot_storage_service
 from services.data_enrichment_service import DataEnrichmentService, create_data_enrichment_service
@@ -91,7 +91,7 @@ class ScreenshotWorkflow:
         year: str,
         json_path: Optional[str] = None,
         csv_path: Optional[str] = None,
-        temp_dir: str = "temp_screenshots"
+        temp_dir: str = TEMP_SCREENSHOTS_FOLDER
     ) -> Optional[str]:
         """
         Process a URL through the complete workflow.

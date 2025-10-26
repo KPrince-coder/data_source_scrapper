@@ -9,8 +9,15 @@ from dataclasses import dataclass
 from imagekitio import ImageKit
 from imagekitio.models.UploadFileRequestOptions import UploadFileRequestOptions
 
-from config.screenshot_config import ImageKitConfig
+from config.screenshot_config import (
+    ImageKitConfig, 
+    SCREENSHOT_BASE_FOLDER, 
+    TEMP_SCREENSHOTS_FOLDER
+)
 
+
+# Derived constants
+SCREENSHOT_FOLDER_STRUCTURE = f"/{SCREENSHOT_BASE_FOLDER}/{{subject}}/{{year}}/"
 
 logger = logging.getLogger(__name__)
 
@@ -87,9 +94,10 @@ class ScreenshotStorageService:
             year: Year
             
         Returns:
-            Folder path in format: /screenshots/{subject}/{year}/
+            Folder path in format: /{SCREENSHOT_BASE_FOLDER}/{subject}/{year}/
         """
-        folder_path = self.imagekit_config.folder_structure.format(
+        # Use the constant folder structure instead of config
+        folder_path = SCREENSHOT_FOLDER_STRUCTURE.format(
             subject=subject,
             year=year
         )
@@ -295,13 +303,13 @@ class ScreenshotStorageService:
             return []
         
         try:
-            # Construct folder path
+            # Construct folder path using constants
             if subject and year:
                 folder_path = self.organize_in_folders(subject, year)
             elif subject:
-                folder_path = f"/screenshots/{subject}/"
+                folder_path = f"/{SCREENSHOT_BASE_FOLDER}/{subject}/"
             else:
-                folder_path = "/screenshots/"
+                folder_path = f"/{SCREENSHOT_BASE_FOLDER}/"
             
             logger.info(f"Listing screenshots in folder: {folder_path}")
             

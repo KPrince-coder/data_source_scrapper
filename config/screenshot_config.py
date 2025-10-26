@@ -24,13 +24,20 @@ class PlaywrightConfig:
 ScrapyPlaywrightConfig = PlaywrightConfig
 
 
+# Constants for folder organization
+# Change these constants to customize folder names
+SCREENSHOT_BASE_FOLDER = "bece_screenshots"  # Main folder in ImageKit
+TEMP_SCREENSHOTS_FOLDER = "temp_screenshots"  # Local temporary folder
+DEFAULT_FOLDER_STRUCTURE = f"/{SCREENSHOT_BASE_FOLDER}/{{subject}}/{{year}}/"
+
+
 @dataclass
 class ImageKitConfig:
     """Configuration for ImageKit integration."""
     public_key: Optional[str] = None
     private_key: Optional[str] = None
     url_endpoint: Optional[str] = None
-    folder_structure: str = "/screenshots/{subject}/{year}/"
+    folder_structure: str = DEFAULT_FOLDER_STRUCTURE
     
     def __post_init__(self):
         """Load ImageKit credentials from environment variables."""
