@@ -112,7 +112,7 @@ uv run python -c "from config.screenshot_config import load_config; config = loa
 
 Expected output:
 
-```
+```text
 Screenshot enabled: True
 ImageKit configured: True
 ```
@@ -177,7 +177,7 @@ PLAYWRIGHT_HEADLESS=false
 
 After running with screenshots enabled, your output will include:
 
-```
+```text
 data/science_2022/
 ├── science_2022.json          # Contains page_screenshot_pdf field
 ├── science_2022.csv           # Contains page_screenshot_pdf column

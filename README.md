@@ -24,10 +24,10 @@ A powerful web scraping tool designed to extract BECE (Basic Education Certifica
   - Metadata generation
   - Detailed processing reports
 
-- 📸 **Screenshot & PDF Integration** (New!):
+- 📸 **Screenshot Integration** (New!):
   - Automatic page screenshot capture using Playwright
-  - PDF conversion and cloud storage via ImageKit
-  - PDF URLs embedded in JSON and CSV output
+  - Cloud storage via ImageKit
+  - Screenshot URLs embedded in JSON and CSV output
   - Visual archive of question pages
 
 - 📊 **Organized Output Structure**:
@@ -35,64 +35,68 @@ A powerful web scraping tool designed to extract BECE (Basic Education Certifica
   ```text
   data/
   ├── subject_year/
-  │   ├── subject_year.json         # Main data file (with PDF URL)
+  │   ├── subject_year.json         # Main data file (with screenshot URL)
   │   ├── subject_year_metadata.json # Metadata
-  │   ├── subject_year.csv          # CSV format (with PDF URL)
+  │   ├── subject_year.csv          # CSV format (with screenshot URL)
   │   ├── images/                   # Downloaded images
   │   │   ├── objectives/
   │   │   └── theory/
   │   └── reports/                  # Processing reports
   ```
 
-## Screenshot & PDF Features
+## Screenshot Integration
 
-The scraper now includes optional screenshot and PDF generation capabilities:
+The scraper includes optional screenshot functionality:
 
 - **Automatic Screenshots**: Captures full-page screenshots of question pages
-- **PDF Storage**: Converts screenshots to PDFs and uploads to ImageKit cloud storage
-- **URL Embedding**: Adds PDF URLs to your JSON and CSV files for easy reference
+- **Cloud Storage**: Uploads screenshots to ImageKit cloud storage
+- **URL Embedding**: Adds screenshot URLs to your JSON and CSV files for easy reference
 - **Visual Archive**: Maintains a complete visual record alongside structured data
 
-### Setup Screenshot Functionality
+### Quick Setup
 
 1. **Install Playwright browsers**:
+
    ```bash
    playwright install chromium
    ```
 
-2. **Configure ImageKit** (see [SCREENSHOT_SETUP.md](SCREENSHOT_SETUP.md) for detailed instructions):
+2. **Configure ImageKit**:
    - Create a free ImageKit account at [imagekit.io](https://imagekit.io/)
-   - Get your API credentials from the dashboard
    - Add credentials to `.env` file:
+
      ```env
      IMAGEKIT_PUBLIC_KEY=your_public_key
      IMAGEKIT_PRIVATE_KEY=your_private_key
      IMAGEKIT_URL_ENDPOINT=https://ik.imagekit.io/your_id
      ```
 
-3. **Run with screenshots enabled**:
+3. **Run with screenshots**:
+
    ```bash
    uv run python run_spider.py -s science -y 2022
    ```
 
-### Screenshot Output Examples
+### Output Examples
 
-**JSON with PDF URL**:
+**JSON with Screenshot URL**:
+
 ```json
 {
-  "page_screenshot_pdf": "https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026.pdf",
+  "page_screenshot": "https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026_143052.png?updatedAt=1761494123212",
   "objectives": [...],
   "theory": [...]
 }
 ```
 
-**CSV with PDF URL**:
+**CSV with Screenshot URL**:
+
 ```csv
-page_screenshot_pdf,type,number,question,...
-https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026.pdf,objectives,1,"What is...",...
+page_screenshot,type,number,question,...
+https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026_143052.png?updatedAt=1761494123212,objectives,1,"What is...",...
 ```
 
-For complete setup instructions, see [SCREENSHOT_SETUP.md](SCREENSHOT_SETUP.md).
+📖 **[Complete Screenshot Setup Guide →](docs/SCREENSHOT_INTEGRATION.md)**
 
   ```
 
@@ -247,6 +251,23 @@ After completion, you'll see a detailed processing summary:
 ============================================================
 ```
 
+## Documentation
+
+### 📚 Complete Guides
+
+- **[Screenshot Integration Guide](docs/SCREENSHOT_INTEGRATION.md)** - Complete setup and usage guide for screenshot functionality
+- **[API Reference](docs/API_REFERENCE.md)** - Detailed API documentation for all services and classes
+
+### 🚀 Quick References
+
+- **[Quick Start Screenshots](docs/QUICK_START_SCREENSHOTS.md)** - 5-minute setup guide
+- **[Environment Setup](.env.example)** - Configuration template
+
+### 🔧 Development
+
+- **[Contributing Guidelines](docs/CONTRIBUTING.md)** - Development setup and contribution guide
+- **[Testing Guide](docs/TESTING.md)** - Running tests and debugging
+
 ## Contributing
 
 1. Fork the repository
@@ -254,6 +275,8 @@ After completion, you'll see a detailed processing summary:
 3. Commit your changes
 4. Push to the branch
 5. Create a new Pull Request
+
+See [Contributing Guidelines](docs/CONTRIBUTING.md) for detailed development setup.
 
 ## License
 

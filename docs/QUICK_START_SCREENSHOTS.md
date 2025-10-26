@@ -1,6 +1,6 @@
-# Quick Start: Screenshot & PDF Integration
+# Quick Start: Screenshot Integration
 
-Get started with screenshot and PDF generation in 5 minutes!
+Get started with screenshot functionality in 5 minutes!
 
 ## Prerequisites
 
@@ -40,7 +40,7 @@ SCREENSHOT_ENABLED=true
 uv run python run_spider.py -s science -y 2022
 ```
 
-Output includes PDF URL in JSON and CSV files!
+Output includes screenshot URL in JSON and CSV files!
 
 ### Run without Screenshots
 
@@ -60,7 +60,7 @@ uv run python run_spider.py -S science,mathematics -Y 2020-2022
 
 ```json
 {
-  "page_screenshot_pdf": "https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026.pdf",
+  "page_screenshot": "https://ik.imagekit.io/your_id/screenshots/science/2022/science_2022_20241026_143052.png?updatedAt=1761494123212",
   "objectives": [...],
   "theory": [...]
 }
@@ -68,11 +68,11 @@ uv run python run_spider.py -S science,mathematics -Y 2020-2022
 
 ### Enhanced CSV Output
 
-New `page_screenshot_pdf` column with direct links to PDFs.
+New `page_screenshot` column with direct links to screenshots.
 
 ### ImageKit Dashboard
 
-View all your PDFs at: `https://imagekit.io/dashboard`
+View all your screenshots at: `https://imagekit.io/dashboard`
 
 Organized in folders: `/screenshots/{subject}/{year}/`
 
@@ -114,9 +114,9 @@ playwright install chromium
 uv run python run_spider.py -s science -y 2022
 
 # 4. Check output
-# - JSON file has page_screenshot_pdf field
-# - CSV file has page_screenshot_pdf column
-# - PDF viewable in ImageKit dashboard
+# - JSON file has page_screenshot field
+# - CSV file has page_screenshot column
+# - Screenshot viewable in ImageKit dashboard
 
 # 5. Run batch processing
 uv run python run_spider.py -S science,mathematics,english -Y 2022-2024
