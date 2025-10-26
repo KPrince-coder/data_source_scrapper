@@ -8,8 +8,8 @@ from pathlib import Path
 # Ensure the project root is in the path for module imports
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from generate_reports import generate_report_for_combination
-from restructure_questions import restructure_json
+from core.generate_reports import generate_report_for_combination
+from core.restructure_questions import restructure_json
 from config.screenshot_config import load_config
 from config.logging_config import setup_logging
 from services.screenshot_workflow import create_workflow_manager
@@ -174,7 +174,7 @@ from pathlib import Path
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 sys.path.insert(0, "{str(Path(__file__).resolve().parent)}")
-from main import KuulchatSpider
+from core.main import KuulchatSpider
 
 # Configure Scrapy settings
 settings = get_project_settings()
@@ -356,7 +356,7 @@ Examples:
   python run_spider.py -s science -y 2022 --no-screenshots  # Disable screenshots
   python run_spider.py -s science -y 2022 -v             # Enable verbose logging
   python run_spider.py -S science,mathematics -Y 2020-2022 --list-urls --no-screenshots  # Preview URLs without screenshots
-  
+
         """,
     )
 

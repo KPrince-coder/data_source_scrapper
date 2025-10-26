@@ -6,7 +6,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict
 
-from image_downloader import ImageDownloader
+from core.image_downloader import ImageDownloader
 
 
 def flatten_question(question: Dict[Any, Any], q_type: str) -> Dict[str, Any]:

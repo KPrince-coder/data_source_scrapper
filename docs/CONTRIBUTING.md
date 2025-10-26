@@ -45,14 +45,18 @@ data_source_scraper/
 ├── config/                 # Configuration management
 │   ├── screenshot_config.py
 │   └── logging_config.py
-├── services/              # Core services
+├── core/                  # Core scraper functionality
+│   ├── main.py           # Main Scrapy spider
+│   ├── restructure_questions.py
+│   ├── generate_reports.py
+│   └── image_downloader.py
+├── services/              # Screenshot integration services
 │   ├── screenshot_service.py
 │   ├── screenshot_storage_service.py
 │   ├── data_enrichment_service.py
 │   └── screenshot_workflow.py
 ├── tests/                 # Test files
 ├── docs/                  # Documentation
-├── main.py               # Main spider
 ├── run_spider.py         # CLI interface
 └── README.md
 ```
