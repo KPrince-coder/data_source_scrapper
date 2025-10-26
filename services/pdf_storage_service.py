@@ -68,10 +68,15 @@ class ScreenshotStorageService:
             timestamp: Optional timestamp (defaults to current time)
             
         Returns:
-            Generated filename in format: {subject}_{year}.png
+            Generated filename in format: {subject}_{year}_{timestamp}.png
         """
-        # Simple filename with just subject and year
+        if timestamp is None:
+            timestamp = datetime.now()
+        
+        # Include timestamp to ensure uniqueness and avoid caching issues
+        timestamp_str = timestamp.strftime("%Y%m%d_%H%M%S")
         filename = f"{subject}_{year}.png"
+        # filename = f"{subject}_{year}_{timestamp_str}.png"
         
         return filename
     
@@ -146,7 +151,10 @@ class ScreenshotStorageService:
             options = UploadFileRequestOptions(
                 folder=folder_path,
                 tags=['screenshot', 'bece', subject, str(year)],
-                use_unique_file_name=False  # Use our filename as-is
+                use_unique_file_name=False,  # Use our filename as-is
+                overwrite_file=True,  # Replace existing file with same name
+                overwrite_tags=True,  # Update tags if file exists
+                overwrite_ai_tags=True  # Update AI tags if file exists
             )
             
             # Upload using file object (the correct way according to docs)
@@ -158,10 +166,15 @@ class ScreenshotStorageService:
                 )
             
             if result and hasattr(result, 'url'):
-                logger.info(f"Screenshot uploaded successfully: {result.url}")
+                # Add updatedAt parameter to ensure fresh content (avoid caching)
+                import time
+                updated_at = int(time.time() * 1000)  # Current timestamp in milliseconds
+                fresh_url = f"{result.url}?updatedAt={updated_at}"
+                
+                logger.info(f"Screenshot uploaded successfully: {fresh_url}")
                 return UploadResult(
                     success=True,
-                    url=result.url,
+                    url=fresh_url,
                     file_id=getattr(result, 'file_id', None)
                 )
             else:
