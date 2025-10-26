@@ -56,8 +56,6 @@ class ScreenshotStorageService:
         """Check if ImageKit client is properly configured."""
         return self._imagekit_client is not None
     
-
-    
     def generate_filename(self, subject: str, year: str, timestamp: Optional[datetime] = None) -> str:
         """
         Generate a consistent filename for screenshot storage.
@@ -75,8 +73,7 @@ class ScreenshotStorageService:
         
         # Include timestamp to ensure uniqueness and avoid caching issues
         timestamp_str = timestamp.strftime("%Y%m%d_%H%M%S")
-        filename = f"{subject}_{year}.png"
-        # filename = f"{subject}_{year}_{timestamp_str}.png"
+        filename = f"{subject}_{year}_{timestamp_str}.png"
         
         return filename
     

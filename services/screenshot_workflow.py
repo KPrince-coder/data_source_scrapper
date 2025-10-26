@@ -8,7 +8,7 @@ from datetime import datetime
 
 from config.screenshot_config import ScreenshotConfig, load_config
 from services.screenshot_service import ScreenshotService, create_screenshot_service
-from services.pdf_storage_service import ScreenshotStorageService, create_screenshot_storage_service
+from services.screenshot_storage_service import ScreenshotStorageService, create_screenshot_storage_service
 from services.data_enrichment_service import DataEnrichmentService, create_data_enrichment_service
 
 
