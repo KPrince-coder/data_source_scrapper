@@ -10,9 +10,13 @@
   - Set up environment variable handling for ImageKit credentials
   - _Requirements: 3.1, 3.2, 4.3_
 
+
+
 - [ ] 2. Implement Screenshot Service with Playwright integration
   - [ ] 2.1 Create ScreenshotService class with browser management
     - Implement browser initialization and cleanup methods
+
+
     - Add viewport configuration and screenshot capture functionality
     - Handle browser lifecycle management with proper async/await patterns
     - _Requirements: 1.1, 1.4, 3.5_
@@ -23,15 +27,21 @@
     - Create robust error handling that doesn't break existing scraper flow
     - _Requirements: 1.1, 3.3, 4.1_
 
-  - [ ]* 2.3 Write unit tests for Screenshot Service
+  - [x]* 2.3 Write unit tests for Screenshot Service
+
+
     - Create tests for browser initialization and cleanup
     - Test screenshot capture with mock Playwright browser
     - Verify error handling scenarios and timeout behavior
     - _Requirements: 1.1, 3.3_
 
+
+
 - [ ] 3. Implement PDF Storage Service with ImageKit integration
   - [ ] 3.1 Create PDFStorageService class with ImageKit client
     - Set up ImageKit authentication and client initialization
+
+
     - Implement PDF conversion from screenshot images using Pillow/ReportLab
     - Add filename generation with consistent naming patterns
     - _Requirements: 1.2, 1.3, 5.1, 5.2_
@@ -42,11 +52,16 @@
     - Create folder organization structure in ImageKit
     - _Requirements: 1.2, 1.3, 3.2, 3.4, 5.2, 5.3_
 
-  - [ ] 3.3 Implement batch operations and management methods
+  - [x] 3.3 Implement batch operations and management methods
+
+
     - Add batch upload capabilities for multiple PDFs
     - Create methods to list and manage stored PDFs in ImageKit
     - Implement cleanup of temporary files after processing
     - _Requirements: 5.4, 5.5_
+
+
+
 
   - [ ]* 3.4 Write unit tests for PDF Storage Service
     - Test PDF conversion functionality with sample images
@@ -89,6 +104,7 @@
 - [ ] 6. Integrate services with existing scraper workflow
   - [ ] 6.1 Modify run_spider.py to include screenshot workflow
     - Add screenshot capture after successful page scraping
+
     - Integrate PDF storage and data enrichment in post-processing
     - Ensure existing functionality remains unaffected when screenshots are disabled
     - _Requirements: 4.1, 4.2, 4.5_
