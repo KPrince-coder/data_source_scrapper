@@ -19,7 +19,9 @@ classifiers = [
 ]
 
 dependencies = [
+    "imagekitio>=4.2.0",
     "scrapy>=2.13.3",
+    "scrapy-playwright>=0.0.44",
 ]
 
 [project.urls]
