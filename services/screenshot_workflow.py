@@ -91,6 +91,7 @@ class ScreenshotWorkflow:
         year: str,
         json_path: Optional[str] = None,
         csv_path: Optional[str] = None,
+        metadata_path: Optional[str] = None,
         temp_dir: str = TEMP_SCREENSHOTS_FOLDER
     ) -> Optional[str]:
         """
@@ -165,12 +166,13 @@ class ScreenshotWorkflow:
             logger.info(f"Screenshot uploaded successfully: {screenshot_url}")
             
             # Step 3: Enrich data files
-            if json_path or csv_path:
+            if json_path or csv_path or metadata_path:
                 logger.info("Step 3/3: Enriching data files")
                 if not self.data_enrichment_service.enrich_files(
                     json_path=json_path,
                     csv_path=csv_path,
                     pdf_url=screenshot_url,  # Using screenshot URL instead of PDF
+                    metadata_path=metadata_path,
                     create_backup=True
                 ):
                     logger.error("Failed to enrich data files")
@@ -236,7 +238,8 @@ class ScreenshotWorkflowManager:
         subject: str,
         year: str,
         json_path: Optional[str] = None,
-        csv_path: Optional[str] = None
+        csv_path: Optional[str] = None,
+        metadata_path: Optional[str] = None
     ) -> Optional[str]:
         """
         Process a single URL through the workflow.
@@ -247,6 +250,7 @@ class ScreenshotWorkflowManager:
             year: Year
             json_path: Optional path to JSON file to enrich
             csv_path: Optional path to CSV file to enrich
+            metadata_path: Optional path to metadata file to enrich
             
         Returns:
             PDF URL if successful, None otherwise
@@ -257,7 +261,8 @@ class ScreenshotWorkflowManager:
                 subject=subject,
                 year=year,
                 json_path=json_path,
-                csv_path=csv_path
+                csv_path=csv_path,
+                metadata_path=metadata_path
             )
     
     async def process_batch(
@@ -268,7 +273,7 @@ class ScreenshotWorkflowManager:
         Process multiple URLs through the workflow.
         
         Args:
-            items: List of dictionaries containing url, subject, year, json_path, csv_path
+            items: List of dictionaries containing url, subject, year, json_path, csv_path, metadata_path
             
         Returns:
             List of PDF URLs (None for failed items)
@@ -284,7 +289,8 @@ class ScreenshotWorkflowManager:
                     subject=item['subject'],
                     year=item['year'],
                     json_path=item.get('json_path'),
-                    csv_path=item.get('csv_path')
+                    csv_path=item.get('csv_path'),
+                    metadata_path=item.get('metadata_path')
                 )
                 
                 results.append(pdf_url)

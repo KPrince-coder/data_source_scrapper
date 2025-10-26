@@ -249,6 +249,7 @@ process.start()
                             # Prepare file paths
                             json_file = final_output_dir / f"{subject}_{year}.json"
                             csv_file = final_output_dir / f"{subject}_{year}.csv"
+                            metadata_file = final_output_dir / f"{subject}_{year}_metadata.json"
                             
                             # Run screenshot workflow
                             workflow_manager = create_workflow_manager(screenshot_config)
@@ -257,7 +258,8 @@ process.start()
                                 subject=subject,
                                 year=year,
                                 json_path=str(json_file) if json_file.exists() else None,
-                                csv_path=str(csv_file) if csv_file.exists() else None
+                                csv_path=str(csv_file) if csv_file.exists() else None,
+                                metadata_path=str(metadata_file) if metadata_file.exists() else None
                             ))
                             
                             if pdf_url:
