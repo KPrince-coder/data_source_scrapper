@@ -8,7 +8,7 @@ from datetime import datetime
 
 from config.screenshot_config import ScreenshotConfig, load_config
 from services.screenshot_service import ScreenshotService, create_screenshot_service
-from services.pdf_storage_service import PDFStorageService, create_pdf_storage_service
+from services.pdf_storage_service import ScreenshotStorageService, create_screenshot_storage_service
 from services.data_enrichment_service import DataEnrichmentService, create_data_enrichment_service
 
 
@@ -29,7 +29,7 @@ class ScreenshotWorkflow:
         
         # Initialize services
         self.screenshot_service: Optional[ScreenshotService] = None
-        self.pdf_storage_service: Optional[PDFStorageService] = None
+        self.storage_service: Optional[ScreenshotStorageService] = None
         self.data_enrichment_service: Optional[DataEnrichmentService] = None
         
         # Track workflow state
@@ -64,14 +64,13 @@ class ScreenshotWorkflow:
                 logger.error("Failed to initialize screenshot service")
                 return False
             
-            # Initialize PDF storage service
-            self.pdf_storage_service = create_pdf_storage_service(
-                self.config.imagekit,
-                self.config.pdf
+            # Initialize screenshot storage service
+            self.storage_service = create_screenshot_storage_service(
+                self.config.imagekit
             )
             
-            if not self.pdf_storage_service.is_configured():
-                logger.warning("PDF storage service not configured - uploads will be disabled")
+            if not self.storage_service.is_configured():
+                logger.warning("Screenshot storage service not configured - uploads will be disabled")
             
             # Initialize data enrichment service
             self.data_enrichment_service = create_data_enrichment_service()
@@ -113,28 +112,25 @@ class ScreenshotWorkflow:
             return None
         
         screenshot_path = None
-        pdf_path = None
-        pdf_url = None
+        screenshot_url = None
         
         try:
             # Create temp directory
             temp_path = Path(temp_dir)
             temp_path.mkdir(parents=True, exist_ok=True)
             
-            # Generate filenames
+            # Generate filename
             timestamp = datetime.now()
             timestamp_str = timestamp.strftime("%Y%m%d_%H%M%S")
             screenshot_filename = f"{subject}_{year}_{timestamp_str}.png"
-            pdf_filename = f"{subject}_{year}_{timestamp_str}.pdf"
             
             screenshot_path = str(temp_path / screenshot_filename)
-            pdf_path = str(temp_path / pdf_filename)
             
             # Track temp files for cleanup
-            self.temp_files.extend([screenshot_path, pdf_path])
+            self.temp_files.append(screenshot_path)
             
             # Step 1: Capture screenshot
-            logger.info(f"Step 1/4: Capturing screenshot of {url}")
+            logger.info(f"Step 1/3: Capturing screenshot of {url}")
             success = await self.screenshot_service.capture_screenshot_with_retry(
                 url=url,
                 output_path=screenshot_path,
@@ -146,14 +142,8 @@ class ScreenshotWorkflow:
                 logger.error("Failed to capture screenshot")
                 return None
             
-            # Step 2: Convert to PDF
-            logger.info("Step 2/4: Converting screenshot to PDF")
-            if not self.pdf_storage_service.convert_image_to_pdf(screenshot_path, pdf_path):
-                logger.error("Failed to convert screenshot to PDF")
-                return None
-            
-            # Step 3: Upload to ImageKit
-            logger.info("Step 3/4: Uploading PDF to ImageKit")
+            # Step 2: Upload to ImageKit
+            logger.info("Step 2/3: Uploading screenshot to ImageKit")
             metadata = {
                 'subject': subject,
                 'year': year,
@@ -161,33 +151,33 @@ class ScreenshotWorkflow:
                 'timestamp': timestamp
             }
             
-            upload_result = self.pdf_storage_service.retry_upload(
-                pdf_path=pdf_path,
+            upload_result = self.storage_service.retry_upload(
+                screenshot_path=screenshot_path,
                 metadata=metadata,
                 max_retries=3
             )
             
             if not upload_result.success:
-                logger.error(f"Failed to upload PDF: {upload_result.error_message}")
+                logger.error(f"Failed to upload screenshot: {upload_result.error_message}")
                 return None
             
-            pdf_url = upload_result.url
-            logger.info(f"PDF uploaded successfully: {pdf_url}")
+            screenshot_url = upload_result.url
+            logger.info(f"Screenshot uploaded successfully: {screenshot_url}")
             
-            # Step 4: Enrich data files
+            # Step 3: Enrich data files
             if json_path or csv_path:
-                logger.info("Step 4/4: Enriching data files")
+                logger.info("Step 3/3: Enriching data files")
                 if not self.data_enrichment_service.enrich_files(
                     json_path=json_path,
                     csv_path=csv_path,
-                    pdf_url=pdf_url,
+                    pdf_url=screenshot_url,  # Using screenshot URL instead of PDF
                     create_backup=True
                 ):
                     logger.error("Failed to enrich data files")
-                    # Don't return None - we still have the PDF URL
+                    # Don't return None - we still have the screenshot URL
             
             logger.info("Workflow completed successfully")
-            return pdf_url
+            return screenshot_url
             
         except Exception as e:
             logger.error(f"Error in workflow: {e}")
@@ -199,8 +189,8 @@ class ScreenshotWorkflow:
     
     def _cleanup_temp_files(self) -> None:
         """Clean up temporary files created during workflow."""
-        if self.pdf_storage_service:
-            self.pdf_storage_service.cleanup_temp_files(*self.temp_files)
+        if self.storage_service:
+            self.storage_service.cleanup_temp_files(*self.temp_files)
         self.temp_files.clear()
     
     async def cleanup(self) -> None:

@@ -1,44 +1,40 @@
-"""PDF Storage Service for converting screenshots to PDFs and uploading to ImageKit."""
+"""Screenshot Storage Service for uploading screenshots to ImageKit."""
 
 import logging
-import os
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, Dict, Any
 from dataclasses import dataclass
 
-from PIL import Image
 from imagekitio import ImageKit
 from imagekitio.models.UploadFileRequestOptions import UploadFileRequestOptions
 
-from config.screenshot_config import ImageKitConfig, PDFConfig
+from config.screenshot_config import ImageKitConfig
 
 
 logger = logging.getLogger(__name__)
 
 
 @dataclass
-class PDFUploadResult:
-    """Result of PDF upload operation."""
+class UploadResult:
+    """Result of screenshot upload operation."""
     success: bool
     url: Optional[str] = None
     file_id: Optional[str] = None
     error_message: Optional[str] = None
 
 
-class PDFStorageService:
-    """Service for converting screenshots to PDFs and managing ImageKit storage."""
+class ScreenshotStorageService:
+    """Service for uploading screenshots to ImageKit storage."""
     
-    def __init__(self, imagekit_config: ImageKitConfig, pdf_config: PDFConfig):
+    def __init__(self, imagekit_config: ImageKitConfig):
         """
-        Initialize the PDF Storage Service.
+        Initialize the Screenshot Storage Service.
         
         Args:
             imagekit_config: ImageKit configuration settings
-            pdf_config: PDF generation configuration settings
         """
         self.imagekit_config = imagekit_config
-        self.pdf_config = pdf_config
         self._imagekit_client: Optional[ImageKit] = None
         
         # Initialize ImageKit client if configured
@@ -54,63 +50,17 @@ class PDFStorageService:
                 logger.error(f"Failed to initialize ImageKit client: {e}")
                 self._imagekit_client = None
         else:
-            logger.warning("ImageKit not configured. PDF upload functionality will be disabled.")
+            logger.warning("ImageKit not configured. Screenshot upload functionality will be disabled.")
     
     def is_configured(self) -> bool:
         """Check if ImageKit client is properly configured."""
         return self._imagekit_client is not None
     
-    def convert_image_to_pdf(
-        self, 
-        image_path: str, 
-        pdf_path: str,
-        page_size: Optional[tuple] = None
-    ) -> bool:
-        """
-        Convert an image to PDF format.
-        
-        Args:
-            image_path: Path to input image file
-            pdf_path: Path where PDF will be saved
-            page_size: Optional page size tuple (width, height). Uses image size if None.
-            
-        Returns:
-            True if conversion successful, False otherwise
-        """
-        try:
-            # Validate input image exists
-            if not Path(image_path).exists():
-                logger.error(f"Image file not found: {image_path}")
-                return False
-            
-            # Open and validate image
-            logger.info(f"Converting image to PDF: {image_path}")
-            img = Image.open(image_path)
-            
-            # Convert RGBA to RGB if necessary
-            if img.mode == 'RGBA':
-                rgb_img = Image.new('RGB', img.size, (255, 255, 255))
-                rgb_img.paste(img, mask=img.split()[3])
-                img = rgb_img
-            elif img.mode != 'RGB':
-                img = img.convert('RGB')
-            
-            # Ensure output directory exists
-            Path(pdf_path).parent.mkdir(parents=True, exist_ok=True)
-            
-            # Use Pillow's built-in PDF conversion (simpler and more reliable)
-            img.save(pdf_path, "PDF", resolution=100.0, quality=self.pdf_config.quality)
-            
-            logger.info(f"PDF created successfully: {pdf_path}")
-            return True
-            
-        except Exception as e:
-            logger.error(f"Error converting image to PDF: {e}")
-            return False
+
     
     def generate_filename(self, subject: str, year: str, timestamp: Optional[datetime] = None) -> str:
         """
-        Generate a consistent filename for PDF storage.
+        Generate a consistent filename for screenshot storage.
         
         Args:
             subject: Subject name
@@ -118,16 +68,16 @@ class PDFStorageService:
             timestamp: Optional timestamp (defaults to current time)
             
         Returns:
-            Generated filename in format: {subject}_{year}.pdf
+            Generated filename in format: {subject}_{year}.png
         """
-        # Simple filename with just subject and year as required by ImageKit
-        filename = f"{subject}_{year}.pdf"
+        # Simple filename with just subject and year
+        filename = f"{subject}_{year}.png"
         
         return filename
     
     def organize_in_folders(self, subject: str, year: str) -> str:
         """
-        Generate folder path for organizing PDFs in ImageKit.
+        Generate folder path for organizing screenshots in ImageKit.
         
         Args:
             subject: Subject name
@@ -142,107 +92,110 @@ class PDFStorageService:
         )
         return folder_path
     
-    def upload_pdf_to_imagekit(
+    def upload_screenshot_to_imagekit(
         self,
-        pdf_path: str,
+        screenshot_path: str,
         metadata: Dict[str, Any]
-    ) -> PDFUploadResult:
+    ) -> UploadResult:
         """
-        Upload PDF to ImageKit with metadata.
+        Upload screenshot to ImageKit.
         
         Args:
-            pdf_path: Path to PDF file
+            screenshot_path: Path to screenshot file
             metadata: Dictionary containing subject, year, and other metadata
             
         Returns:
-            PDFUploadResult with upload status and URL
+            UploadResult with upload status and URL
         """
         if not self.is_configured():
             logger.error("ImageKit client not configured")
-            return PDFUploadResult(
+            return UploadResult(
                 success=False,
                 error_message="ImageKit client not configured"
             )
         
         try:
-            # Validate PDF file exists
-            pdf_file = Path(pdf_path)
-            if not pdf_file.exists():
-                logger.error(f"PDF file not found: {pdf_path}")
-                return PDFUploadResult(
+            # Validate screenshot file exists
+            screenshot_file = Path(screenshot_path)
+            if not screenshot_file.exists():
+                logger.error(f"Screenshot file not found: {screenshot_path}")
+                return UploadResult(
                     success=False,
-                    error_message=f"PDF file not found: {pdf_path}"
+                    error_message=f"Screenshot file not found: {screenshot_path}"
                 )
             
             # Extract metadata
             subject = metadata.get('subject', 'unknown')
             year = metadata.get('year', 'unknown')
-            url = metadata.get('url', '')
             
             # Generate filename and folder path
             filename = self.generate_filename(subject, year)
             folder_path = self.organize_in_folders(subject, year)
             
-            logger.info(f"Uploading PDF to ImageKit: {filename}")
+            logger.info(f"Uploading screenshot to ImageKit: {filename}")
             logger.info(f"Destination folder: {folder_path}")
             
-            # Read PDF file
-            with open(pdf_path, 'rb') as file:
-                file_content = file.read()
+            # Log file size before upload
+            file_size = screenshot_file.stat().st_size
+            logger.info(f"File size: {file_size} bytes")
             
-            # Prepare upload options (without custom_metadata to avoid ImageKit errors)
+            # According to ImageKit documentation, we should pass the file object directly
+            # Example from docs: file=open("sample.jpg", "rb")
+            
+            # Prepare upload options
             options = UploadFileRequestOptions(
                 folder=folder_path,
                 tags=['screenshot', 'bece', subject, str(year)],
                 use_unique_file_name=False  # Use our filename as-is
             )
             
-            # Upload to ImageKit
-            result = self._imagekit_client.upload_file(
-                file=file_content,
-                file_name=filename,
-                options=options
-            )
+            # Upload using file object (the correct way according to docs)
+            with open(screenshot_path, 'rb') as file_obj:
+                result = self._imagekit_client.upload_file(
+                    file=file_obj,
+                    file_name=filename,
+                    options=options
+                )
             
             if result and hasattr(result, 'url'):
-                logger.info(f"PDF uploaded successfully: {result.url}")
-                return PDFUploadResult(
+                logger.info(f"Screenshot uploaded successfully: {result.url}")
+                return UploadResult(
                     success=True,
                     url=result.url,
                     file_id=getattr(result, 'file_id', None)
                 )
             else:
                 logger.error("Upload failed: No URL returned")
-                return PDFUploadResult(
+                return UploadResult(
                     success=False,
                     error_message="Upload failed: No URL returned"
                 )
                 
         except Exception as e:
-            logger.error(f"Error uploading PDF to ImageKit: {e}")
-            return PDFUploadResult(
+            logger.error(f"Error uploading screenshot to ImageKit: {e}")
+            return UploadResult(
                 success=False,
                 error_message=str(e)
             )
     
     def retry_upload(
         self,
-        pdf_path: str,
+        screenshot_path: str,
         metadata: Dict[str, Any],
         max_retries: int = 3,
         initial_delay: float = 1.0
-    ) -> PDFUploadResult:
+    ) -> UploadResult:
         """
-        Upload PDF with exponential backoff retry logic.
+        Upload screenshot with exponential backoff retry logic.
         
         Args:
-            pdf_path: Path to PDF file
+            screenshot_path: Path to screenshot file
             metadata: Dictionary containing subject, year, and other metadata
             max_retries: Maximum number of retry attempts
             initial_delay: Initial delay between retries in seconds
             
         Returns:
-            PDFUploadResult with upload status and URL
+            UploadResult with upload status and URL
         """
         import time
         
@@ -253,7 +206,7 @@ class PDFStorageService:
             try:
                 logger.info(f"Upload attempt {attempt + 1}/{max_retries}")
                 
-                result = self.upload_pdf_to_imagekit(pdf_path, metadata)
+                result = self.upload_screenshot_to_imagekit(screenshot_path, metadata)
                 
                 if result.success:
                     logger.info(f"Upload successful on attempt {attempt + 1}")
@@ -275,38 +228,38 @@ class PDFStorageService:
                     delay *= 2
         
         logger.error(f"Upload failed after {max_retries} attempts")
-        return PDFUploadResult(
+        return UploadResult(
             success=False,
             error_message=f"Upload failed after {max_retries} attempts. Last error: {last_error}"
         )
     
-    def batch_upload_pdfs(
+    def batch_upload_screenshots(
         self,
-        pdf_metadata_list: list[tuple[str, Dict[str, Any]]],
+        screenshot_metadata_list: list[tuple[str, Dict[str, Any]]],
         use_retry: bool = True
-    ) -> list[PDFUploadResult]:
+    ) -> list[UploadResult]:
         """
-        Upload multiple PDFs in batch.
+        Upload multiple screenshots in batch.
         
         Args:
-            pdf_metadata_list: List of tuples containing (pdf_path, metadata)
+            screenshot_metadata_list: List of tuples containing (screenshot_path, metadata)
             use_retry: Whether to use retry logic for uploads
             
         Returns:
-            List of PDFUploadResult for each upload
+            List of UploadResult for each upload
         """
         results = []
-        total = len(pdf_metadata_list)
+        total = len(screenshot_metadata_list)
         
-        logger.info(f"Starting batch upload of {total} PDFs")
+        logger.info(f"Starting batch upload of {total} screenshots")
         
-        for idx, (pdf_path, metadata) in enumerate(pdf_metadata_list, 1):
-            logger.info(f"Processing PDF {idx}/{total}: {pdf_path}")
+        for idx, (screenshot_path, metadata) in enumerate(screenshot_metadata_list, 1):
+            logger.info(f"Processing screenshot {idx}/{total}: {screenshot_path}")
             
             if use_retry:
-                result = self.retry_upload(pdf_path, metadata)
+                result = self.retry_upload(screenshot_path, metadata)
             else:
-                result = self.upload_pdf_to_imagekit(pdf_path, metadata)
+                result = self.upload_screenshot_to_imagekit(screenshot_path, metadata)
             
             results.append(result)
         
@@ -315,9 +268,9 @@ class PDFStorageService:
         
         return results
     
-    def list_stored_pdfs(self, subject: Optional[str] = None, year: Optional[str] = None) -> list[Dict[str, Any]]:
+    def list_stored_screenshots(self, subject: Optional[str] = None, year: Optional[str] = None) -> list[Dict[str, Any]]:
         """
-        List PDFs stored in ImageKit.
+        List screenshots stored in ImageKit.
         
         Args:
             subject: Optional subject filter
@@ -331,13 +284,6 @@ class PDFStorageService:
             return []
         
         try:
-            # Build search query
-            tags = ['screenshot', 'bece']
-            if subject:
-                tags.append(subject)
-            if year:
-                tags.append(str(year))
-            
             # Construct folder path
             if subject and year:
                 folder_path = self.organize_in_folders(subject, year)
@@ -346,19 +292,19 @@ class PDFStorageService:
             else:
                 folder_path = "/screenshots/"
             
-            logger.info(f"Listing PDFs in folder: {folder_path}")
+            logger.info(f"Listing screenshots in folder: {folder_path}")
             
             # List files from ImageKit
             result = self._imagekit_client.list_files(
                 options={
                     'path': folder_path,
-                    'fileType': 'non-image'  # PDFs are non-image files
+                    'fileType': 'image'  # Screenshots are images
                 }
             )
             
             if result and hasattr(result, 'list'):
                 files = result.list
-                logger.info(f"Found {len(files)} PDFs")
+                logger.info(f"Found {len(files)} screenshots")
                 return [
                     {
                         'file_id': f.file_id,
@@ -373,12 +319,12 @@ class PDFStorageService:
             return []
             
         except Exception as e:
-            logger.error(f"Error listing PDFs: {e}")
+            logger.error(f"Error listing screenshots: {e}")
             return []
     
-    def delete_pdf(self, file_id: str) -> bool:
+    def delete_screenshot(self, file_id: str) -> bool:
         """
-        Delete a PDF from ImageKit.
+        Delete a screenshot from ImageKit.
         
         Args:
             file_id: ImageKit file ID
@@ -391,13 +337,13 @@ class PDFStorageService:
             return False
         
         try:
-            logger.info(f"Deleting PDF with file_id: {file_id}")
+            logger.info(f"Deleting screenshot with file_id: {file_id}")
             self._imagekit_client.delete_file(file_id)
-            logger.info("PDF deleted successfully")
+            logger.info("Screenshot deleted successfully")
             return True
             
         except Exception as e:
-            logger.error(f"Error deleting PDF: {e}")
+            logger.error(f"Error deleting screenshot: {e}")
             return False
     
     def cleanup_temp_files(self, *file_paths: str) -> None:
@@ -417,18 +363,16 @@ class PDFStorageService:
                 logger.warning(f"Could not delete temporary file {file_path}: {e}")
 
 
-def create_pdf_storage_service(
-    imagekit_config: ImageKitConfig,
-    pdf_config: PDFConfig
-) -> PDFStorageService:
+def create_screenshot_storage_service(
+    imagekit_config: ImageKitConfig
+) -> ScreenshotStorageService:
     """
-    Factory function to create a PDFStorageService instance.
+    Factory function to create a ScreenshotStorageService instance.
     
     Args:
         imagekit_config: ImageKit configuration
-        pdf_config: PDF configuration
         
     Returns:
-        Configured PDFStorageService instance
+        Configured ScreenshotStorageService instance
     """
-    return PDFStorageService(imagekit_config, pdf_config)
+    return ScreenshotStorageService(imagekit_config)

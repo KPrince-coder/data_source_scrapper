@@ -132,7 +132,29 @@ class ScreenshotService:
             page.set_default_timeout(page_timeout)
             
             logger.info(f"Navigating to {url}...")
-            await page.goto(url, wait_until='networkidle')
+            # Use 'domcontentloaded' for initial load, then wait for network idle
+            await page.goto(url, wait_until='domcontentloaded', timeout=page_timeout)
+            
+            # Wait for page to be fully loaded
+            try:
+                # Wait for network to be idle (no requests for 500ms)
+                await page.wait_for_load_state('networkidle', timeout=10000)
+                logger.info("Page fully loaded (network idle)")
+            except Exception as e:
+                logger.warning(f"Network idle timeout, continuing anyway: {e}")
+            
+            # Additional wait for any dynamic content
+            await page.wait_for_timeout(3000)  # 3 seconds
+            
+            # Check if page has content
+            try:
+                body_content = await page.content()
+                if len(body_content) < 1000:
+                    logger.warning("Page content seems very small, might not have loaded properly")
+                else:
+                    logger.info(f"Page content loaded ({len(body_content)} characters)")
+            except Exception as e:
+                logger.warning(f"Could not check page content: {e}")
             
             # Ensure output directory exists
             output_file = Path(output_path)

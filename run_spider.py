@@ -244,7 +244,7 @@ process.start()
                         # Check both config and CLI flag
                         screenshots_enabled = screenshot_config.enabled and not no_screenshots
                         if screenshots_enabled:
-                            print(f"\n📸 Capturing screenshot and generating PDF for {subject.title()} {year}...")
+                            print(f"\n📸 Capturing and uploading screenshot for {subject.title()} {year}...")
                             
                             # Prepare file paths
                             json_file = final_output_dir / f"{subject}_{year}.json"
@@ -261,7 +261,7 @@ process.start()
                             ))
                             
                             if pdf_url:
-                                print(f"✅ Screenshot PDF available at: {pdf_url}")
+                                print(f"✅ Screenshot available at: {pdf_url}")
                             else:
                                 print("⚠️  Screenshot capture failed, but data files are intact")
                         else:

@@ -15,7 +15,7 @@ class PlaywrightConfig:
     headless: bool = True
     viewport_width: int = 1920
     viewport_height: int = 1080
-    timeout: int = 30000
+    timeout: int = 60000  # 60 seconds default timeout
     screenshot_format: str = "png"
     quality: int = 90
 
@@ -82,7 +82,7 @@ class ScreenshotConfig:
             headless=os.getenv('PLAYWRIGHT_HEADLESS', 'true').lower() == 'true',
             viewport_width=int(os.getenv('PLAYWRIGHT_VIEWPORT_WIDTH', '1920')),
             viewport_height=int(os.getenv('PLAYWRIGHT_VIEWPORT_HEIGHT', '1080')),
-            timeout=int(os.getenv('PLAYWRIGHT_TIMEOUT', '30000')),
+            timeout=int(os.getenv('PLAYWRIGHT_TIMEOUT', '60000')),
             screenshot_format=os.getenv('PLAYWRIGHT_SCREENSHOT_FORMAT', 'png'),
             quality=int(os.getenv('PLAYWRIGHT_QUALITY', '90'))
         )
