@@ -161,7 +161,7 @@ class KuulchatSpider(scrapy.Spider):
         question_num = int(num_match.group(1))
 
         # Split content into question part and solution part
-        parts = re.split(r"\s+(?:Mark|Solution)\s+", full_text, 1)
+        parts = re.split(r"\s+(?:Mark|Solution)\s+", full_text, maxsplit=1)
         question_part = parts[0]
         solution_part = parts[1] if len(parts) > 1 else ""
 
@@ -210,7 +210,7 @@ class KuulchatSpider(scrapy.Spider):
         text = re.sub(rf"^{question_num}\.?\s*", "", question_part)
 
         # Split at first option to get question stem
-        option_split = re.split(r"\s+[A-D]\.\s+", text, 1)
+        option_split = re.split(r"\s+[A-D]\.\s+", text, maxsplit=1)
         question_stem = option_split[0].strip()
 
         # Clean up the question stem
@@ -429,7 +429,7 @@ class KuulchatSpider(scrapy.Spider):
         question_num = int(num_match.group(1))
 
         # Split content into question part and solution part
-        parts = re.split(r"\s+Show Solution\s+", full_text, 1)
+        parts = re.split(r"\s+Show Solution\s+", full_text, maxsplit=1)
         question_part = parts[0]
         solution_part = parts[1] if len(parts) > 1 else ""
 
