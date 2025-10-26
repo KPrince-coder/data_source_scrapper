@@ -257,6 +257,7 @@ After completion, you'll see a detailed processing summary:
 
 - **[Screenshot Integration Guide](docs/SCREENSHOT_INTEGRATION.md)** - Complete setup and usage guide for screenshot functionality
 - **[API Reference](docs/API_REFERENCE.md)** - Detailed API documentation for all services and classes
+- **[Project Structure](docs/PROJECT_STRUCTURE.md)** - Detailed overview of project organization and architecture
 
 ### 🚀 Quick References
 
