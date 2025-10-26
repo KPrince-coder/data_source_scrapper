@@ -353,6 +353,10 @@ Examples:
   python run_spider.py -S science,mathematics -Y 2020-2022 -o my_data  # Custom output directory
   python run_spider.py --list                                # List available subjects
   python run_spider.py -S science,english -Y 2020-2022 --list-urls  # Preview URLs
+  python run_spider.py -s science -y 2022 --no-screenshots  # Disable screenshots
+  python run_spider.py -s science -y 2022 -v             # Enable verbose logging
+  python run_spider.py -S science,mathematics -Y 2020-2022 --list-urls --no-screenshots  # Preview URLs without screenshots
+  
         """,
     )
 
