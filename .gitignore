@@ -18,3 +18,6 @@ image*
 .env
 
 logs/
+tests/
+.trunk/
+temp*
